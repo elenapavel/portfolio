@@ -1,0 +1,18 @@
+.container {
+	position: relative;
+}
+
+.message {
+	margin: 40ru auto 80ru;
+	padding: 0 20ru;
+	max-width: 420ru;
+}
+.message_text {
+	margin-top: 20ru;
+	text-align: center;
+	line-height: 28ru;
+	font-size: 14ru;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: $color.neutral.warm.x70;
+}

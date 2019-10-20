@@ -1,0 +1,11 @@
+/* details dialog menu menuitem summary */
+
+details {
+	/* add the correct display in Edge, IE 10+, and Firefox */
+	display: block;
+}
+
+summary {
+	/* add the correct display in all browsers */
+	display: list-item;
+}

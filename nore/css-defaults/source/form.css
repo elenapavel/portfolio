@@ -1,0 +1,129 @@
+/* button form input label optgroup option output select textarea datalist */
+
+/* correct the cursor style of increment and decrement buttons in Safari */
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+	height: auto;
+}
+
+::-webkit-file-upload-button {
+	/* correct the inability to style clickable types in iOS and Safari */
+	-webkit-appearance: button;
+	/* change font properties to `inherit` in Safari */
+	font: inherit;
+}
+
+/* remove the inner border and padding of focus outlines in Firefox */
+::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+/* restore the focus outline styles unset by the previous rule in Firefox */
+:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+/* Internet Explorer / Edge */
+[placeholder]:-ms-input-placeholder {
+	color: #5f7894;
+}
+
+/* Chrome, Safari */
+::-webkit-input-placeholder {
+	color: #5f7894;
+}
+
+/* Firefox */
+::-moz-placeholder {
+	color: #5f7894;
+	opacity: 1;
+}
+
+form {
+	/* prevent form element from influencing the layout */
+	display: block;
+}
+
+button,
+input,
+select,
+textarea {
+	unset: all;
+	border: 0 solid;
+	display: inline-block;
+	cursor: pointer;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+button,
+input {
+	/* show the overflow in: IE, Edge */
+	overflow: visible;
+}
+
+button,
+select {
+	/* remove the inheritance of text transform in Edge, Firefox, and IE */
+	text-transform: none;
+}
+
+select {
+	word-wrap: normal;
+}
+
+textarea {
+	border-radius: 0;
+	vertical-align: top;
+	/* remove the margin in Firefox and Safari */
+	margin: 0;
+	/* remove the default vertical scrollbar in IE 10+ */
+	overflow: auto;
+	/* allow only vertical resizing of textareas */
+	resize: vertical;
+}
+
+/* Correct the inability to style clickable types in iOS and Safari */
+button,
+button[type="button"],
+button[type="reset"],
+button[type="submit"] {
+	/* remove visual user-agent styles so we have a clean slate */
+	background: transparent;
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	cursor: pointer;
+	appearance: none;
+}
+
+/* set the correct `cursor` for disabled buttons */
+button[disabled],
+button[type="button"][disabled],
+button[type="reset"][disabled],
+button[type="submit"][disabled] {
+	cursor: default;
+}
+
+input[type="date"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+	/* remove top inner shadow that iOS applies to all textual inputs */
+	background-clip: padding-box;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}

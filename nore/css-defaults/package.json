@@ -1,0 +1,12 @@
+{
+	"name": "@nore/css-defaults",
+	"description": "CSS defaults",
+	"version": "1.0.0",
+	"author": "Navaru",
+	"license": "MIT",
+	"repository": "https://github.com/nore/css-defaults",
+	"publishConfig": {
+		"access": "public"
+	},
+	"style": "source/index.css"
+}

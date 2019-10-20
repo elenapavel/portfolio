@@ -1,0 +1,23 @@
+.group {
+	margin-top: 40ru;
+	position: relative;
+	border: 1px solid $color.neutral.blue.x00;
+	border-radius: 0.25em;
+}
+
+.group_title {
+	position: absolute;
+	top: -10ru;
+	padding: 0 0.5em;
+	font-size: 12ru;
+	color: $color.neutral.blue.x60;
+	background: #fafbfc;
+}
+
+.group_content {
+	margin-top: 20ru;
+}
+
+.group_content > *:not(:first-child) {
+	margin-left: 16ru;
+}

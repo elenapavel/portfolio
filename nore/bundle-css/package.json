@@ -1,0 +1,33 @@
+{
+	"name": "@nore/bundle-css",
+	"description": "Handle .css files",
+	"version": "1.2.0",
+	"author": "Navaru",
+	"license": "MIT",
+	"repository": "https://github.com/nore/bundle-css",
+	"publishConfig": {
+		"access": "public"
+	},
+	"type": "module",
+	"module": "source/index.js",
+	"main": "source/index.js",
+	"dependencies": {
+		"@nore/std": "^1.10.0",
+		"autoprefixer": "^9.6.0",
+		"css-loader": "^3.2.0",
+		"extract-css-chunks-webpack-plugin": "^4.6.0",
+		"optimize-css-assets-webpack-plugin": "^5.0.0",
+		"pleeease-filters": "^4.0.0",
+		"postcss-color-function": "^4.1.0",
+		"postcss-color-hex-alpha": "^5.0.0",
+		"postcss-custom-media": "^7.0.0",
+		"postcss-flexbugs-fixes": "^4.1.0",
+		"postcss-image-set-function": "^3.0.0",
+		"postcss-loader": "^3.0.0",
+		"postcss-nested": "^4.1.0",
+		"postcss-selector-not": "^4.0.0",
+		"resolve-url-loader": "^3.1.0",
+		"node-sass": "^4.12.0",
+		"sass-loader": "^8.0.0"
+	}
+}

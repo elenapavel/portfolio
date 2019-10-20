@@ -1,0 +1,27 @@
+.container {
+	position: relative;
+}
+
+.content {
+	position: relative;
+	max-width: 700ru;
+	margin: 0 auto;
+	padding: 20ru;
+}
+
+.title {
+	margin-top: 40ru;
+	font-size: 40ru;
+	font-family: $font.sans;
+	font-weight: 300;
+}
+
+.info p {
+	margin-top: 60ru;
+	line-height: 32ru;
+	font-size: 18ru;
+	font-family: $font.serif;
+}
+.info p + p {
+	margin-top: 24ru;
+}

@@ -1,0 +1,103 @@
+.container {
+	position: relative;
+}
+
+.content {
+	position: relative;
+	max-width: 700ru;
+	margin: 0 auto;
+	padding: 20ru;
+}
+
+.header {
+	position: absolute;
+	left: -120px;
+	top: -100px;
+	opacity: 0.8;
+	z-index: -1;
+}
+
+.title {
+	margin-top: 100ru;
+	font-size: 40ru;
+	font-family: $font.sans;
+	font-weight: 300;
+	text-align: right;
+}
+.logo {
+	display: inline-flex;
+	font-family: "EagleLake";
+}
+
+.quote {
+	position: relative;
+	margin-top: 100ru;
+	line-height: 1.4em;
+	font-family: $font.serif;
+	font-weight: 300;
+	font-size: 20ru;
+	color: $color.neutral.warm.x60;
+}
+.quote::before {
+	content: open-quote;
+	position: absolute;
+	top: -0.125em;
+	left: -0.45em;
+	font-family: $font.sans;
+	color: $color.neutral.warm.x30;
+}
+.quote::after {
+	content: close-quote;
+	position: relative;
+	top: -0.125em;
+	font-family: $font.sans;
+	color: $color.neutral.warm.x30;
+}
+.quote_cite {
+	margin-top: 12ru;
+	font-size: 12ru;
+	font-family: $font.sans;
+	text-transform: uppercase;
+	color: $color.neutral.warm.x30;
+}
+
+.about p {
+	margin-top: 60ru;
+	line-height: 32ru;
+	font-size: 18ru;
+	font-family: $font.serif;
+}
+.about p + p {
+	margin-top: 24ru;
+}
+.about p > strong {
+	font-weight: 500;
+	font-style: italic;
+}
+
+.promo {
+	margin-top: 60ru;
+}
+.promo p {
+	margin-top: 20ru;
+	padding: 20ru;
+	line-height: 24ru;
+	font-size: 16ru;
+	font-family: $font.sans;
+	background-color: $color.neutral.warm.x00;
+	border-radius: 4ru;
+	box-shadow: inset 0px 0px 8px 0px $color.neutral.warm.x10;
+}
+.promo p > em {
+	font-weight: 600;
+}
+
+.slider {
+	margin-top: 60ru;
+}
+.image {
+	border-radius: 4ru;
+	box-shadow: 0 1px 1px rgba(47, 70, 162, 0.05),
+		0 4px 12px rgba(47, 70, 162, 0.075), 0 12px 24px rgba(47, 70, 162, 0.05);
+	overflow: hidden;
+}

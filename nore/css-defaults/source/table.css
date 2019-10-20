@@ -1,0 +1,22 @@
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td {
+	/* enable lining numerals, tabular numerals, and slashed zero */
+	font-feature-settings: "onum" 0, "pnum" 0, "lnum", "tnum", "zero";
+	font-variant-numeric: lining-nums tabular-nums slashed-zero;
+}
+
+th {
+	text-align: inherit;
+}
+
+caption {
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	color: #6c757d;
+	text-align: left;
+	caption-side: bottom;
+}

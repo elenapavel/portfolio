@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+realpath () {
+  local SOURCE="${BASH_SOURCE[0]}"
+	local DIR=""
+
+	while [ -h "$SOURCE" ]; do
+  	DIR="$(cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd)"
+  	SOURCE="$(readlink "$SOURCE")"
+  	[[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
+	done
+
+	echo "$(cd -P "$(dirname "$SOURCE")" >/dev/null 2>&1 && pwd)"
+}
+
+FILE_PATH=$(realpath)
+
+node \
+	--no-warnings \
+	--experimental-modules \
+	--es-module-specifier-resolution=node \
+  "$FILE_PATH/source/index.js" $@

@@ -1,0 +1,14 @@
+target: node
+
+autoload:
+  - ~/server/services
+  - ~/server/apis/*
+
+config:
+  sqlite:
+    file: db.sqlite
+    migrations: source/server/migrations
+  http:
+    port: 5000
+  typeform:
+    key: 8rEw4bD58EhbPEDpkc8dX6CUar9dCREXRJmGESmoFCiw

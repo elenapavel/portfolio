@@ -1,0 +1,22 @@
+{
+	"name": "@nore/plugin-http-sessions",
+	"description": "Nore HTTP sessions plugin",
+	"version": "1.0.0",
+	"author": "Navaru",
+	"license": "ISC",
+	"repository": "https://github.com/nore/plugin-http-sessions",
+	"publishConfig": {
+		"access": "public"
+	},
+	"type": "module",
+	"module": "source/index.js",
+	"main": "source/index.js",
+	"scripts": {
+		"test": "node --experimental-modules --es-module-specifier-resolution=node tests"
+	},
+	"dependencies": {
+		"@nore/std": "^1.10.0",
+		"cookie-signature": "^1.1.0"
+	},
+	"devDependencies": {}
+}

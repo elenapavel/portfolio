@@ -1,0 +1,68 @@
+.container {
+	position: relative;
+	display: flex;
+	max-width: 700ru;
+	justify-content: center;
+	margin: 40ru auto;
+	padding: 16ru;
+	background-color: $color.neutral.warm.x00;
+	border-radius: 4ru;
+	z-index: 1;
+}
+.container::after {
+	content: "";
+	position: absolute;
+	top: 16ru;
+	bottom: 16ru;
+	left: -16ru;
+	right: -16ru;
+	border: 1px solid $color.neutral.warm.x20;
+	border-radius: 4ru;
+	z-index: -1;
+}
+
+.content {
+	max-width: 600ru;
+	padding: 32ru 0;
+	color: $color.neutral.warm.darker;
+}
+
+.getintouch {
+	font-family: $font.serif;
+	font-weight: 300;
+	font-size: 18ru;
+	line-height: 32ru;
+	text-align: center;
+}
+.getintouch > em {
+	font-weight: 400;
+}
+.getintouch_phone {
+	display: block;
+	margin-top: 20ru;
+	color: inherit;
+	font-size: 24ru;
+	text-transform: none;
+	text-align: center;
+}
+.getintouch_phone svg {
+	width: 18ru;
+	height: 18ru;
+	margin-right: 0.125em;
+}
+
+.contact {
+	margin-top: 40ru;
+	display: flex;
+	justify-content: space-between;
+	font-family: $font.sans;
+	font-weight: 400;
+}
+.contact > * {
+	display: inline-flex;
+}
+.contact svg {
+	width: 16ru;
+	height: 16ru;
+	margin-right: 0.25em;
+}

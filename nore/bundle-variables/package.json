@@ -1,0 +1,19 @@
+{
+	"name": "@nore/bundle-variables",
+	"description": "Handle .variables files",
+	"version": "1.2.0",
+	"author": "Navaru",
+	"license": "MIT",
+	"repository": "https://github.com/nore/bundle-variables",
+	"publishConfig": {
+		"access": "public"
+	},
+	"type": "module",
+	"module": "source/index.js",
+	"main": "source/index.js",
+	"dependencies": {
+		"@nore/std": "^1.10.0",
+		"@nore/webpack": "^1.1.0",
+		"chokidar": "^3.2.0"
+	}
+}

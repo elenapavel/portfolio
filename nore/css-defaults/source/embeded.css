@@ -1,0 +1,6 @@
+/* iframe embed noembed object */
+
+/* remove the default border on iframes */
+iframe {
+	border: 0;
+}

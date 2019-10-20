@@ -1,0 +1,125 @@
+.default {
+	position: relative;
+	display: flex;
+	flex-grow: 1;
+	flex-shrink: 1;
+	position: relative;
+	min-width: 0%;
+	background-color: $color.white;
+}
+
+.simple {
+	position: relative;
+	display: flex;
+	flex-grow: 1;
+	flex-shrink: 1;
+	position: relative;
+	min-width: 0%;
+	background-color: $color.white;
+}
+
+.label {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	padding: 0 1em;
+
+	line-height: 48ru;
+	font-family: $font.sans;
+	font-size: 16ru;
+	font-weight: 400;
+	color: $color.neutral.warm.x40;
+	background-color: transparent;
+
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	z-index: 1;
+
+	transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1),
+		background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.label_small {
+	composes: label;
+
+	bottom: 50%;
+	padding: 0.25em 0.5em;
+
+	text-transform: uppercase;
+	background-color: inherit;
+	transform: scale(0.75) translateY(-1em);
+	color: $color.neutral.warm.x60;
+}
+
+.border {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border: 1px solid $color.neutral.warm.x20;
+	border-radius: 4ru;
+	transition: opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1),
+		border 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.border.is_hidden {
+	opacity: 0;
+}
+.border_accent {
+	composes: border;
+	border-color: $color.neutral.warm.x60;
+	opacity: 0;
+}
+.border_accent.is_visible {
+	opacity: 1;
+}
+
+.input {
+	display: flex;
+	flex-grow: 1;
+	flex-shrink: 1;
+
+	width: 100%;
+	min-width: 0%;
+	padding: 0 1em;
+	margin: 0;
+
+	font-size: 16ru;
+	line-height: 48ru;
+	color: #202124;
+
+	background-color: transparent;
+	border: none;
+	outline: none;
+	cursor: text;
+
+	z-index: 1;
+}
+
+/* TYPE: simple */
+.simple > .border {
+	border-width: 0 0 1px 0;
+	border-color: $color.neutral.warm.x10;
+	border-radius: 0;
+}
+.simple > .border_accent {
+	border-color: $color.neutral.warm.x60;
+}
+.simple > .label {
+	padding: 0 0.25em;
+}
+.simple > .label_small {
+	padding: 0;
+	transform: scale(0.75) translate(-16%, -1em);
+}
+.simple > .input {
+	padding: 0;
+	line-height: 36ru;
+}

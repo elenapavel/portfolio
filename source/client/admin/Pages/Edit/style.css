@@ -1,0 +1,81 @@
+.container {
+	max-width: 540ru;
+	margin: 40ru auto;
+	background-color: #fff;
+	box-shadow: 0 2px 4px #dedad4;
+	border-radius: 4ru;
+}
+
+.loading {
+	max-width: 540ru;
+	padding: 28ru;
+	margin: 20ru auto;
+	background-color: #fff;
+	box-shadow: 0 2px 4px #dedad4;
+	border-radius: 4ru;
+	font-size: 12ru;
+	text-transform: uppercase;
+	color: $color.neutral.warm.x40;
+}
+
+.title {
+	padding: 0 20ru;
+	line-height: 48ru;
+	font-size: 14ru;
+	font-weight: 500;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: $color.neutral.warm.x50;
+	border-bottom: 1px solid $color.neutral.warm.x10;
+}
+
+.content {
+	position: relative;
+}
+
+.form {
+	padding: 20ru;
+}
+.form_default_fields,
+.form_field_break {
+	margin-top: 40ru;
+}
+.form_actions {
+	margin-top: 40ru;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.form [tag="delimiter"] {
+	position: relative;
+	margin: 40ru -32ru;
+	line-height: 48ru;
+	font-size: 12ru;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+	color: $color.neutral.warm.x40;
+	background-color: $color.neutral.warm.x00;
+	border-radius: 4px;
+	box-shadow: 0px 2px 4px -2px $color.neutral.warm.x20;
+}
+
+/* TextField */
+.form [tag="textfield_label"] {
+	color: $color.neutral.warm.x30;
+}
+.form_default_fields [tag="textfield"] + [tag="textfield"] {
+	margin-top: 24ru;
+}
+
+/* HTMLEditor  */
+.form [class~="ql-editor"] {
+	font-size: 16ru;
+	font-family: NotoSans;
+}
+.form [class~="ql-editor"] p + p {
+	margin-top: 12ru;
+}
+.form [class~="ql-editor"] em {
+	font-style: italic;
+}

@@ -1,0 +1,76 @@
+@import "~@nore/css-defaults";
+
+.container {
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.sidebar {
+	width: 200ru;
+	height: 100%;
+	background-color: $color.white;
+	font-size: 12ru;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	font-size: 16ru;
+	background: #fafbfc;
+	overflow-y: auto;
+}
+
+.logo {
+	padding: 20ru 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.menu {
+	position: relative;
+}
+
+.menu_item {
+	display: block;
+	padding: 10ru 20ru;
+	cursor: pointer;
+}
+.menu_item.is_active,
+.menu_item:hover {
+	background-color: $color.neutral.cool.x00;
+}
+
+.menu_header {
+	padding: 10ru 20ru;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: $color.neutral.blue.x40;
+}
+.menu_header:not(:first-child) {
+	margin-top: 20ru;
+}
+
+.section {
+	max-width: 600ru;
+	margin: 0 auto;
+}
+
+.section > p {
+	margin-top: 10ru;
+	line-height: 1.6em;
+}
+
+.title {
+	margin-top: 28ru;
+	font-size: 36ru;
+}
+
+.heading {
+	margin-top: 20ru;
+	font-size: 20ru;
+}

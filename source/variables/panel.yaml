@@ -1,0 +1,11 @@
+panel:
+  background: $color.neutral.warm.x00
+  border: $color.neutral.warm.x10
+  shadow: 0 4ru 8ru color($color.neutral.warm.x50 a(10%))
+
+  navigation:
+    width: 200ru
+
+  bar:
+    height: 56ru
+    icon: 20ru

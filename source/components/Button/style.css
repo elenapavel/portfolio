@@ -1,0 +1,280 @@
+.reset {
+	position: relative;
+
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	padding: 0;
+	margin: 0;
+
+	line-height: 1;
+	font: inherit;
+	vertical-align: text-bottom;
+
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	white-space: nowrap;
+	letter-spacing: normal;
+	color: inherit;
+
+	background-color: transparent;
+	border: none;
+
+	outline: none;
+	appearance: none;
+	user-select: none;
+	cursor: pointer;
+}
+:hover > .reset {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+.button {
+	composes: reset;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-family: $button.font;
+	background-color: transparent;
+
+	transition-property: box-shadow, color, background-color, transform;
+	transition-duration: 0.08s, 0.2s, 0.2s, 0.08s;
+	transition-timing-function: cubic-bezier(0.64, 0, 0.36, 1);
+}
+
+/*—————————————————————————————————————————————————————————————————————————————
+	VARIANT: default
+—————————————————————————————————————————————————————————————————————————————*/
+.default {
+	composes: button;
+
+	box-shadow: 0 0 0 1px color($button.shadow a(4%)),
+		0 1px 0 color($button.shadow a(8%)), 0 1px 3px color($button.shadow a(40%));
+}
+.default.hovered,
+:hover > .default {
+	background-color: color($button.shadow a(8%));
+}
+.default.active,
+:active > .default {
+	transform: translateY(1px);
+	box-shadow: 0 0 0 1px color($button.shadow a(4%)),
+		0 1px 0 color($button.shadow a(8%)), 0 0 0 color($button.shadow a(40%));
+}
+.default.focused,
+:focus > .default {
+	text-decoration: none;
+	box-shadow: 0 0 0 3px color($color.accent a(20%)), 0 0 1px 0 $button.shadow,
+		0 1px 3px color($button.shadow a(20%));
+}
+
+/*—————————————————————————————————————————————————————————————————————————————
+	VARIANT: flat
+—————————————————————————————————————————————————————————————————————————————*/
+.flat {
+	composes: button;
+
+	background-image: linear-gradient(
+		to bottom,
+		color($color.neutral.blue.lighter a(10%)),
+		rgba(34, 102, 237, 0)
+	);
+	background-color: $color.neutral.cool.x00;
+	box-shadow: inset 0 0 0 transparent;
+	transition: 0.125s box-shadow;
+}
+.flat.hovered,
+:hover > .flat {
+	background-color: color($button.shadow a(8%));
+}
+.flat.active,
+:active > .flat {
+	box-shadow: inset 0 1px 4px 0 color($button.shadow a(20%));
+}
+.flat.focused,
+:focus > .flat {
+	text-decoration: none;
+	color: inherit;
+	box-shadow: 0 0 0 1px color($button.style.accent.background a(60%));
+}
+
+/*—————————————————————————————————————————————————————————————————————————————
+	VARIANT: raised
+—————————————————————————————————————————————————————————————————————————————*/
+.raised {
+	composes: button;
+
+	background-color: #ffffff;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(233, 237, 246, 0.12);
+}
+.raised.hovered,
+:hover > .raised {
+	background-color: #edf1f7;
+	box-shadow: 0 5px 9px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(233, 237, 246, 0.12);
+}
+.raised.active,
+:active > .raised {
+	transform: translateY(1px);
+	background-color: #ffffff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(233, 237, 246, 0.12);
+}
+.raised.focused,
+:focus > .raised {
+	text-decoration: none;
+	color: inherit;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(233, 237, 246, 0.12),
+		inset 0px 0px 0px 1px color($button.style.accent.background a(60%));
+}
+
+/*—————————————————————————————————————————————————————————————————————————————
+	VARIANT: plain
+—————————————————————————————————————————————————————————————————————————————*/
+.plain {
+	/*TODO*/
+}
+
+/*—————————————————————————————————————————————————————————————————————————————
+	VARIANT: outlined
+—————————————————————————————————————————————————————————————————————————————*/
+.outlined {
+	/*TODO*/
+}
+
+/*—————————————————————————————————————————————————————————————————————————————
+	SIZES
+—————————————————————————————————————————————————————————————————————————————*/
+.micro {
+	padding: calc((1rem - 1em) / 2) 1em;
+	text-transform: uppercase;
+	font-size: 8ru;
+	font-weight: 500;
+	letter-spacing: 0.05rem;
+}
+.small {
+	padding: calc((1.5rem - 1em) / 2) 1em;
+	font-size: 12ru;
+}
+.medium {
+	padding: calc((2rem - 1em) / 2) 1em;
+	font-size: 14ru;
+}
+.large {
+	padding: calc((2.5rem - 1em) / 2) 1em;
+	font-size: 16ru;
+}
+.huge {
+	padding: calc((3rem - 1em) / 2) 1em;
+	font-size: 20ru;
+}
+
+/*—————————————————————————————————————————————————————————————————————————————
+	SHAPES
+—————————————————————————————————————————————————————————————————————————————*/
+.sharp {
+	border-radius: 0;
+}
+.round {
+	border-radius: 0.1875em;
+}
+.pill {
+	border-radius: 10em;
+}
+.circle {
+	position: relative;
+	padding: 1.25em;
+	border-radius: 100%;
+}
+.circle > * {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*—————————————————————————————————————————————————————————————————————————————
+	STYLES
+—————————————————————————————————————————————————————————————————————————————*/
+
+.primary {
+	font-weight: 500;
+	color: $button.style.primary.color;
+	background-color: $button.style.primary.background;
+}
+:hover > .primary {
+	color: $button.style.primary.color;
+	background-color: color(
+		$button.style.primary.background lightness($button.style.primary.hover)
+	);
+}
+.secondary {
+	font-weight: 500;
+	color: $button.style.secondary.color;
+	background-color: $button.style.secondary.background;
+}
+:hover > .secondary {
+	color: $button.style.secondary.color;
+	background-color: color(
+		$button.style.secondary.background lightness($button.style.secondary.hover)
+	);
+}
+.accent {
+	font-weight: 500;
+	color: $button.style.accent.color;
+	background-color: $button.style.accent.background;
+}
+:hover > .accent {
+	color: $button.style.accent.color;
+	background-color: color(
+		$button.style.accent.background lightness($button.style.accent.hover)
+	);
+}
+.positive {
+	font-weight: 500;
+	color: $button.style.positive.color;
+	background-color: $button.style.positive.background;
+}
+:hover > .positive {
+	color: $button.style.positive.color;
+	background-color: color(
+		$button.style.positive.background lightness($button.style.positive.hover)
+	);
+}
+.negative {
+	font-weight: 500;
+	color: $button.style.negative.color;
+	background-color: $button.style.negative.background;
+}
+:hover > .negative {
+	color: $button.style.negative.color;
+	background-color: color(
+		$button.style.negative.background lightness($button.style.negative.hover)
+	);
+}
+
+/*—————————————————————————————————————————————————————————————————————————————
+	MODIFIERS
+—————————————————————————————————————————————————————————————————————————————*/
+
+:hover > .disabled,
+:active > .disabled,
+:focus > .disabled,
+.disabled {
+	opacity: 0.8;
+	transform: none;
+	cursor: not-allowed;
+	color: $button.disabled.color;
+	background-color: $button.disabled.background;
+}
+
+.wide {
+	display: block;
+	width: 100%;
+}
+.wide > .reset {
+	display: block;
+}

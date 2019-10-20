@@ -1,0 +1,608 @@
+color:
+  white: '#FFFFFF'
+  black: '#192326'
+
+  accent: '#A0F2C2'
+  primary: '#FF5C5C'
+  secondary: '#5BA2FF'
+
+  neutral:
+    blue:
+      x00: '#F0F4F8'
+      x10: '#D9E2EC'
+      x20: '#BCCCDC'
+      x30: '#9FB3C8'
+      x40: '#829AB1'
+      x50: '#627D98'
+      x60: '#486581'
+      x70: '#334E68'
+      x80: '#243B53'
+      x90: '#102A43'
+
+      lightest: $color.neutral.blue.x00
+      lighter: $color.neutral.blue.x10
+      light: $color.neutral.blue.x20
+      base: $color.neutral.blue.x40
+      dark: $color.neutral.blue.x60
+      darker: $color.neutral.blue.x70
+      darkest: $color.neutral.blue.x90
+
+    cool:
+      x00: '#F5F7FA'
+      x10: '#E4E7EB'
+      x20: '#CBD2D9'
+      x30: '#9AA5B1'
+      x40: '#7B8794'
+      x50: '#616E7C'
+      x60: '#52606D'
+      x70: '#3E4C59'
+      x80: '#323F4B'
+      x90: '#1F2933'
+
+      lightest: $color.neutral.cool.x00
+      lighter: $color.neutral.cool.x10
+      light: $color.neutral.cool.x20
+      base: $color.neutral.cool.x40
+      dark: $color.neutral.cool.x60
+      darker: $color.neutral.cool.x70
+      darkest: $color.neutral.cool.x90
+
+    grey:
+      x00: '#F7F7F7'
+      x10: '#E1E1E1'
+      x20: '#CFCFCF'
+      x30: '#B1B1B1'
+      x40: '#9E9E9E'
+      x50: '#7E7E7E'
+      x60: '#626262'
+      x70: '#515151'
+      x80: '#3B3B3B'
+      x90: '#222222'
+
+      lightest: $color.neutral.grey.x00
+      lighter: $color.neutral.grey.x10
+      light: $color.neutral.grey.x20
+      base: $color.neutral.grey.x40
+      dark: $color.neutral.grey.x60
+      darker: $color.neutral.grey.x70
+      darkest: $color.neutral.grey.x90
+
+    warm:
+      x00: '#FAF9F7'
+      x10: '#E8E6E1'
+      x20: '#D3CEC4'
+      x30: '#B8B2A7'
+      x40: '#A39E93'
+      x50: '#857F72'
+      x60: '#625D52'
+      x70: '#504A40'
+      x80: '#423D33'
+      x90: '#27241D'
+
+      lightest: $color.neutral.warm.x00
+      lighter: $color.neutral.warm.x10
+      light: $color.neutral.warm.x20
+      base: $color.neutral.warm.x40
+      dark: $color.neutral.warm.x60
+      darker: $color.neutral.warm.x70
+      darkest: $color.neutral.warm.x90
+
+  red:
+    x00: "#FFEEEE"
+    x10: "#FACDCD"
+    x20: "#F29B9B"
+    x30: "#E66A6A"
+    x40: "#D64545"
+    x50: "#BA2525"
+    x60: "#A61B1B"
+    x70: "#911111"
+    x80: "#780A0A"
+    x90: "#610404"
+
+    lightest: $color.red.x00
+    lighter: $color.red.x10
+    light: $color.red.x20
+    base: $color.red.x40
+    dark: $color.red.x60
+    darker: $color.red.x70
+    darkest: $color.red.x90
+
+  red_vivid:
+    x00: "#FFE3E3"
+    x10: "#FFBDBD"
+    x20: "#FF9B9B"
+    x30: "#F86A6A"
+    x40: "#EF4E4E"
+    x50: "#E12D39"
+    x60: "#CF1124"
+    x70: "#AB091E"
+    x80: "#8A041A"
+    x90: "#610316"
+
+    lightest: $color.red_vivid.x00
+    lighter: $color.red_vivid.x10
+    light: $color.red_vivid.x20
+    base: $color.red_vivid.x40
+    dark: $color.red_vivid.x60
+    darker: $color.red_vivid.x70
+    darkest: $color.red_vivid.x90
+
+  orange:
+    x00: "#FFEFE6"
+    x10: "#FFD3BA"
+    x20: "#FAB38B"
+    x30: "#EF8E58"
+    x40: "#E67635"
+    x50: "#C65D21"
+    x60: "#AB4E19"
+    x70: "#8C3D10"
+    x80: "#77340D"
+    x90: "#572508"
+
+    lightest: $color.orange.x00
+    lighter: $color.orange.x10
+    light: $color.orange.x20
+    base: $color.orange.x40
+    dark: $color.orange.x60
+    darker: $color.orange.x70
+    darkest: $color.orange.x90
+
+  orange_vivid:
+    x00: "#FFE8D9"
+    x10: "#FFD0B5"
+    x20: "#FFB088"
+    x30: "#FF9466"
+    x40: "#F9703E"
+    x50: "#F35627"
+    x60: "#DE3A11"
+    x70: "#C52707"
+    x80: "#AD1D07"
+    x90: "#841003"
+
+    lightest: $color.orange_vivid.x00
+    lighter: $color.orange_vivid.x10
+    light: $color.orange_vivid.x20
+    base: $color.orange_vivid.x40
+    dark: $color.orange_vivid.x60
+    darker: $color.orange_vivid.x70
+    darkest: $color.orange_vivid.x90
+
+  yellow:
+    x00: "#FFFAEB"
+    x10: "#FCEFC7"
+    x20: "#F8E3A3"
+    x30: "#F9DA8B"
+    x40: "#F7D070"
+    x50: "#E9B949"
+    x60: "#C99A2E"
+    x70: "#A27C1A"
+    x80: "#7C5E10"
+    x90: "#513C06"
+
+    lightest: $color.yellow.x00
+    lighter: $color.yellow.x10
+    light: $color.yellow.x20
+    base: $color.yellow.x40
+    dark: $color.yellow.x60
+    darker: $color.yellow.x70
+    darkest: $color.yellow.x90
+
+  yellow_vivid:
+    x00: "#FFFBEA"
+    x10: "#FFF3C4"
+    x20: "#FCE588"
+    x30: "#FADB5F"
+    x40: "#F7C948"
+    x50: "#F0B429"
+    x60: "#DE911D"
+    x70: "#CB6E17"
+    x80: "#B44D12"
+    x90: "#8D2B0B"
+
+    lightest: $color.yellow_vivid.x00
+    lighter: $color.yellow_vivid.x10
+    light: $color.yellow_vivid.x20
+    base: $color.yellow_vivid.x40
+    dark: $color.yellow_vivid.x60
+    darker: $color.yellow_vivid.x70
+    darkest: $color.yellow_vivid.x90
+
+  lime:
+    x00: "#F2FDE0"
+    x10: "#E2F7C2"
+    x20: "#C7EA8F"
+    x30: "#ABDB5E"
+    x40: "#94C843"
+    x50: "#7BB026"
+    x60: "#63921A"
+    x70: "#507712"
+    x80: "#42600C"
+    x90: "#2B4005"
+
+    lightest: $color.lime.x00
+    lighter: $color.lime.x10
+    light: $color.lime.x20
+    base: $color.lime.x40
+    dark: $color.lime.x60
+    darker: $color.lime.x70
+    darkest: $color.lime.x90
+
+  lime_vivid:
+    x00: "#F8FFED"
+    x10: "#E6FFBF"
+    x20: "#CAFF84"
+    x30: "#AFF75C"
+    x40: "#8DED2D"
+    x50: "#6CD410"
+    x60: "#5CB70B"
+    x70: "#399709"
+    x80: "#2E7B06"
+    x90: "#1E5303"
+
+    lightest: $color.lime_vivid.x00
+    lighter: $color.lime_vivid.x10
+    light: $color.lime_vivid.x20
+    base: $color.lime_vivid.x40
+    dark: $color.lime_vivid.x60
+    darker: $color.lime_vivid.x70
+    darkest: $color.lime_vivid.x90
+
+  green:
+    x00: "#E3F9E5"
+    x10: "#C1EAC5"
+    x20: "#A3D9A5"
+    x30: "#7BC47F"
+    x40: "#57AE5B"
+    x50: "#3F9142"
+    x60: "#2F8132"
+    x70: "#207227"
+    x80: "#0E5814"
+    x90: "#05400A"
+
+    lightest: $color.green.x00
+    lighter: $color.green.x10
+    light: $color.green.x20
+    base: $color.green.x40
+    dark: $color.green.x60
+    darker: $color.green.x70
+    darkest: $color.green.x90
+
+  green_vivid:
+    x00: "#E3F9E5"
+    x10: "#C1F2C7"
+    x20: "#91E697"
+    x30: "#51CA58"
+    x40: "#31B237"
+    x50: "#18981D"
+    x60: "#0F8613"
+    x70: "#0E7817"
+    x80: "#07600E"
+    x90: "#014807"
+
+    lightest: $color.green_vivid.x00
+    lighter: $color.green_vivid.x10
+    light: $color.green_vivid.x20
+    base: $color.green_vivid.x40
+    dark: $color.green_vivid.x60
+    darker: $color.green_vivid.x70
+    darkest: $color.green_vivid.x90
+
+  teal:
+    x00: "#EFFCF6"
+    x10: "#C6F7E2"
+    x20: "#8EEDC7"
+    x30: "#65D6AD"
+    x40: "#3EBD93"
+    x50: "#27AB83"
+    x60: "#199473"
+    x70: "#147D64"
+    x80: "#0C6B58"
+    x90: "#014D40"
+
+    lightest: $color.teal.x00
+    lighter: $color.teal.x10
+    light: $color.teal.x20
+    base: $color.teal.x40
+    dark: $color.teal.x60
+    darker: $color.teal.x70
+    darkest: $color.teal.x90
+
+  teal_vivid:
+    x00: "#F0FCF9"
+    x10: "#C6F7E9"
+    x20: "#8EEDD1"
+    x30: "#5FE3C0"
+    x40: "#2DCCA7"
+    x50: "#17B897"
+    x60: "#079A82"
+    x70: "#048271"
+    x80: "#016457"
+    x90: "#004440"
+
+    lightest: $color.teal_vivid.x00
+    lighter: $color.teal_vivid.x10
+    light: $color.teal_vivid.x20
+    base: $color.teal_vivid.x40
+    dark: $color.teal_vivid.x60
+    darker: $color.teal_vivid.x70
+    darkest: $color.teal_vivid.x90
+
+  cyan:
+    x00: "#E0FCFF"
+    x10: "#BEF8FD"
+    x20: "#87EAF2"
+    x30: "#54D1DB"
+    x40: "#38BEC9"
+    x50: "#2CB1BC"
+    x60: "#14919B"
+    x70: "#0E7C86"
+    x80: "#0A6C74"
+    x90: "#044E54"
+
+    lightest: $color.cyan.x00
+    lighter: $color.cyan.x10
+    light: $color.cyan.x20
+    base: $color.cyan.x40
+    dark: $color.cyan.x60
+    darker: $color.cyan.x70
+    darkest: $color.cyan.x90
+
+  cyan_vivid:
+    x00: "#E1FCF8"
+    x10: "#C1FEF6"
+    x20: "#92FDF2"
+    x30: "#62F4EB"
+    x40: "#3AE7E1"
+    x50: "#1CD4D4"
+    x60: "#0FB5BA"
+    x70: "#099AA4"
+    x80: "#07818F"
+    x90: "#05606E"
+
+    lightest: $color.cyan_vivid.x00
+    lighter: $color.cyan_vivid.x10
+    light: $color.cyan_vivid.x20
+    base: $color.cyan_vivid.x40
+    dark: $color.cyan_vivid.x60
+    darker: $color.cyan_vivid.x70
+    darkest: $color.cyan_vivid.x90
+
+  light_blue:
+    x00: "#EBF8FF"
+    x10: "#D1EEFC"
+    x20: "#A7D8F0"
+    x30: "#7CC1E4"
+    x40: "#55AAD4"
+    x50: "#3994C1"
+    x60: "#2D83AE"
+    x70: "#1D6F98"
+    x80: "#166086"
+    x90: "#0B4F71"
+
+    lightest: $color.light_blue.x00
+    lighter: $color.light_blue.x10
+    light: $color.light_blue.x20
+    base: $color.light_blue.x40
+    dark: $color.light_blue.x60
+    darker: $color.light_blue.x70
+    darkest: $color.light_blue.x90
+
+  light_blue_vivid:
+    x00: "#E3F8FF"
+    x10: "#B3ECFF"
+    x20: "#81DEFD"
+    x30: "#5ED0FA"
+    x40: "#40C3F7"
+    x50: "#2BB0ED"
+    x60: "#1992D4"
+    x70: "#127FBF"
+    x80: "#0B69A3"
+    x90: "#035388"
+
+    lightest: $color.light_blue_vivid.x00
+    lighter: $color.light_blue_vivid.x10
+    light: $color.light_blue_vivid.x20
+    base: $color.light_blue_vivid.x40
+    dark: $color.light_blue_vivid.x60
+    darker: $color.light_blue_vivid.x70
+    darkest: $color.light_blue_vivid.x90
+
+  blue:
+    x00: "#DCEEFB"
+    x10: "#B6E0FE"
+    x20: "#84C5F4"
+    x30: "#62B0E8"
+    x40: "#4098D7"
+    x50: "#2680C2"
+    x60: "#186FAF"
+    x70: "#0F609B"
+    x80: "#0A558C"
+    x90: "#003E6B"
+
+    lightest: $color.blue.x00
+    lighter: $color.blue.x10
+    light: $color.blue.x20
+    base: $color.blue.x40
+    dark: $color.blue.x60
+    darker: $color.blue.x70
+    darkest: $color.blue.x90
+
+  blue_vivid:
+    x00: "#E6F6FF"
+    x10: "#BAE3FF"
+    x20: "#7CC4FA"
+    x30: "#47A3F3"
+    x40: "#2186EB"
+    x50: "#0967D2"
+    x60: "#0552B5"
+    x70: "#03449E"
+    x80: "#01337D"
+    x90: "#002159"
+
+    lightest: $color.blue_vivid.x00
+    lighter: $color.blue_vivid.x10
+    light: $color.blue_vivid.x20
+    base: $color.blue_vivid.x40
+    dark: $color.blue_vivid.x60
+    darker: $color.blue_vivid.x70
+    darkest: $color.blue_vivid.x90
+
+  indigo:
+    x00: "#E0E8F9"
+    x10: "#BED0F7"
+    x20: "#98AEEB"
+    x30: "#7B93DB"
+    x40: "#647ACB"
+    x50: "#4C63B6"
+    x60: "#4055A8"
+    x70: "#35469C"
+    x80: "#2D3A8C"
+    x90: "#19216C"
+
+    lightest: $color.indigo.x00
+    lighter: $color.indigo.x10
+    light: $color.indigo.x20
+    base: $color.indigo.x40
+    dark: $color.indigo.x60
+    darker: $color.indigo.x70
+    darkest: $color.indigo.x90
+
+  indigo_vivid:
+    x00: "#D9E8FF"
+    x10: "#B0D0FF"
+    x20: "#88B1FC"
+    x30: "#5E8AEE"
+    x40: "#3A66DB"
+    x50: "#2251CC"
+    x60: "#1D3DBF"
+    x70: "#132DAD"
+    x80: "#0B1D96"
+    x90: "#061178"
+
+    lightest: $color.indigo_vivid.x00
+    lighter: $color.indigo_vivid.x10
+    light: $color.indigo_vivid.x20
+    base: $color.indigo_vivid.x40
+    dark: $color.indigo_vivid.x60
+    darker: $color.indigo_vivid.x70
+    darkest: $color.indigo_vivid.x90
+
+  purple:
+    x00: "#EAE2F8"
+    x10: "#CFBCF2"
+    x20: "#A081D9"
+    x30: "#8662C7"
+    x40: "#724BB7"
+    x50: "#653CAD"
+    x60: "#51279B"
+    x70: "#421987"
+    x80: "#34126F"
+    x90: "#240754"
+
+    lightest: $color.purple.x00
+    lighter: $color.purple.x10
+    light: $color.purple.x20
+    base: $color.purple.x40
+    dark: $color.purple.x60
+    darker: $color.purple.x70
+    darkest: $color.purple.x90
+
+  purple_vivid:
+    x00: "#F2EBFE"
+    x10: "#DAC4FF"
+    x20: "#B990FF"
+    x30: "#A368FC"
+    x40: "#9446ED"
+    x50: "#8719E0"
+    x60: "#7A0ECC"
+    x70: "#690CB0"
+    x80: "#580A94"
+    x90: "#44056E"
+
+    lightest: $color.purple_vivid.x00
+    lighter: $color.purple_vivid.x10
+    light: $color.purple_vivid.x20
+    base: $color.purple_vivid.x40
+    dark: $color.purple_vivid.x60
+    darker: $color.purple_vivid.x70
+    darkest: $color.purple_vivid.x90
+
+  magenta:
+    x00: "#F5E1F7"
+    x10: "#ECBDF2"
+    x20: "#CE80D9"
+    x30: "#BB61C7"
+    x40: "#AD4BB8"
+    x50: "#A23DAD"
+    x60: "#90279C"
+    x70: "#7C1A87"
+    x80: "#671270"
+    x90: "#4E0754"
+
+    lightest: $color.magenta.x00
+    lighter: $color.magenta.x10
+    light: $color.magenta.x20
+    base: $color.magenta.x40
+    dark: $color.magenta.x60
+    darker: $color.magenta.x70
+    darkest: $color.magenta.x90
+
+  magenta_vivid:
+    x00: "#FDEBFF"
+    x10: "#F8C4FE"
+    x20: "#F48FFF"
+    x30: "#F368FC"
+    x40: "#ED47ED"
+    x50: "#E019D0"
+    x60: "#CB10B8"
+    x70: "#B30BA3"
+    x80: "#960888"
+    x90: "#6E0560"
+
+    lightest: $color.magenta_vivid.x00
+    lighter: $color.magenta_vivid.x10
+    light: $color.magenta_vivid.x20
+    base: $color.magenta_vivid.x40
+    dark: $color.magenta_vivid.x60
+    darker: $color.magenta_vivid.x70
+    darkest: $color.magenta_vivid.x90
+
+  pink:
+    x00: "#FFE0F0"
+    x10: "#FAB8D9"
+    x20: "#F191C1"
+    x30: "#E668A7"
+    x40: "#DA4A91"
+    x50: "#C42D78"
+    x60: "#AD2167"
+    x70: "#9B1B5A"
+    x80: "#781244"
+    x90: "#5C0B33"
+
+    lightest: $color.pink.x00
+    lighter: $color.pink.x10
+    light: $color.pink.x20
+    base: $color.pink.x40
+    dark: $color.pink.x60
+    darker: $color.pink.x70
+    darkest: $color.pink.x90
+
+  pink_vivid:
+    x00: "#FFE3EC"
+    x10: "#FFB8D2"
+    x20: "#FF8CBA"
+    x30: "#F364A2"
+    x40: "#E8368F"
+    x50: "#DA127D"
+    x60: "#BC0A6F"
+    x70: "#A30664"
+    x80: "#870557"
+    x90: "#620042"
+
+    lightest: $color.pink_vivid.x00
+    lighter: $color.pink_vivid.x10
+    light: $color.pink_vivid.x20
+    base: $color.pink_vivid.x40
+    dark: $color.pink_vivid.x60
+    darker: $color.pink_vivid.x70
+    darkest: $color.pink_vivid.x90

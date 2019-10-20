@@ -1,0 +1,62 @@
+.container {
+	margin: 40ru auto;
+	max-width: 540ru;
+	background-color: #fff;
+	border-radius: 4ru;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+	padding: 16ru 20ru;
+	font-size: 14ru;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	border-bottom: 1px solid $color.neutral.blue.x10;
+}
+
+.forms {
+	position: relative;
+}
+.forms_state {
+	padding: 28ru;
+	font-size: 12ru;
+	text-transform: uppercase;
+	color: $color.neutral.blue.x40;
+}
+.forms_entry {
+	display: block;
+	padding: 12ru 20ru;
+	cursor: pointer;
+}
+
+.form {
+	position: relative;
+}
+.form_state {
+	padding: 28ru;
+	font-size: 12ru;
+	text-transform: uppercase;
+	color: $color.neutral.blue.x40;
+}
+.form_responses {
+	padding: 8ru 20ru;
+}
+.form_response {
+	position: relative;
+	display: block;
+	padding: 16ru 0;
+	cursor: pointer;
+}
+.form_response + .form_response {
+	border-top: 1px solid $color.neutral.blue.x00;
+}
+.form_response_date {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 12ru;
+	font-weight: 500;
+	color: $color.neutral.blue.x40;
+}

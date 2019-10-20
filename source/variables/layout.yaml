@@ -1,0 +1,74 @@
+# TODO: 480px or 576px !?
+screen:
+  small: "(min-width: 576px)"
+  medium: "(min-width: 768px)"
+  large: "(min-width: 992px)"
+  xlarge: "(min-width: 1200px)"
+  max_small: "(max-width: 575.98px)"
+  max_medium: "(max-width: 767.98px)"
+  max_large: "(max-width: 991.98px)"
+  max_xlarge: "(max-width: 1199.98px)"
+
+
+layer:
+  spinner: "1000"
+  sticky: "1010"
+  dropdown: "1020"
+  overlay: "1030"
+  drawer: "1040"
+  modal: "1050"
+  popup: "1060"
+  reminder: "1070"
+  ontop: "99990"
+  deepdive: "-1"
+
+
+space:
+  nano: 2ru
+  xxsmall: 4ru
+  xsmall: 8ru
+  small: 12ru
+  medium: 16ru
+  large: 20ru
+  xlarge: 24ru
+  xxlarge: 32ru
+  huge: 48ru
+
+  vertical: 4ru
+  horizontal: 8ru
+
+  square:
+    nano: 2ru
+    xxsmall: 4ru
+    xsmall: 8ru
+    small: 12ru
+    medium: 16ru
+    large: 20ru
+    xlarge: 24ru
+    xxlarge: 32ru
+
+  squish:
+    xxsmall: 2ru 2ru
+    xsmall: 2ru 4ru
+    small: 4ru 8ru
+    medium: 8ru 16ru
+    large: 12ru 24ru
+    xlarge: 16ru 32ru
+    xxlarge: 24ru 48ru
+
+  stretch:
+    xsmall: 6ru 4ru
+    small: 12ru 8ru
+    medium: 18ru 12ru
+    large: 24ru 16ru
+    xlarge: 32ru 20ru
+    xxlarge: 48ru 32ru
+
+  stack:
+    xxsmall: 2ru
+    xsmall: 4ru
+    small: 8ru
+    medium: 16ru
+    large: 24ru
+    xlarge: 32ru
+    xxlarge: 48ru

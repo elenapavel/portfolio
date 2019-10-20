@@ -1,0 +1,12 @@
+target = "web"
+template = "index.html"
+
+# production #
+[host]
+host = "localhost"
+token = "123456"
+
+# development #
+[config]
+url = "development.com"
+port = 3000

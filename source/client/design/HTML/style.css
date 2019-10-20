@@ -1,0 +1,62 @@
+.container {
+	max-width: 732ru;
+	padding: 40ru 24ru;
+	margin: 0 auto;
+}
+
+.section {
+	position: relative;
+	padding: 24ru;
+	background-color: #fff;
+	border-radius: 0 4ru 4ru 4ru;
+}
+.section ~ .section {
+	margin-top: 40ru;
+}
+.section_title {
+	position: absolute;
+	top: -24ru;
+	left: 0;
+	padding: 12ru;
+	font-size: 12ru;
+	text-transform: uppercase;
+	color: $color.neutral.blue.x50;
+	background-color: #fff;
+	border-radius: 4ru 4ru 0 0;
+}
+.section_note {
+	margin-top: 12ru;
+	font-size: 12ru;
+	background-color: $color.neutral.blue.x00;
+	color: $color.neutral.blue.x60;
+	padding: 8ru;
+	border-radius: 4ru;
+}
+
+.sample {
+	padding: 8ru 0;
+}
+.sample > code:first-child {
+	display: inline-block;
+	width: 64ru;
+	margin-right: 12ru;
+	font-size: 12ru;
+	text-align: right;
+}
+.sample_form_tag {
+	margin-bottom: 8ru;
+	font-family: monospace;
+	font-size: 14ru;
+	color: $color.neutral.blue.x50;
+}
+.sample_label {
+	margin-bottom: 16ru;
+	font-family: monospace;
+	font-size: 14ru;
+	color: $color.neutral.blue.x50;
+}
+
+.section.is_content .sample ~ .sample {
+	margin-top: 12ru;
+}
+

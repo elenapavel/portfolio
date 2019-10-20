@@ -1,0 +1,18 @@
+target: web
+
+template:
+  path: client/index.html
+  fonts:
+    - /fonts/NotoSerif/NotoSerif.css
+    - /fonts/NotoSans/NotoSans.css
+    - /fonts/EagleLake/EagleLake.css
+  meta:
+    url: "https://ryota.ro"
+    title: "Ryota - Institut de Sănătate Mentală"
+    description: "Ryota susține dezvoltarea emotionala si sociala folosind tehnici vesele pentru copii și metode productive pentru adulți."
+    image: "/featured.png"
+
+alias:
+  $design: ~/client/design
+  $website: ~/client/website
+  $admin: ~/client/admin

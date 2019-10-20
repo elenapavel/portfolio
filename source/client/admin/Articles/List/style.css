@@ -1,0 +1,27 @@
+.container {
+	padding: 40ru;
+}
+
+.bar_title {
+}
+
+.entry {
+	padding: 20ru 0;
+}
+.entry ~ .entry {
+	border-top: 1px solid $panel.border;
+}
+
+.actions {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20ru;
+}
+.action_create {
+	width: 48ru;
+	height: 48ru;
+	padding: 12ru;
+	background-color: #f0f4f8;
+	border-radius: 100%;
+	box-shadow: 0px 1px 2px rgba(154, 165, 177, 0.5);
+}

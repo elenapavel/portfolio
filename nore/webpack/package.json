@@ -1,0 +1,17 @@
+{
+	"name": "@nore/webpack",
+	"description": "Webpack helpers and plugins",
+	"version": "1.1.0",
+	"author": "Navaru",
+	"license": "MIT",
+	"repository": "https://github.com/nore/webpack",
+	"publishConfig": {
+		"access": "public"
+	},
+	"type": "module",
+	"module": "source/index.js",
+	"main": "source/index.js",
+	"dependencies": {
+		"@nore/std": "^1.10.0"
+	}
+}

@@ -1,0 +1,75 @@
+button:
+  font: $font.sans
+  shadow: $color.neutral.blue.x70
+  disabled:
+    color: $color.neutral.blue.x50
+    background: $color.neutral.blue.x10
+  style:
+    primary:
+      color: $color.white
+      background: $color.neutral.warm.x40
+      hover: 40%
+    secondary:
+      color: $color.black
+      background: '#FFECB4'
+      hover: 70%
+    accent:
+      color: $color.white
+      background: '#E65100'
+      hover: 50%
+    positive:
+      color: $color.teal.x90
+      background: $color.teal.light
+      hover: 50%
+    negative:
+      color: $color.red.x90
+      background: $color.red_vivid.light
+      hover: 70%
+
+
+markup:
+  mark:
+    background: "#fcfc9c"
+    color: "#2e3c40"
+
+  ins:
+    background: "#ebfaec"
+    color: "#2ac061"
+
+  del:
+    background: "#fff0f0"
+    color: "#ff4d4d"
+
+  kbd:
+    border: "#2e3c40"
+
+  var:
+    background: "#f6f9fc"
+
+  blockquote:
+    background: "#ffffff"
+    quotes: "#e7edf0"
+
+  hr: "#edf2f7"
+
+
+text:
+  color: $color.black
+
+  code:
+    background: "#f6f9fc"
+    border: "#ecf2f9"
+
+  selection:
+    background: "#fdf6bb"
+    color: "#2e3c40"
+
+
+form:
+  color: $color.black
+  placeholder: "#c2d1da"
+
+
+table:
+  border: "#e7edf0"
+

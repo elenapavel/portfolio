@@ -1,0 +1,21 @@
+.container {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	background-color: $panel.background;
+}
+
+.content {
+	flex-grow: 1;
+	overflow-y: auto;
+}
+
+@media $screen.medium {
+	.container {
+		padding-left: $panel.navigation.width;
+	}
+}

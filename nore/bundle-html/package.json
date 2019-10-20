@@ -1,0 +1,19 @@
+{
+	"name": "@nore/bundle-html",
+	"description": "Handle .html files",
+	"version": "1.2.0",
+	"author": "Navaru",
+	"license": "MIT",
+	"repository": "https://github.com/nore/bundle-html",
+	"publishConfig": {
+		"access": "public"
+	},
+	"type": "module",
+	"module": "source/index.js",
+	"main": "source/index.js",
+	"dependencies": {
+		"html-loader": "^1.0.0-alpha.0",
+		"html-webpack-plugin": "^4.0.0-beta.8",
+		"source-map-url": "^0.4.0"
+	}
+}

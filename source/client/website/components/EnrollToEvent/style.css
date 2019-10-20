@@ -1,0 +1,86 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: color($color.neutral.warm.x10 a(86%));
+	z-index: $layer.overlay;
+}
+
+.content {
+	position: relative;
+	flex: 1;
+	max-width: 420ru;
+	margin: 20ru;
+	padding: 20ru;
+	background: $color.white;
+	border-radius: 4ru;
+	box-shadow: 0px 4px 16px #cac3b6;
+}
+.content [tag="textfield"] {
+	margin-top: 20ru;
+}
+.content [tag="button"] {
+	width: 100%;
+	margin-top: 20ru;
+}
+@media $screen.medium {
+	.content {
+		padding: 32ru;
+	}
+}
+
+.close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 48ru;
+	height: 48ru;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.close svg {
+	width: 28ru;
+	height: 28ru;
+	stroke: $color.neutral.warm.x50;
+}
+
+.title {
+	line-height: 40ru;
+	font-size: 24ru;
+	font-family: $font.serif;
+	font-weight: 300;
+	text-align: center;
+	color: $color.neutral.warm.x50;
+}
+.subtitle {
+	font-size: 12ru;
+	font-family: $font.sans;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	color: $color.neutral.warm.x50;
+}
+.confirmation {
+	margin-top: 20ru;
+	line-height: 24ru;
+	text-align: center;
+}
+
+.note {
+	margin-top: 20ru;
+	padding: 12ru;
+	line-height: 24ru;
+	font-family: $font.serif;
+	text-align: center;
+	color: $color.neutral.warm.x50;
+	border-radius: 2px;
+	background-color: #eeedea;
+}
