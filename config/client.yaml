@@ -7,12 +7,9 @@ template:
     - /fonts/NotoSans/NotoSans.css
     - /fonts/EagleLake/EagleLake.css
   meta:
-    url: "https://ryota.ro"
-    title: "Ryota - Institut de Sănătate Mentală"
-    description: "Ryota susține dezvoltarea emotionala si sociala folosind tehnici vesele pentru copii și metode productive pentru adulți."
-    image: "/featured.png"
+    url: "https://elenapavel.github.io/playground"
+    title: "Playground - Elena Pavel"
+    description: "A small playground for React learning"
 
 alias:
-  $design: ~/client/design
   $website: ~/client/website
-  $admin: ~/client/admin

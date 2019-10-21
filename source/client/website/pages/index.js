@@ -9,7 +9,6 @@ const NotFound = loadable(() => import("$website/pages/NotFound"));
 export default (
 	<>
 		<Scope exact match="404" render={NotFound} />
-
 		{keys(layouts).map(path => (
 			<Scope
 				exact

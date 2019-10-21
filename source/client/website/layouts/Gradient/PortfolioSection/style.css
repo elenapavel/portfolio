@@ -1,0 +1,91 @@
+.container {
+	composes: block from "../defaults.css";
+	text-align: center;
+}
+.heading {
+	composes: heading from "../defaults.css";
+	composes: text_gradient from "../defaults.css";
+}
+.items {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 2rem;
+	transition-property: margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.item {
+	flex-basis: 100%;
+	max-width: 30rem;
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	overflow: hidden;
+	transition-property: flex-basis;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.preview {
+	composes: background from "../defaults.css";
+	padding-top: 100%;
+	flex-basis: 100%;
+}
+.gradient {
+	background: radial-gradient(
+			ellipse at right,
+			var(--brand_primary),
+			transparent 70%
+		),
+		radial-gradient(
+			ellipse at left,
+			var(--brand_secondary),
+			rgba(43, 43, 43, 0.6) 70%
+		);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 200%;
+}
+.content {
+	position: absolute;
+	padding: 2rem;
+	text-align: right;
+}
+.item_heading {
+	font-family: var(--font_accent);
+	font-weight: bold;
+	font-size: 1.2rem;
+	color: var(--background_accent);
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+@media (min-width: 48rem) {
+	.items {
+		margin-top: 3rem;
+	}
+	.item {
+		flex-basis: 50%;
+		max-width: none;
+	}
+	.item_heading {
+		font-size: 1.5rem;
+	}
+}
+@media (min-width: 64rem) {
+	.items {
+		margin-top: 5rem;
+	}
+	.item {
+		flex-basis: 33.3333%;
+	}
+	.item_heading {
+		font-size: 2rem;
+	}
+}

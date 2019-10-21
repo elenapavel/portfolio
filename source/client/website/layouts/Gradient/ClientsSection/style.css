@@ -1,0 +1,151 @@
+.container {
+	composes: block from "../defaults.css";
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.content {
+	flex-basis: 100vw;
+	padding: 2rem;
+	position: relative;
+	left: 0;
+	right: 0;
+	z-index: 5;
+	margin: 50vw 0 0 -2rem;
+	background: rgba(244, 244, 244, 0.8);
+	box-shadow: -1vw 0 2rem rgba(43, 43, 43, 0.2);
+	transition-property: flex-basis, padding, margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.heading {
+	composes: heading from "../defaults.css";
+	margin-top: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	line-height: 1;
+	z-index: 10;
+}
+.subheading {
+	composes: subheading from "../defaults.css";
+	composes: text_gradient from "../defaults.css";
+	z-index: 10;
+}
+.description {
+	margin-top: 2rem;
+	padding-left: 0;
+	max-width: 40rem;
+	line-height: 1.7;
+	position: relative;
+	z-index: 10;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.line {
+	composes: line from "../defaults.css";
+}
+.preview {
+	flex-basis: 100%;
+	max-width: calc(30rem + 30vw);
+	position: absolute;
+	overflow: hidden;
+	margin-bottom: 0;
+	transition-property: margin, flex-basis, top;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	top: 0;
+	bottom: 0;
+	left: auto;
+	right: auto;
+	width: 100%;
+	margin-right: -2rem;
+}
+.image {
+	composes: background from "../defaults.css";
+	position: relative;
+	height: 100%;
+	padding-top: 130%;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.gradient {
+	composes: gradient from "../defaults.css";
+	position: absolute;
+	height: 130%;
+	top: 30%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	transition-property: top;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+@media (min-width: 30rem) {
+	.content {
+		flex-basis: 90vw;
+		margin: 15rem 0 0 -2rem;
+	}
+	.preview {
+		right: 0;
+		margin-right: -30vw;
+	}
+	.description {
+		padding-left: 4rem;
+	}
+}
+@media (min-width: 48rem) {
+	.content {
+		flex-basis: 75vw;
+		margin: 7rem 0 0 -3rem;
+	}
+	.preview {
+		max-width: calc(30rem + 10vw);
+		margin-bottom: 0;
+		top: 0;
+		margin-right: -10vw;
+	}
+}
+@media (min-width: 64rem) {
+	.container {
+		justify-content: flex-end;
+	}
+	.box {
+		opacity: 0;
+	}
+	.content {
+		padding: 0 5rem 0 0;
+		flex-basis: 60%;
+		margin: 0;
+		width: auto;
+		background: none;
+		box-shadow: none;
+	}
+	.preview {
+		flex-basis: 40%;
+		max-height: 30rem;
+		max-height: none;
+		margin-bottom: -14rem;
+		margin-top: -14rem;
+		margin-right: 0;
+		position: relative;
+		top: 0;
+		height: auto;
+	}
+	.image {
+		padding-top: 0;
+	}
+	.heading {
+		letter-spacing: 0.5rem;
+	}
+	.description {
+		margin-top: 3rem;
+		padding-left: 12rem;
+	}
+	.gradient {
+		top: -50%;
+	}
+}

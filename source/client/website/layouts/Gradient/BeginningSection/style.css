@@ -1,0 +1,115 @@
+.container {
+	composes: block from "../defaults.css";
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.content {
+	flex-basis: 100%;
+	position: relative;
+	z-index: 10;
+	padding: 0;
+	transition-property: padding, flex-basis;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.heading {
+	composes: heading from "../defaults.css";
+	line-height: 1;
+	margin-left: 0;
+	margin-top: 0;
+	transition-property: margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.description {
+	margin-top: 2rem;
+	max-width: 40rem;
+	position: relative;
+	padding-left: 0;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.line {
+	composes: line from "../defaults.css";
+	left: 0;
+	transition-property: left;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.preview {
+	flex-basis: 100vw;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 0;
+	margin-top: 3rem;
+	max-height: 15rem;
+	overflow: hidden;
+	margin: 2rem -2rem 0;
+	transition-property: margin, flex-basis;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.image {
+	composes: background from "../defaults.css";
+	position: relative;
+	width: 100%;
+	padding-top: 50%;
+	height: 100%;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.gradient {
+	composes: gradient from "../defaults.css";
+	position: absolute;
+	height: 130%;
+	top: -50%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+@media (min-width: 30rem) {
+	.description {
+		padding-left: 4rem;
+	}
+}
+@media (min-width: 48rem) {
+	.preview {
+		margin: 3rem -3rem -7rem;
+	}
+	.line {
+		width: 2rem;
+	}
+	.description {
+		margin-top: 2rem;
+	}
+}
+@media (min-width: 64rem) {
+	.container {
+		flex-direction: row-reverse;
+	}
+	.content {
+		padding: 5rem 0 0 5rem;
+		flex-basis: 40%;
+	}
+	.heading {
+		margin-left: -13rem;
+	}
+	.preview {
+		flex-basis: 60%;
+		max-height: none;
+		margin: 0 0 -14rem;
+	}
+	.image {
+		padding-top: 0;
+	}
+	.description {
+		padding-left: 0;
+	}
+	.line {
+		left: -13rem;
+		width: 10rem;
+	}
+}

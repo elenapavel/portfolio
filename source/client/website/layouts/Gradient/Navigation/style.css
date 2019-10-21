@@ -1,0 +1,41 @@
+.container {
+	display: block;
+	overflow: auto;
+	height: 100%;
+	padding-bottom: 2rem;
+	transition-property: height, padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.item {
+	cursor: pointer;
+	padding: 0.5rem 2rem;
+	text-shadow: rgba(236, 84, 123, 0.7) 1px 1px 1px,
+		rgba(237, 116, 86, 0.7) -1px -1px 1px,
+		rgba(236, 84, 123, 0.7) 1px -1px 1px,
+		rgba(237, 116, 86, 0.7) -1px 1px 1px;
+	font-family: var(--font_accent);
+	font-weight: 500;
+	transition-property: text-shadow;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	display: block;
+	text-align: right;
+}
+.item_active {
+	composes: item;
+	text-shadow: rgba(236, 84, 123, 1) 2px 2px 2px,
+		rgba(237, 116, 86, 1) -2px -2px 2px, rgba(236, 84, 123, 1) 2px -2px 2px,
+		rgba(237, 116, 86, 1) -2px 2px 2px;
+}
+@media (min-width: 56.25rem) {
+	.container {
+		display: flex;
+		height: auto;
+		padding-bottom: 0;
+	}
+	.item {
+		display: inline-block;
+		padding: 1rem;
+	}
+}

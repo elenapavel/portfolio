@@ -5,39 +5,29 @@ import { http } from "@nore/pwa";
 import $, { css } from "./style.css";
 
 export default function Page({ path, layout }) {
-	const [page, setPage] = useState(null);
+	const [data, setData] = useState(null);
 	const [isLoading, setIsLoading] = useState(true);
 
 	useEffect(() => {
-		// const page = IS_DEVELOPMENT ? null : cache.get(path);
+		const getPath = path == "/" ? "/home" : path;
 
-		// // try to load from cache
-		// if (page) {
-		// 	setPage(page);
-		// 	setIsLoading(false);
-		// }
-		// // load from the server
-		// else {
-		http
-			.get(`/api/pages`, { path })
+		http.get(`${getPath}/data.json`, {})
 			.then(reply => {
-				const page = reply.body.data.pop();
-
-				cache.set(path, page);
-				setPage(page);
+				// console.log(reply);
+				const data = reply.body;
+				setData(data);
 				setIsLoading(false);
 			})
 			.catch(reply => {
 				setIsLoading(false);
 				console.log("HTTP Error", reply);
 			});
-		// }
 	}, []);
 
-	const content = !page ? (
+	const content = !data ? (
 		<NotFound />
 	) : (
-		createElement(layout, { page, data: page.data })
+		createElement(layout, { data, isLoading })
 	);
 
 	return (

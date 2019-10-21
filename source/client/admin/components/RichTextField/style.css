@@ -1,9 +1,0 @@
-.container + .container {
-	margin-top: 20ru;
-}
-.container + [tag="textfield"] {
-	margin-top: 40ru;
-}
-.container [class~="ql-toolbar"] {
-	background-color: #faf9f8;
-}
