@@ -1,0 +1,21 @@
+.application {
+	overflow-x: hidden;
+	height: 100vh;
+	overflow-y: auto;
+	font-family: "Poppins", sans-serif;
+	font-size: 1rem;
+	line-height: 1.4;
+	font-weight: 500;
+	transition: font-size 0.5s ease-in-out;
+}
+
+.container {
+	position: relative;
+	background: #fefefe;
+}
+
+@media (min-width: 40rem) {
+	.application {
+		font-size: 1.3rem;
+	}
+}

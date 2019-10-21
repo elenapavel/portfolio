@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useReducer, useCallback } from "react";
+import React, { useReducer } from "react";
 import reducer from "./reducer.js";
 import Plantoid from "./Plantoid";
 import Menu from "./Menu";

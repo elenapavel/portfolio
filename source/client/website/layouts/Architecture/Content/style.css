@@ -1,0 +1,26 @@
+.container {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.to_left {
+	flex-basis: 100%;
+	transition: flex-basis 0.5s ease-in-out;
+}
+
+.to_right {
+	flex-basis: 100%;
+	transition: flex-basis 0.5s ease-in-out;
+	overflow: hidden;
+}
+
+@media (min-width: 64rem) {
+	.to_left {
+		flex-basis: 50%;
+	}
+
+	.to_right {
+		flex-basis: 50%;
+	}
+}
