@@ -1,0 +1,36 @@
+.application {
+	position: relative;
+	display: block;
+	flex-direction: row;
+	flex-wrap: wrap;
+	min-height: 32rem;
+}
+
+.to_top {
+}
+
+.to_center {
+	flex-basis: calc(100% - 4rem);
+}
+
+.to_right {
+	flex-basis: 4rem;
+}
+
+@media (min-width: 64rem) {
+	.application {
+		height: 100vh;
+		display: flex;
+		overflow-y: hidden;
+	}
+}
+
+@media (min-width: 90rem) and (min-height: 56.25rem) {
+	.to_center {
+		flex-basis: calc(100% - 8rem);
+	}
+
+	.to_right {
+		flex-basis: 8rem;
+	}
+}

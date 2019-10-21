@@ -1,0 +1,36 @@
+.application {
+	position: relative;
+	font-family: "Lato", sans-serif;
+	line-height: 1.4;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.content {
+	transition: all 0.5s ease-in-out;
+}
+.menu {
+	position: absolute;
+	right: 0.8rem;
+	width: 4rem;
+	top: 0.5rem;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3rem;
+	line-height: 1;
+	cursor: pointer;
+}
+@media (min-width: 30rem) {
+	.menu {
+		right: 2.5rem;
+	}
+}
+@media (min-width: 90rem) and (min-height: 56.25rem) {
+	.menu {
+		right: 0;
+		width: 8rem;
+		top: 3rem;
+	}
+}

@@ -1,0 +1,65 @@
+.container {
+	position: relative;
+	display: block;
+	justify-content: space-between;
+	height: 100%;
+	align-items: center;
+	flex-direction: column-reverse;
+	padding: 0 2rem 2rem;
+}
+
+.item {
+	display: inline-block;
+	margin-right: 2rem;
+}
+
+.item img {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0.5rem;
+	vertical-align: top;
+	border-bottom: 2px solid transparent;
+	transition: all 0.3s ease-in-out;
+}
+
+.facebook:hover img {
+	border-color: blue;
+}
+
+.twitter:hover img {
+	border-color: darkblue;
+}
+
+.instagram:hover img {
+	border-color: red;
+}
+@media (min-width: 30rem) {
+	.container {
+		padding: 0 4rem 4rem;
+	}
+}
+@media (min-width: 40rem) {
+	.item img {
+		width: 1.3rem;
+		height: 1.6rem;
+		padding: 0 0 0.3rem;
+	}
+}
+@media (min-width: 64rem) {
+	.container {
+		display: flex;
+		padding: 1.5rem 1rem;
+		flex-direction: column-reverse;
+	}
+
+	.item {
+		display: block;
+		margin-right: 0;
+		margin-top: 2rem;
+	}
+}
+@media (min-width: 90rem) and (min-height: 56.25rem) {
+	.container {
+		padding: 3rem 0;
+	}
+}

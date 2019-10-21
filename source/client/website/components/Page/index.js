@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createElement } from "react";
+import React, { useState, useEffect, createElement, useCallback } from "react";
 import NotFound from "$website/pages/NotFound";
 import cache from "$website/cache";
 import { http } from "@nore/pwa";
@@ -8,20 +8,28 @@ export default function Page({ path, layout }) {
 	const [data, setData] = useState(null);
 	const [isLoading, setIsLoading] = useState(true);
 
-	useEffect(() => {
-		const getPath = path == "/" ? "/home" : path;
+	const memtest = useCallback(
+		path => {
+			const getPath = path == "/" ? "/home" : path;
 
-		http.get(`${getPath}/data.json`, {})
-			.then(reply => {
-				// console.log(reply);
-				const data = reply.body;
-				setData(data);
-				setIsLoading(false);
-			})
-			.catch(reply => {
-				setIsLoading(false);
-				console.log("HTTP Error", reply);
-			});
+			http.get(`/data.json`, {})
+				.then(reply => {
+					const data = reply.body.find(
+						element => "/" + element.id == getPath
+					);
+					setData(data);
+					setIsLoading(false);
+				})
+				.catch(reply => {
+					setIsLoading(false);
+					console.log("HTTP Error", reply);
+				});
+		},
+		[path]
+	);
+
+	useEffect(() => {
+		memtest(path);
 	}, []);
 
 	const content = !data ? (

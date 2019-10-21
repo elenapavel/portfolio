@@ -1,0 +1,20 @@
+.actions {
+	position: relative;
+	display: flex;
+	z-index: 10;
+}
+
+.action {
+	background: #d8d8d8;
+	border-radius: 50%;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-right: 1rem;
+	font-size: 1.5rem;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	user-select: none;
+}

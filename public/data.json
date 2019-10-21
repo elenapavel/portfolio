@@ -1,0 +1,258 @@
+[
+	{
+		"id": "home",
+		"nav": [
+			{
+				"image": "/home/simple.png",
+				"title": "Gradient",
+				"link": "/gradient"
+			},
+			{
+				"image": "/home/plants.png",
+				"title": "Plants",
+				"link": "/plants"
+			},
+			{
+				"image": "/home/architecture.png",
+				"title": "Architecture",
+				"link": "/architecture"
+			},
+			{
+				"image": "/home/calendar.png",
+				"title": "Calendar",
+				"link": "/calendar"
+			},
+			{
+				"image": "/home/books.png",
+				"title": "Books",
+				"link": "/books"
+			},
+			{
+				"image": "/home/structure.png",
+				"title": "Structure components examples",
+				"link": "/structure"
+			},
+			{
+				"image": "/home/universe-facts.png",
+				"title": "Universe Facts",
+				"link": "/universe-facts"
+			},
+			{
+				"image": "/home/react-wireframe.png",
+				"title": "React Wireframe",
+				"link": "/react-wireframe"
+			}
+		]
+	},
+	{
+		"id": "gradient",
+		"logo": "/gradient/logo/logo.png",
+		"menu": [
+			{
+				"name": "Intro",
+				"id": "intro"
+			},
+			{
+				"name": "Beginning",
+				"id": "beginning"
+			},
+			{
+				"name": "About",
+				"id": "about"
+			},
+			{
+				"name": "Services",
+				"id": "services"
+			},
+			{
+				"name": "Clients",
+				"id": "clients"
+			},
+			{
+				"name": "Demos",
+				"id": "demos"
+			},
+			{
+				"name": "Web",
+				"id": "web"
+			},
+			{
+				"name": "Frontend",
+				"id": "frontend"
+			}
+		],
+		"introSection": {
+			"id": "intro",
+			"heading": "Simple is underrated.",
+			"image": "/gradient/intro-section.jpeg"
+		},
+		"beginningSection": {
+			"id": "beginning",
+			"heading": "Let's start at the beginning.",
+			"image": "/gradient/beginning-section.jpeg",
+			"description": "Every project is unique, but they all start with one thing in common. We want to know everything: where you started. Where you want to go next. What you value. Who your customers are and why they care about you. The only way to solve a problem is to understand it from every angle. Luckily, we’ve got a proven process to quench our insatiable curiosity."
+		},
+		"aboutSection": {
+			"id": "about",
+			"heading": "We create things",
+			"subheading": "About us",
+			"description": "We've come to understand that websites are not just about pretty pictures, more traffic, better keywords and higher rankings on Google. Those things are important, sure, but more than anything else, websites need to produce when it comes to the bottom line.",
+			"image": "/gradient/about-section.jpg"
+		},
+		"servicesSection": {
+			"id": "services",
+			"heading": "Services",
+			"items": [
+				{
+					"heading": "Web Development",
+					"subheading": "Utilising the latest technologies and trends we create websites better than your competitors.",
+					"icon": "/gradient/icons/web-development-service.svg"
+				},
+				{
+					"heading": "Craft CMS",
+					"subheading": "Craft CMS is our main choice of content management system (CMS), that puts you in control of your content & layout, being a better alternative to WordPress.",
+					"icon": "/gradient/icons/craft-service.png"
+				},
+				{
+					"heading": "WordPress CMS",
+					"subheading": "Currently, WordPress is one of the most popular Content Management Systems because it’s easy to set up and it has a user-friendly approach.",
+					"icon": "/gradient/icons/wordpress-service.svg"
+				}
+			]
+		},
+		"clientsSection": {
+			"id": "clients",
+			"heading": "Clients",
+			"image": "/gradient/clients-section.jpeg",
+			"description": "No challenge too big. No detail too small. Big picture vision meets serious detail-sweating at every point of a project."
+		},
+		"portfolioSection": {
+			"id": "demos",
+			"heading": "Demos",
+			"image": "",
+			"items": [
+				{
+					"image": "/gradient/demos/plants.png",
+					"heading": "Plants",
+					"link": "/plants"
+				},
+				{
+					"image": "/gradient/demos/architecture.png",
+					"heading": "Architecture",
+					"link": "/architecture"
+				},
+				{
+					"image": "/gradient/demos/calendar.png",
+					"heading": "Calendar",
+					"link": "/calendar"
+				},
+				{
+					"image": "/gradient/demos/books.png",
+					"heading": "Books",
+					"link": "/books"
+				},
+				{
+					"image": "/gradient/demos/structure.png",
+					"heading": "Structure components examples",
+					"link": "/structure"
+				},
+				{
+					"image": "/gradient/demos/universe-facts.png",
+					"heading": "Universe facts",
+					"link": "/universe-facts"
+				},
+				{
+					"image": "/gradient/demos/react-wiidame.png",
+					"heading": "React Wiidame",
+					"link": "/react-wiidame"
+				}
+			]
+		},
+		"webSection": {
+			"id": "web",
+			"heading": "Web development",
+			"image": "/gradient/web-section.jpeg",
+			"description": "The endless possibilities of the web is something we adopt continuously. Through a rock-solid stack of technology we provide our clients with fast, scalable products, built for the digital future."
+		},
+		"frontendSection": {
+			"id": "frontend",
+			"heading": "Frontend development",
+			"image": "/gradient/frontend-section.jpeg",
+			"description": "Before launching a page you need to translate its design into web technologies. Basically, starting from an image, you have to develop specific source code, the language that web browsers use and frontend developers understand. No matter how good the design is, a poorly implemented code will cancel the initial advantages. We have the know-how needed to properly develop web projects."
+		},
+		"contactSection": {
+			"heading": "Contact us",
+			"description": "We debrief all of your wishes and get back to you with a complete and thought out proposal. Once there's common approval on the proposal we will send you a quotation and provide a scrum schedule that keeps the project manageable."
+		}
+	},
+	{
+		"id": "plants",
+		"logo": "/plants/logo.png",
+		"sections": [
+			{
+				"label": "Nature's edition",
+				"plants": [
+					{
+						"scientificName": "Ravenea Rivularis",
+						"commonName": "Majesty Palm",
+						"content": "While often marketed as a \"plant\" in a pot, in its natural state, it grows to 98 feet tall. Despite its fragility as a species in the wild, it has become a very popular houseplant due to its beautiful leaves and slow-growing nature.",
+						"category": "Palms",
+						"species": "20 species",
+						"image": "/plants/ravenea-rivularis.jpg"
+					},
+					{
+						"scientificName": "Chamaedorea elegans",
+						"commonName": "Parlour Palm",
+						"content": "It is one of several species with leaves that are harvested as xate. It is a versatile and almost no-maintenance plant that is able to grow in every indoor and outdoor condition possible with little help and care.",
+						"category": "Palms",
+						"species": "107 species",
+						"image": "/plants/chamaedorea-elegans.jpg"
+					},
+					{
+						"scientificName": "Howea forsteriana",
+						"commonName": "Kentia Palm",
+						"content": "The palm is an elegant plant, and is popular for growing indoors, requiring little light. The palm received the name \"forsteriana\" after the naturalist father and son duo who first encountered it during Captain Cook's second voyage to the Pacific, Johann Reinhold Forster and Georg Forster.",
+						"category": "Palms",
+						"species": "2 species",
+						"image": "/plants/howea-forsteriana.jpg"
+					},
+					{
+						"scientificName": "Ficus Elastica",
+						"commonName": "Rubber Plant",
+						"content": "Ficus elastica is grown around the world as an ornamental plant, outside in frost-free climates from the tropical to the Mediterranean and inside in colder climates as a houseplant.",
+						"category": "Ficus",
+						"species": "850 species",
+						"image": "/plants/ficus-elastica.jpg"
+					},
+					{
+						"scientificName": "Myriophyllum simulans",
+						"commonName": "Amphibious Water-milfoil",
+						"content": "In its submerged form it has light green, densely leaved stems with very finely pinnate leaves. This fast-growing stem plant needs good lighting and thrives well at temperatures between 20 and 28 °C.",
+						"category": "Aquatic Plants",
+						"species": "69 species",
+						"image": "/plants/myriophyllum-simulans.jpg"
+					},
+					{
+						"scientificName": "Tillandsia Caput Medusae",
+						"commonName": "Octopus Plant",
+						"content": "The thick, channeled, tapering and twisting leaves are up to 25 cm (9.8 in) long and are covered in fine gray hairs. The rosette of leaves arise from an inflated pseudobulb. In a greenhouse, the plants can bloom from spring to early summer. The red inflorescences are usually unbranched or digitate.",
+						"category": "Tillandsia",
+						"species": "650 species",
+						"image": "/plants/tillandsiacaputmedusae.jpg"
+					}
+				]
+			}
+		],
+		"socialMedia": [
+			{
+				"instagram": "https://instagram.com"
+			},
+			{
+				"facebook": "https://facebook.com"
+			},
+			{
+				"twitter": "https://twitter.com"
+			}
+		]
+	}
+]
