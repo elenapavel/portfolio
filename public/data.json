@@ -321,5 +321,35 @@
 				}
 			}
 		]
+	},
+	{
+		"id": "calendar",
+		"specialDates": [
+			{
+				"type": "holiday",
+				"date": "2019-10-21",
+				"name": "holiday 1"
+			},
+			{
+				"type": "holiday",
+				"date": "2019-10-21",
+				"name": "holiday 2"
+			},
+			{
+				"type": "event",
+				"date": "2019-10-29",
+				"name": "event 1"
+			},
+			{
+				"type": "event",
+				"date": "2019-10-21",
+				"name": "event 2"
+			},
+			{
+				"type": "reminder",
+				"date": "2019-10-21",
+				"name": "reminder 1"
+			}
+		]
 	}
 ]
