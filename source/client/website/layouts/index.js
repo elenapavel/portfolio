@@ -7,6 +7,7 @@ const Gradient = loadable(() => import("./Gradient"));
 const Plants = loadable(() => import("./Plants"));
 const Architecture = loadable(() => import("./Architecture"));
 const Calendar = loadable(() => import("./Calendar"));
+// const Books = loadable(() => import("./Books"));
 
 export default {
 	"/": Home,
@@ -14,4 +15,5 @@ export default {
 	"/plants": Plants,
 	"/architecture": Architecture,
 	"/calendar": Calendar,
+	// "/books": Books,
 };

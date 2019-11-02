@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import format from "date-fns/format";
-import getYear from "date-fns/get_year";
-import addMonths from "date-fns/add_months";
-import subMonths from "date-fns/sub_months";
-import addYears from "date-fns/add_years";
-import subYears from "date-fns/sub_years";
+import {
+	format,
+	getYear,
+	addMonths,
+	subMonths,
+	addYears,
+	subYears,
+} from "date-fns";
 import getMonthViewByDay from "./getMonthViewByDay.js";
 import Header from "./Header";
 import WeekDays from "./WeekDays";
@@ -13,9 +15,11 @@ import Day from "./Day";
 import $, { css } from "./style.css";
 
 export default ({ onRender, view, onChange, onChangeView, currentDate }) => {
-	const [date, setDate] = useState(String(currentDate || Date()));
-	const [inViewDate, setInViewDate] = useState(String(currentDate || Date()));
-	const [year, setYear] = useState(getYear(currentDate || Date()));
+	const [date, setDate] = useState(new Date(currentDate) || Date());
+	const [inViewDate, setInViewDate] = useState(
+		new Date(currentDate) || Date()
+	);
+	const [year, setYear] = useState(getYear(currentDate) || Date());
 
 	const onSelect = selected => {
 		setDate(selected);

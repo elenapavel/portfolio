@@ -1,20 +1,23 @@
-import getStartOfMonth from "date-fns/start_of_month";
-import getStartOfWeek from "date-fns/start_of_week";
-import getMonth from "date-fns/get_month";
-import addDays from "date-fns/add_days";
-import isSameMonth from "date-fns/is_same_month";
-import isSameDay from "date-fns/is_same_day";
+import {
+	startOfMonth,
+	startOfWeek,
+	getMonth,
+	addDays,
+	isSameMonth,
+	isSameDay,
+} from "date-fns";
 
 export default function getMonthViewByDay(day, selected) {
 	const items = [];
 
 	const today = new Date();
 	const month = getMonth(day);
-	const startOfMonth = getStartOfMonth(day);
-	const startOfWeek = getStartOfWeek(startOfMonth, { weekStartsOn: 1 });
+	console.log(day);
+	const getStartOfMonth = startOfMonth(day);
+	const getStartOfWeek = startOfWeek(getStartOfMonth, { weekStartsOn: 1 });
 
 	for (let i = 0; i < 42; ++i) {
-		const date = addDays(startOfWeek, i);
+		const date = addDays(getStartOfWeek, i);
 
 		let type = "default";
 

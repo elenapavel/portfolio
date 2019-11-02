@@ -11,7 +11,7 @@
 		"nore/*"
 	],
 	"dependencies": {
-		"date-fns": "^1.29.0",
+		"date-fns": "2.6.0",
 		"@nore/css-defaults": "^1.0.0",
 		"@nore/editor": "^1.0.0",
 		"@typeform/api-client": "^1.5.0",

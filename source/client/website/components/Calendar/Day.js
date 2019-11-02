@@ -1,6 +1,5 @@
 import React from "react";
-import getDate from "date-fns/get_date";
-import isWeekend from "date-fns/is_weekend";
+import { getDate, isWeekend } from "date-fns";
 import $, { css } from "./style.css";
 
 export default ({ date, type, onSelect, onRender }) => {

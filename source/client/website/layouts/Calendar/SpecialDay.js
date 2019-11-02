@@ -1,6 +1,6 @@
 import React from "react";
 
-import isSameDay from "date-fns/is_same_day";
+import { isSameDay } from "date-fns";
 import $, { css } from "./style.css";
 
 export default ({ date, specialDates }) => (
