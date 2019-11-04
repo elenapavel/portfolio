@@ -1,0 +1,14 @@
+.container {
+	position: relative;
+	margin: 3rem 2rem;
+}
+
+.label {
+	font-size: 1rem;
+	font-weight: 600;
+	font-family: "Cabin", sans-serif;
+	line-height: 1.4;
+	color: #595769;
+	letter-spacing: 0.3px;
+	margin-bottom: 2rem;
+}

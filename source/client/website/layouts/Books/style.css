@@ -1,0 +1,15 @@
+.application {
+	height: 100vh;
+	overflow-y: auto;
+	background: #e6e6ec;
+}
+
+.container {
+	position: relative;
+	max-width: 32.5rem;
+	margin: 5rem auto;
+	border-radius: 0.5rem;
+	overflow: hidden;
+	box-shadow: 0 0 2.5rem #dbdbe2;
+	background: #fff;
+}
