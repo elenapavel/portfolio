@@ -10,7 +10,7 @@ export default () => {
 	const { categories, selectedCategoryIndex } = state;
 
 	return (
-		<div className={$.container}>
+		<b className={$.container}>
 			{categories.map((category, key) => {
 				const categoryBoxShadow =
 					selectedCategoryIndex == key
@@ -22,7 +22,7 @@ export default () => {
 				const iconClasses = `${$.icon} ${category.icon}`;
 
 				return (
-					<div
+					<b
 						key={key}
 						className={$.category}
 						style={{
@@ -38,11 +38,11 @@ export default () => {
 							})
 						}
 					>
-						<div className={iconClasses} />
-						<div className={$.label}>{category.label}</div>
-					</div>
+						<b className={iconClasses} />
+						<b className={$.label}>{category.label}</b>
+					</b>
 				);
 			})}
-		</div>
+		</b>
 	);
 };

@@ -18,9 +18,9 @@ export default ({ label, index, total, lastIndex }) => {
 	});
 
 	return (
-		<div className={$.container}>
-			<div className={$.label}>{label}</div>
-			<div className={$.progress}>
+		<b className={$.container}>
+			<b className={$.label}>{label}</b>
+			<b className={$.progress}>
 				{transitionIndex.map(({ props }, key) => (
 					<animated.div
 						key={(index, lastIndex)}
@@ -33,8 +33,8 @@ export default ({ label, index, total, lastIndex }) => {
 						{formattedIndex}
 					</animated.div>
 				))}
-				<div className={$.total}>{formattedTotal}</div>
-			</div>
-		</div>
+				<b className={$.total}>{formattedTotal}</b>
+			</b>
+		</b>
 	);
 };

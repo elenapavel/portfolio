@@ -5,8 +5,8 @@ import BookCard from "./BookCard";
 import $, { css } from "./style.css";
 
 export default ({ items, view, label }) => (
-	<div className={$.container}>
-		{items.length == 0 ? null : <div className={$.label}>{label}</div>}
+	<b className={$.container}>
+		{items.length == 0 ? null : <b className={$.label}>{label}</b>}
 		{items.length == 0
 			? null
 			: items.map((item, key) => (
@@ -21,5 +21,5 @@ export default ({ items, view, label }) => (
 						index={key}
 					/>
 			  ))}
-	</div>
+	</b>
 );

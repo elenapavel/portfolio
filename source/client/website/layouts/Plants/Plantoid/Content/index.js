@@ -23,9 +23,9 @@ export default ({
 	currentIndex,
 	total,
 }) => (
-	<div className={$.container}>
-		<div className={$.to_top}>
-			<div className={$.to_left}>
+	<b className={$.container}>
+		<b className={$.to_top}>
+			<b className={$.to_left}>
 				<PlantImage
 					title={name}
 					subtitle={category}
@@ -36,8 +36,8 @@ export default ({
 					lastImage={lastImage}
 					lastIndex={lastIndex}
 				/>
-			</div>
-			<div className={$.to_right}>
+			</b>
+			<b className={$.to_right}>
 				<PlantDetails
 					title={title}
 					content={content}
@@ -46,20 +46,20 @@ export default ({
 					lastContent={lastContent}
 					lastLabel={lastSpecies}
 				/>
-			</div>
-		</div>
-		<div className={$.to_bottom}>
-			<div className={$.to_left}>
+			</b>
+		</b>
+		<b className={$.to_bottom}>
+			<b className={$.to_left}>
 				<Actions />
-			</div>
-			<div className={$.to_right}>
+			</b>
+			<b className={$.to_right}>
 				<Progress
 					label={label}
 					lastIndex={lastIndex}
 					index={currentIndex}
 					total={total}
 				/>
-			</div>
-		</div>
-	</div>
+			</b>
+		</b>
+	</b>
 );

@@ -24,7 +24,7 @@ export default ({ isOpen, items, selectedIndex, onSelect }) => {
 	});
 
 	return (
-		<div
+		<b
 			className={$.container}
 			style={{
 				transform: `${
@@ -53,6 +53,6 @@ export default ({ isOpen, items, selectedIndex, onSelect }) => {
 					/>
 				</animated.div>
 			))}
-		</div>
+		</b>
 	);
 };

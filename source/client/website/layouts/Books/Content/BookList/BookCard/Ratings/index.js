@@ -12,17 +12,18 @@ export default ({ isExpanded, score, color }) => {
 
 	for (let i = 0; i < fullStarNumber; i++) {
 		stars.push(
-			<div
+			<b
 				key={i}
 				className={`${$.star} ${$.checked} ion-ios-star`}
 				data-color={color}
 			/>
 		);
 	}
+
 	if (5 - fullStarNumber > 0) {
 		if (partialStar != 0) {
 			stars.push(
-				<div
+				<b
 					key={fullStarNumber}
 					className={`${$.star} ${$.checked} ion-ios-star-half`}
 					data-color={color}
@@ -30,23 +31,27 @@ export default ({ isExpanded, score, color }) => {
 			);
 		}
 	}
+
 	partialStar = partialStar != 0 ? 1 : 0;
+
 	for (let i = 0; i < 5 - fullStarNumber - partialStar; i++) {
 		stars.push(
-			<div
+			<b
 				key={fullStarNumber + i + 1}
 				className={`${$.star} ion-ios-star-outline`}
 				data-color={color}
 			/>
 		);
 	}
+
 	const ratingsClasses = isExpanded
 		? `${$.container} ${$.is_expanded}`
 		: $.container;
+
 	return (
-		<div className={ratingsClasses}>
-			{isExpanded ? <div className={$.stars}>{stars}</div> : null}
+		<b className={ratingsClasses}>
+			{isExpanded ? <b className={$.stars}>{stars}</b> : null}
 			{score}
-		</div>
+		</b>
 	);
 };

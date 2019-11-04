@@ -9,14 +9,14 @@ export default ({ items, activeIndex }) => {
 	const state = useContext(BooksState);
 
 	return (
-		<div className={$.container}>
+		<b className={$.container}>
 			{items.map((item, key) => {
 				const tabClasses = `${$.tab} ${
 					activeIndex == key ? $.active : ""
 				}`;
 				return (
-					<div key={key}>
-						<div
+					<b key={key}>
+						<b
 							className={tabClasses}
 							onClick={() => {
 								dispatch({
@@ -29,11 +29,11 @@ export default ({ items, activeIndex }) => {
 								});
 							}}
 						>
-							<div className={$.tab_label}>{item.label}</div>
-						</div>
-					</div>
+							<b className={$.tab_label}>{item.label}</b>
+						</b>
+					</b>
 				);
 			})}
-		</div>
+		</b>
 	);
 };

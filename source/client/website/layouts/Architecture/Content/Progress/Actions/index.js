@@ -13,9 +13,9 @@ export default () => {
 	const { selectedArticleIndex, articles } = state;
 
 	return (
-		<div className={$.actions_container}>
+		<b className={$.actions_container}>
 			{selectedArticleIndex == 0 ? null : (
-				<div
+				<b
 					className={$.action}
 					onClick={() =>
 						dispatch({
@@ -25,11 +25,11 @@ export default () => {
 					}
 				>
 					Previous
-				</div>
+				</b>
 			)}
 
 			{selectedArticleIndex == articles.length - 1 ? null : (
-				<div
+				<b
 					className={$.action}
 					onClick={() =>
 						dispatch({
@@ -39,8 +39,8 @@ export default () => {
 					}
 				>
 					Next
-				</div>
+				</b>
 			)}
-		</div>
+		</b>
 	);
 };

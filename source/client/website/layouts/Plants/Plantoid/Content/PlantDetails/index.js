@@ -40,8 +40,8 @@ export default ({
 	});
 
 	return (
-		<div className={$.container}>
-			<div className={$.to_top}>
+		<b className={$.container}>
+			<b className={$.to_top}>
 				{transitionTitle.map(({ props }, key) => (
 					<animated.div
 						key={key}
@@ -51,12 +51,12 @@ export default ({
 						{title}
 					</animated.div>
 				))}
-			</div>
-			<div className={$.to_bottom}>
-				<div className={$.details}>
-					<div className={$.capitalize} style={springContent}>
+			</b>
+			<b className={$.to_bottom}>
+				<b className={$.details}>
+					<b className={$.capitalize} style={springContent}>
 						{content}
-					</div>
+					</b>
 
 					{transitionLabel.map(({ props }, key) => (
 						<animated.div
@@ -67,8 +67,8 @@ export default ({
 							{label}
 						</animated.div>
 					))}
-				</div>
-			</div>
-		</div>
+				</b>
+			</b>
+		</b>
 	);
 };

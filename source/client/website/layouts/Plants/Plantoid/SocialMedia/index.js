@@ -2,8 +2,8 @@ import React from "react";
 import $, { css } from "./style.css";
 
 export default ({ items }) => (
-	<div className={$.container}>
-		<div className={$.to_bottom}>
+	<b className={$.container}>
+		<b className={$.to_bottom}>
 			{items.map((item, key) => {
 				const item_key = Object.keys(item)[0];
 				const item_value = Object.values(item)[0];
@@ -11,13 +11,13 @@ export default ({ items }) => (
 				const itemClasses = $.item + " " + $[item_key];
 
 				return (
-					<div key={key} className={itemClasses}>
+					<b key={key} className={itemClasses}>
 						<a href={item_value}>
 							<img src={icon_path} />
 						</a>
-					</div>
+					</b>
 				);
 			})}
-		</div>
-	</div>
+		</b>
+	</b>
 );

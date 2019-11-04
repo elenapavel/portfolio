@@ -36,26 +36,26 @@ export default ({
 	});
 
 	return (
-		<div className={$.content_container}>
+		<b className={$.content_container}>
 			<animated.div className={$.content_title} style={springTitle}>
 				{title}
 			</animated.div>
 
 			<animated.div className={$.details_section} style={springDetails}>
-				<div className={$.category}>{category}</div>
-				<div className={$.date}>{date}</div>
+				<b className={$.category}>{category}</b>
+				<b className={$.date}>{date}</b>
 			</animated.div>
 
 			<animated.div className={$.content} style={springContent}>
 				{content.map((paragraph, key) => (
-					<div key={key} className={$.paragraph}>
+					<b key={key} className={$.paragraph}>
 						{paragraph}
-					</div>
+					</b>
 				))}
 				<a className={$.more} href={more}>
 					Read more
 				</a>
 			</animated.div>
-		</div>
+		</b>
 	);
 };

@@ -12,8 +12,8 @@ export default () => {
 	const { selectedPlantIndex, isMenuOpened } = state;
 
 	return (
-		<div className={$.actions}>
-			<div
+		<b className={$.actions}>
+			<b
 				className={actionBack}
 				onClick={() => {
 					!isMenuOpened
@@ -24,7 +24,7 @@ export default () => {
 						: null;
 				}}
 			/>
-			<div
+			<b
 				className={actionNext}
 				onClick={() => {
 					!isMenuOpened
@@ -35,6 +35,6 @@ export default () => {
 						: null;
 				}}
 			/>
-		</div>
+		</b>
 	);
 };

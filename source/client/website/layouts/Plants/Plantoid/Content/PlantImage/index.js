@@ -40,7 +40,7 @@ export default ({
 	});
 
 	return (
-		<div className={$.container}>
+		<b className={$.container}>
 			{transitionImage.map(({ props }, key) => (
 				<animated.div
 					key={key}
@@ -78,6 +78,6 @@ export default ({
 					{formattedIndex}
 				</animated.div>
 			))}
-		</div>
+		</b>
 	);
 };

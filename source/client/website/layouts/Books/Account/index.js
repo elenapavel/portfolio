@@ -2,23 +2,19 @@ import React from "react";
 
 import $, { css } from "./style.css";
 
-export default ({ items, user }) => {
-	return (
-		<div className={$.container}>
-			<div className={$.details}>
-				<div className={$.to_left}>
-					<div className={$.avatar}>
-						<img src={user.avatar} />
-					</div>
-				</div>
-				<div className={$.to_right}>
-					<div className={$.name}>{user.name}</div>
-					<div className={$.email}>{user.email}</div>
-					<div className={$.orders_number}>
-						Taken books: {items.length}
-					</div>
-				</div>
-			</div>
-		</div>
-	);
-};
+export default ({ items, user }) => (
+	<b className={$.container}>
+		<b className={$.details}>
+			<b className={$.to_left}>
+				<b className={$.avatar}>
+					<img src={user.avatar} />
+				</b>
+			</b>
+			<b className={$.to_right}>
+				<b className={$.name}>{user.name}</b>
+				<b className={$.email}>{user.email}</b>
+				<b className={$.orders_number}>Taken books: {items.length}</b>
+			</b>
+		</b>
+	</b>
+);
