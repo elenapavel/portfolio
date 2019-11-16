@@ -1,0 +1,77 @@
+.section {
+	position: relative;
+}
+.content {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	max-width: 80rem;
+	margin: auto;
+}
+.preview {
+	position: relative;
+	padding-top: 56.25%;
+	width: 100%;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.card {
+	z-index: 10;
+	background: #fff;
+	height: 100%;
+	padding: 0 2em;
+	max-width: 30rem;
+	margin: 2em auto;
+	flex-basis: 100%;
+	transition-property: flex-basis, margin, max-width;
+}
+.heading {
+	composes: heading from "~client/website/layouts/Structure/style.css";
+	padding: 0;
+	width: 100%;
+	text-align: left;
+}
+.description {
+	margin-top: 1em;
+}
+.register_action {
+	margin-top: 1em;
+}
+@media (min-width: 48rem) {
+	.description {
+		margin-top: 2em;
+	}
+	.register_action {
+		margin-top: 2em;
+	}
+	.card {
+		margin: 4em auto;
+	}
+}
+@media (min-width: 64rem) {
+	.content {
+		justify-content: flex-end;
+		padding: 5em 2em;
+	}
+	.preview {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		height: 100%;
+		padding-top: 0;
+	}
+	.card {
+		flex-basis: 50%;
+		padding: 4em;
+		margin: 0;
+		max-width: none;
+	}
+}

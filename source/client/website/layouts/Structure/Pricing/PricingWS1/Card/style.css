@@ -1,0 +1,117 @@
+.card_collapsed {
+	position: relative;
+	padding: 2em;
+	transition-property: margin, padding, border-color;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0.3s;
+	background-color: #fff;
+	border-radius: 0.5em;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+.card_expanded {
+	composes: card_collapsed;
+	border-color: var(--background_color_accent);
+}
+.label {
+	margin-top: 0;
+	text-align: center;
+	font-weight: bold;
+	transition-property: font-size, margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.icon {
+	font-size: 2rem;
+	border: 2px solid var(--text_color_primary);
+	display: flex;
+	align-items: center;
+	border-radius: 50%;
+	height: 3rem;
+	justify-content: center;
+	flex-direction: row;
+	width: 3rem;
+	margin: 2rem auto 0;
+}
+.icon:before {
+	content: "\f3ae";
+	display: inline-block;
+	font-family: "Ionicons";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-rendering: auto;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.description {
+	margin-top: 2rem;
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	text-align: center;
+}
+.price {
+	margin-top: 1rem;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.action {
+	text-align: center;
+	opacity: 0;
+	margin-top: 0;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	transition-property: opacity, visibility, height, margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0s;
+}
+.card_expanded .action {
+	opacity: 1;
+	visibility: visible;
+	margin-top: 2em;
+	height: 100%;
+	transition-delay: 0.3s;
+}
+@media (min-width: 48rem) {
+	.card_expanded {
+		padding: 3em 2em 8em;
+		margin: -1em -2px -6em;
+		transition-delay: 0s;
+	}
+	.label {
+		margin-top: 2rem;
+		font-size: 1.2em;
+	}
+	.description {
+		font-size: 1.2em;
+	}
+	.price {
+		font-size: 1.5em;
+	}
+	.action {
+		position: absolute;
+		bottom: 2em;
+		left: 2em;
+		right: 2em;
+		height: auto;
+	}
+	.card_expanded .action {
+		height: auto;
+	}
+}
+@media (min-width: 64rem) {
+	.price {
+		font-size: 1.8em;
+	}
+}

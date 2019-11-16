@@ -43,26 +43,25 @@ export default ({
 		<b className={$.container}>
 			<b className={$.to_top}>
 				{transitionTitle.map(({ props }, key) => (
-					<animated.div
-						key={key}
-						className={$.title}
-						style={{ ...props }}
-					>
+					<animated.div key={key} className={$.title} style={props}>
 						{title}
 					</animated.div>
 				))}
 			</b>
 			<b className={$.to_bottom}>
 				<b className={$.details}>
-					<b className={$.capitalize} style={springContent}>
+					<animated.div
+						className={$.capitalize}
+						style={springContent}
+					>
 						{content}
-					</b>
+					</animated.div>
 
 					{transitionLabel.map(({ props }, key) => (
 						<animated.div
 							key={key}
 							className={$.label}
-							style={{ ...props }}
+							style={props}
 						>
 							{label}
 						</animated.div>

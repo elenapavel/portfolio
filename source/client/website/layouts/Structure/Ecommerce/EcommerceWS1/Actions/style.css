@@ -1,0 +1,30 @@
+.items {
+	position: relative;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.item {
+	cursor: pointer;
+	border-radius: 3em;
+	padding: 0.5em 1em;
+	border: 2px solid var(--background_color_accent);
+	transition-property: border-color, padding;
+}
+.item:not(:first-child) {
+	margin-left: 1em;
+	transition: margin 0.3s ease-in-out;
+}
+.item_active {
+	composes: item;
+	border-color: var(--text_color_primary);
+}
+@media (min-width: 48rem) {
+	.item:not(:first-child) {
+		margin-left: 2em;
+	}
+	.item {
+		padding: 0.5em 2em;
+	}
+}

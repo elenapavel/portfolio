@@ -1,0 +1,99 @@
+.article {
+	padding: 2em;
+	transition-property: flex-basis, margin, padding, text-align, align-items;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	border: 1px solid var(--text_color_primary);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+.article_featured {
+	composes: article;
+	align-items: left;
+	text-align: left;
+}
+.date {
+}
+.heading {
+	composes: subheading from "~client/website/layouts/Structure/style.css";
+	margin-top: 1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	word-break: break-word;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	max-height: 3.36em; /* lineHeight * fontSize *rows */
+}
+.description {
+	font-size: 1em;
+	transition: font-size 0.3s ease-in-out;
+	margin-top: 1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	max-height: 2.8em;
+}
+.image {
+	transition-property: width, height, padding;
+	width: 100%;
+	padding-top: 56.25%;
+	height: 0;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.read_more_action {
+	margin-top: 1rem;
+	font-weight: bold;
+}
+.read_more_icon {
+	padding-left: 0.5em;
+	vertical-align: middle;
+}
+.read_more_icon:before {
+	content: "\f3d3";
+	display: inline-block;
+	font-family: "Ionicons";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-rendering: auto;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+@media (min-width: 32.5rem) {
+	.article {
+		padding: 1em 2em;
+	}
+	.article_featured {
+		align-items: center;
+		text-align: center;
+	}
+	.image {
+		width: 16em;
+		height: 10em;
+		padding: 0;
+	}
+}
+@media (min-width: 48rem) {
+	.description {
+		font-size: 0.8em;
+	}
+	.heading {
+		max-height: 4.2em;
+	}
+}
+@media (min-width: 64rem) {
+	.heading {
+		max-height: 5.04em;
+	}
+}

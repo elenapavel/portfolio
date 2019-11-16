@@ -1,0 +1,76 @@
+.section {
+	position: relative;
+	padding: 2em 0;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.heading {
+	composes: heading from "~client/website/layouts/Structure/style.css";
+}
+.plans {
+	max-width: 80rem;
+	margin: auto;
+	padding: 2em;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.item {
+	flex-basis: 100%;
+	max-width: 30rem;
+	transition-property: flex-basis, margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	margin: 2em auto 0;
+	border: 1px solid var(--background_color_accent);
+	border-radius: 0.5em;
+}
+.item:first-child {
+	margin-top: 0;
+}
+@media (min-width: 48rem) {
+	.section {
+		padding: 4em 0;
+	}
+	.plans {
+		padding: 2em 4em;
+	}
+	.item {
+		flex-basis: calc(50% - 1em);
+		max-width: none;
+		margin: 2em 0 0;
+	}
+	.item:nth-child(2) {
+		margin-top: 0;
+	}
+}
+@media (min-width: 64rem) {
+	.section {
+		padding: 5em 0;
+	}
+	.plans {
+		padding: 3em 5em;
+	}
+	.item {
+		flex-basis: calc(100% / 3);
+	}
+	.item:nth-child(3) {
+		margin-top: 0;
+	}
+	.item:nth-child(3n + 1) {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	.item:nth-child(3n + 2) {
+		border-radius: 0;
+	}
+	.item:nth-child(3n) {
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+}

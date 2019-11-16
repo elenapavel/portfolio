@@ -1,0 +1,110 @@
+.platform_promo {
+	position: relative;
+}
+.header {
+	position: relative;
+	background: var(--background_color_accent);
+}
+.promo_section {
+	background: var(--background_color_accent);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	transition: padding 0.3s ease-in-out;
+	justify-content: center;
+}
+.to_left {
+	flex-basis: 100%;
+	padding: 2em;
+	align-self: center;
+	transition-property: flex-basis, padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.to_right {
+	flex-basis: 100%;
+	margin-top: 2em;
+	transition-property: flex-basis, margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.heading {
+	composes: heading from "~client/website/layouts/Structure/style.css";
+	text-align: left;
+	padding: 0;
+	width: 100%;
+}
+.preview {
+	padding-top: 75%;
+	width: 100%;
+	height: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.description {
+	margin-top: 1em;
+	transition-property: margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.register_action {
+	margin-top: 1em;
+	transition-property: margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+@media (min-width: 48rem) {
+	.promo_section {
+		padding: 0;
+	}
+	.heading {
+		font-size: 2em;
+	}
+	.to_left {
+		flex-basis: 38em;
+		padding: 4em;
+	}
+	.to_right {
+		flex-basis: 100%;
+		margin-top: 0;
+	}
+	.description {
+		margin-top: 2em;
+	}
+	.register_action {
+		margin-top: 2em;
+	}
+}
+@media (min-width: 64rem) {
+	.promo_section {
+		padding: 0;
+		justify-content: space-between;
+		min-height: 50rem;
+	}
+	.heading {
+		font-size: 3em;
+	}
+	.to_left {
+		padding: 4em 0 4em 4em;
+		flex-basis: 34em;
+	}
+	.to_right {
+		flex-basis: calc(100% - 38em);
+		margin-top: 0;
+	}
+	.preview {
+		height: 100%;
+		padding-top: 0;
+	}
+}
+@media (min-width: 80rem) {
+	.to_left {
+		padding: 4em 0 4em 15em;
+		flex-basis: 45em;
+	}
+	.to_right {
+		flex-basis: calc(100% - 49em);
+		margin-top: 0;
+	}
+}

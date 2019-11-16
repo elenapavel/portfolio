@@ -11,11 +11,9 @@ export default ({ logo, quote }) => {
 	});
 
 	const springQuote = useSpring({
-		config: {
-			delay: 100,
-			duration: 400,
-			...config.slow,
-		},
+		config: config.slow,
+		delay: 100,
+		duration: 400,
 		from: {
 			opacity: 0,
 			transform: "translateX(-100%)",

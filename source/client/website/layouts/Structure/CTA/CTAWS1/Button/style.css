@@ -1,0 +1,10 @@
+.register {
+	font-family: var(--font_accent);
+	position: relative;
+	background: var(--text_color_accent);
+	padding: 1em 2em;
+	color: var(--background_color);
+	border-radius: 0.5em;
+	cursor: pointer;
+	text-align: center;
+}

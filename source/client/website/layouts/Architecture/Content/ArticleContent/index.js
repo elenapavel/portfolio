@@ -15,21 +15,21 @@ export default ({
 	lastCategory,
 }) => {
 	const springTitle = useSpring({
-		config: { delay: 150, duration: 200, ...config.slow },
+		config: config.slow,
 		from: { opacity: 0, transform: "translateY(3rem)" },
 		to: { opacity: 1, transform: "translateY(0)" },
 		reset: true,
 	});
 
 	const springDetails = useSpring({
-		config: { delay: 250, duration: 150, ...config.slow },
+		config: config.slow,
 		from: { opacity: 0, transform: "translateY(1rem)" },
 		to: { opacity: 1, transform: "translateY(0)" },
 		reset: true,
 	});
 
 	const springContent = useSpring({
-		config: { delay: 300, duration: 150, ...config.slow },
+		config: config.slow,
 		from: { opacity: 0 },
 		to: { opacity: 1 },
 		reset: true,

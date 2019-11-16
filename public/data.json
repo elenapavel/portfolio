@@ -503,5 +503,1945 @@
 			}
 		],
 		"view": "library"
+	},
+	{
+		"id": "structure",
+		"header": {
+			"headerWS1": {
+				"logo": "/structure/dropbox_logo.png",
+				"items": [
+					{
+						"link": "/",
+						"name": "Shop"
+					},
+					{
+						"link": "/",
+						"name": "About"
+					},
+					{
+						"link": "/",
+						"name": "Blog"
+					},
+					{
+						"link": "/",
+						"name": "Contact"
+					}
+				],
+				"accountMenuItems": [
+					{
+						"link": "/",
+						"name": "Account"
+					},
+					{
+						"link": "/",
+						"name": "Settings"
+					},
+					{
+						"link": "/",
+						"name": "Orders"
+					}
+				],
+				"user": {
+					"avatar": "/structure/user.svg",
+					"name": "John"
+				}
+			},
+			"platformPromoWS1": {
+				"heading": "We’re lucky Mark Zuckerberg is in charge",
+				"description": "Mark Zuckerberg has a job like no other human has ever had in the history of the world.",
+				"socialLoginText": "Sign up with Facebook",
+				"optionText": "or register using form",
+				"fields": [
+					{
+						"type": "text",
+						"placeholder": "Name",
+						"icon": null,
+						"ref": "name"
+					},
+					{
+						"type": "password",
+						"placeholder": "Password",
+						"icon": "ion-ios-eye",
+						"ref": "password"
+					},
+					{
+						"type": null,
+						"placeholder": "Message",
+						"icon": null,
+						"ref": "message"
+					}
+				],
+				"submitActionText": "Sign up",
+				"header": {
+					"logo": "/structure/dropbox_logo.png",
+					"items": [
+						{
+							"link": "#",
+							"name": "About"
+						},
+						{
+							"link": "#",
+							"name": "Team"
+						},
+						{
+							"link": "#",
+							"name": "Blog"
+						},
+						{
+							"link": "#",
+							"name": "Contact"
+						}
+					]
+				}
+			},
+			"platformPromoWS2": {
+				"heading": "The Art of Computer Programming",
+				"description": "Bill Gates once said, “If you think you’re a really good programmer… read Art of Computer Programming… You should definitely send me a résumé if you can read the whole thing.”",
+				"preview": "/structure/art-of-computer-programming.png",
+				"header": {
+					"logo": "/structure/dropbox_logo.png",
+					"items": [
+						{
+							"link": "#",
+							"name": "Menu one"
+						},
+						{
+							"link": "#",
+							"name": "Menu two"
+						},
+						{
+							"link": "#",
+							"name": "Menu three"
+						},
+						{
+							"link": "#",
+							"name": "Menu four"
+						}
+					]
+				}
+			}
+		},
+		"content": {
+			"contentWS1": {
+				"previewImage": "/structure/hearing-thoughts.jpeg",
+				"heading": "A New Device Can Hear Your Thoughts",
+				"description": "“We wanted to capture interactions that are as close to thinking in your head as possible.”"
+			},
+			"contentWS2": {
+				"previewImage": "/structure/facebook-early-days.jpeg",
+				"heading": "Sex, Beer and Coding",
+				"description": "Inside Facebook’s Wild Early Days in Palo Alto.",
+				"readMore": {
+					"text": "Read More",
+					"link": "https://medium.com/@WIRED/sex-beer-and-coding-inside-facebooks-wild-early-days-in-palo-alto-7b447c143d52"
+				}
+			},
+			"contentWS3": {
+				"preview": "structure/delete-facebook.jpeg",
+				"heading": "Yes, You Should Delete Facebook",
+				"description": "Facebook knows so much about you they can make you believe they’re listening to your personal conversations. They have so much data about you they can send you ads that have an uncanny relevance to what is going on in the real world."
+			}
+		},
+		"gallery": {
+			"heading": "Gallery",
+			"items": [
+				{
+					"link": "/structure/gallery-1.jpeg",
+					"type": "default"
+				},
+				{
+					"link": "structure/gallery-2.jpg",
+					"type": "default"
+				},
+				{
+					"link": "structure/gallery-3.jpeg",
+					"type": "wide"
+				},
+				{
+					"link": "structure/gallery-4.jpeg",
+					"type": "default"
+				},
+				{
+					"link": "structure/gallery-5.jpeg",
+					"type": "default"
+				},
+				{
+					"link": "structure/gallery-6.jpeg",
+					"type": "default"
+				},
+				{
+					"link": "structure/gallery-7.jpeg",
+					"type": "default"
+				}
+			]
+		},
+		"features": {
+			"featuresWS1": {
+				"heading": "Being Human in a Post-Human World",
+				"previewImage": "structure/post-human-world.jpeg",
+				"features": [
+					{
+						"heading": "A Bicycle for Our Mind",
+						"description": "Rethinking Our Relationship with Machines"
+					},
+					{
+						"heading": "Jobs for Humans: Rethinking Our Work",
+						"description": "The predicted rate of automation of lower-paying jobs will inevitably force us to think about the role of work in a broader context."
+					},
+					{
+						"heading": "Work of a Future Consultant: an Example",
+						"description": "Let’s use the future job of a management consultant as an example and look at it from three different perspectives: “Thinking”, “acting” and “sensing”."
+					}
+				]
+			},
+			"featuresWS2": {
+				"heading": "Categories",
+				"items": ["Tech", "Culture", "Design"],
+				"content": [
+					[
+						{
+							"heading": "Escaping the Seduction of Your Smartphone",
+							"description": "Phone obsession can wreak havoc on everything from your relationships to your workouts. But is it really possible to dodge your screen’s toxic pull? Carrie Battan investigates."
+						},
+						{
+							"heading": "Google, You Auto-Complete Me",
+							"description": "At what point will Google’s predictive technology grow so powerful that we begin thinking of its personalized recommendations as our own?"
+						},
+						{
+							"heading": "The Walmart Robots are Coming",
+							"description": "Walmart is piloting robots that will be a significant portion of their work-force at an alarming rate."
+						},
+						{
+							"heading": "Facebook Missed the Voice-AI Interface",
+							"description": "Let’s just face it, Facebook missed the boat when it comes to Voice commerce and voice banking. Amazon Alexa and Google Home are useful and the duopoly of the space."
+						},
+						{
+							"heading": "How Smartphones Change Our Relationships",
+							"description": "Smartphones may be impacting our ability to develop deep relationships. As product designers, now is the time to do something about it. “Each friend represents a world in us, a world possibly not born until they arrive, and it is only by this meeting that a new world is born.”"
+						},
+						{
+							"heading": "All Good Gadgets Go to Waste",
+							"description": "All the gadgets I love are falling apart and going to waste. And there’s no way to fix them. “We hope you will experience many years of enjoyment from your new VIZIO HDTV,” portended our television’s user manual. The “hope” was doing a lot of work in that sentence."
+						}
+					],
+					[
+						{
+							"heading": "What Do 90-Somethings Regret Most?",
+							"description": "My preconceptions about older people first began to crumble when one of my congregants, a woman in her 80s, came into my office seeking pastoral care. She had been widowed for several years but the reason for her distress was not the loss of her husband. It was her falling in love with a married man."
+						},
+						{
+							"heading": "A Letter from the Fat Person on Your Flight",
+							"description": "I met your eyes for the first time in the Long Beach airport. Quarters were tight and flights were delayed. Passengers were irritated by closeness, strangers’ skin too near their own. Their faces twisted, then calcified with aggravation. Our flight was oversold, and I was reassigned at the last minute to a middle seat."
+						},
+						{
+							"heading": "The Identity Trap: How to Be Less Wrong",
+							"description": "You may recognize them as names of characters in the famous comic book series Watchmen, but they’re more than that. They’re representations of different moral systems — or more broadly, identity systems — that people use to understand the world around them."
+						},
+						{
+							"heading": "Good Things Happen in Book Stores",
+							"description": "It was in Athens in the 4th Century BC that a man named Zeno walked into a bookshop. He had been a successful merchant, but suffered a terrible shipwreck on a journey out of Phoenicia, losing a priceless cargo of the world’s finest dye. He was 30 years old and facing financial ruin, but this catastrophe stirred his soul to find something new, though he didn’t quite know what."
+						}
+					],
+					[
+						{
+							"heading": "The exact same app in React and Vue.",
+							"description": "Having used Vue at my current workplace, I already had a fairly solid knowledge of how it all worked. However, I was curious to know what the grass was like on the other side of the fence — the grass in this scenario being React."
+						},
+						{
+							"heading": "The Cost Of JavaScript In 2018",
+							"description": "Building interactive sites can involve sending JavaScript to your users. Often, too much of it. Have you been on a mobile page that looked like it had loaded only to tap on a link or tried to scroll and nothing happens?"
+						},
+						{
+							"heading": "When Companies Question the Value of Design",
+							"description": "Designers get asked the value of their work all of the time. They never have a good answer. There are good reasons for this. Often, designers don’t actually add value. They tweak colors and shapes of objects on the screen, or they move controls from one side to the other. They change the hamburger menu to a tossed-salad menu."
+						},
+						{
+							"heading": "How to talk to potential clients",
+							"description": "As an independent designer, I’m meeting with new potential clients on a regular basis. They may be a small business who ask me to visit them so I can get a feel for their company and product (while they get a feel for me). They may be a web dev agency who needs design help, and they want to see how my experience and design processes stack up to their expectations."
+						},
+						{
+							"heading": "UI/UX Articles and Interesting Tidbits of the Week",
+							"description": "“With the help of individualized data and advances in machine learning, technology is becoming capable of adjusting automatically for specific users. One of the most popular models of individualization seen in contemporary applications and websites is the incorporation of personalized recommendations based on user behaviors. These suggestions improve the chances that a user will take action when they visit your site.”"
+						}
+					]
+				]
+			},
+			"featuresWS3": {
+				"heading": "Misused mobile UX patterns",
+				"previewImageSrc": "/structure/smartphone.svg",
+				"items": [
+					{
+						"icon": "ion-ios-checkmark-outline",
+						"heading": "1. Hidden navigation",
+						"description": "At least half million posts have been written about the hamburger menu, mostly by designers, arguing against it. If you missed all, read one or two, but in a nutshell, it’s not about the icon itself but rather about hiding the navigation behind an icon."
+					},
+					{
+						"icon": "ion-ios-checkmark-outline",
+						"heading": "2. Icons, icons everywhere",
+						"description": "Due to the limited screen estate, it also seems a no brainer to save space by replacing text labels with icons wherever possible. Pictograms take less space, they don’t have to be translated, and people are familiar with these after all, right? And every other app does that."
+					},
+					{
+						"icon": "ion-ios-checkmark-outline",
+						"heading": "3. Gesture based navigation",
+						"description": "When Apple introduced the iPhone in 2007, multi-touch technology got mainstream attention and users learned that they could not only point and tap on the interface but also zoom, pinch and swipe it."
+					},
+					{
+						"icon": "ion-ios-checkmark-outline",
+						"heading": "4. Tutor overlays as onboarding",
+						"description": "Onboarding, a recently hot UX topic, refers to the first encounter between the user and the app. In many cases, this simply means showing some overlay tutorials to the user to explain the interface."
+					},
+					{
+						"icon": "ion-ios-checkmark-outline",
+						"heading": "5. Creative but unintuitive empty states",
+						"description": "An empty state is something that is easily overlooked by inexperienced designers, however, they can be an important factor when it comes to an app’s overall user experience."
+					},
+					{
+						"icon": "ion-ios-checkmark-outline",
+						"heading": "6. Question everything",
+						"description": "Don’t get me wrong: design patterns and best practices are still your friends. Keep in mind though that apps and users are different: one solution might work for well in an app and fail in yours. It’s not a one-size-fits-all thing. Plus, you never know why an app was designed in a certain way."
+					}
+				]
+			}
+		},
+		"portfolio": {
+			"portfolioWS1": {
+				"heading": "Section Title",
+				"items": [
+					{
+						"image": "structure/gallery-6.jpeg",
+						"heading": "Simple is underrated.",
+						"description": "Early adopters. Thinkers. Doers. Problem solvers. We have simple plans.",
+						"link": "/"
+					},
+					{
+						"image": "structure/gallery-2.jpg",
+						"heading": "Let's start at the beginning.",
+						"description": "Every project is unique, but they all start with one thing in common. We want to know everything: where you started. Where you want to go next. What you value.",
+						"link": "/"
+					},
+					{
+						"image": "structure/gallery-4.jpeg",
+						"heading": "We create things",
+						"description": "We've come to understand that websites are not just about pretty pictures, more traffic, better keywords and higher rankings on Google.",
+						"link": "/"
+					},
+					{
+						"image": "structure/gallery-5.jpeg",
+						"heading": "Web Development",
+						"description": "Utilising the latest technologies and trends we create websites better than your competitors.",
+						"link": "/"
+					},
+					{
+						"image": "/structure/gallery-1.jpeg",
+						"heading": "Clients",
+						"description": "No challenge too big. No detail too small. Big picture vision meets serious detail-sweating at every point of a project.",
+						"link": "/"
+					},
+					{
+						"image": "structure/gallery-7.jpeg",
+						"heading": "Frontend development",
+						"description": "Basically, starting from an image, you have to develop specific source code, the language that web browsers use and frontend developers understand.",
+						"link": "/"
+					}
+				]
+			},
+			"portfolioWS2": {
+				"heading": "Section Title",
+				"items": {
+					"Tab one": [
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item one",
+							"description": "Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item two",
+							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item three",
+							"description": "Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item four",
+							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item five",
+							"description": "Lorem ipsum dolor sit",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item six",
+							"description": "Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						}
+					],
+					"Tab two": [
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item one",
+							"description": "Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item two",
+							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item three",
+							"description": "Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item four",
+							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						}
+					],
+					"Tab 3": [
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item one",
+							"description": "Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item two",
+							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item three",
+							"description": "Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item four",
+							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item five",
+							"description": "Lorem ipsum dolor sit",
+							"link": "/"
+						}
+					],
+					"Tab 4": [
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item one",
+							"description": "Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item two",
+							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item three",
+							"description": "Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item one",
+							"description": "Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item two",
+							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item three",
+							"description": "Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						},
+						{
+							"image": "/structure/gallery-1.jpeg",
+							"heading": "Item three",
+							"description": "Lorem ipsum dolor sit amet consectetur",
+							"link": "/"
+						}
+					]
+				}
+			},
+			"portfolioWS3": {
+				"heading": "Tracing African Ancestry using DNA",
+				"description": "Advances in DNA testing however offer African Americans the intoxicating possibility of leapfrogging research brick walls created by slavery to connect to African roots by analyzing the family history etched within our DNA.",
+				"preview": "structure/african-ancestors.png",
+				"items": [
+					{
+						"heading": "Examining DNA Admixture Results",
+						"description": "My AncestryDNA test results offer me estimates on my ethnic admixture and the regions from which my African ancestors might have lived — modern day Cameroon, Congo, Ivory Coast, Ghana, Benin, and Togo."
+					},
+					{
+						"heading": "Identifying African-born DNA Matches",
+						"description": "One method I’ve come up with to identify African born DNA matches to me and my family is to build a list of modern day West African countries involved in the slave trade then pull up my AncestryDNA match list, go to birth location, then search my list by plugging in the name of each country and examining the records."
+					}
+				]
+			}
+		},
+		"blog": {
+			"blogWS1": {
+				"heading": "Section heading",
+				"items": [
+					{
+						"type": "featured",
+						"heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "block",
+						"heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "block",
+						"heading": "Lorem ipsum",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "block",
+						"heading": "Lorem ipsum",
+						"description": "Lorem ipsum dolor sit amet consectetur",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "block",
+						"heading": "Lorem ipsum",
+						"description": "Lorem ipsum dolor sit amet consectetur",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					}
+				]
+			},
+			"blogWS2": {
+				"heading": "Section title",
+				"items": [
+					{
+						"type": "block",
+						"heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "block",
+						"heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "featured",
+						"heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "block",
+						"heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "block",
+						"heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "block",
+						"heading": "Lorem ipsum",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "block",
+						"heading": "Lorem ipsum",
+						"description": "Lorem ipsum dolor sit amet consectetur",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "block",
+						"heading": "Lorem ipsum",
+						"description": "Lorem ipsum dolor sit amet consectetur",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "block",
+						"heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "block",
+						"heading": "Lorem ipsum",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "block",
+						"heading": "Lorem ipsum",
+						"description": "Lorem ipsum dolor sit amet consectetur",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					},
+					{
+						"type": "block",
+						"heading": "Lorem ipsum",
+						"description": "Lorem ipsum dolor sit amet consectetur",
+						"date": "11 Apr 2018",
+						"link": "/",
+						"image": "/structure/gallery-1.jpeg"
+					}
+				]
+			},
+			"blogWS3": {
+				"tagline": "Tag one",
+				"heading": "Etiam quis consequat quam morbi nunc dolor",
+				"description": "Proin congue ligula quis lobortis pulvinar. Nam sodales lorem a magna varius malesuada.",
+				"content": "Mauris lectus metus, blandit rutrum consectetur pharetra, venenatis nec leo. Ut semper volutpat congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a turpis ante. Ut convallis urna ac arcu ultricies, quis euismod lectus egestas. Praesent pellentesque gravida quam, vitae egestas felis viverra a. Fusce id lacus imperdiet, tincidunt arcu quis, lobortis diam. Sed sed orci ut diam viverra molestie vehicula sed purus. Nulla facilisi. Morbi tincidunt odio vitae massa pulvinar tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+				"extra": "Etiam quis consequat quam. Morbi nunc dolor, iaculis et porta sit amet, finibus at dui."
+			},
+			"blogWS4": {
+				"heading": "Technology Tips",
+				"card": {
+					"heading": "Why That Digital Photo Print Is Fuzzy",
+					"excerpt": "If your pictures look blotchy and out of focus, you likely need to print them at a smaller size or find a version of the photo at a higher resolution. On a Mac, you can quickly see the pixel dimensions and resolution of an image by selecting its desktop icon and pressing the Command and I keys to open the Info box; Windows users can right-click the icon and look in the Properties box.",
+					"author": {
+						"name": "By J. D. Biersdorfer"
+					},
+					"date": "June 12, 2018"
+				},
+				"sections": [
+					{
+						"type": "tagline",
+						"content": "4h ago, By DANNY HAKIM"
+					},
+					{
+						"type": "paragraph",
+						"content": "Apple is closing a technological loophole that let authorities hack into locked iPhones, infuriating law enforcement officials and reigniting a debate over security versus privacy."
+					},
+					{
+						"type": "heading",
+						"content": "Apple to Close iPhone Security Hole That Law Enforcement Uses to Crack Devices"
+					},
+					{
+						"type": "paragraph",
+						"content": "Now Apple is closing the technological loophole that let authorities hack into iPhones, angering police and other officials and reigniting a debate over whether the government has a right to get into the personal devices that are at the center of modern life."
+					}
+				]
+			}
+		},
+		"team": {
+			"teamWS1": {
+				"heading": "Section title",
+				"members": [
+					{
+						"avatar": "structure/post-human-world.jpeg",
+						"name": "Employee One",
+						"position": "Web Dev",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"socialMedia": {
+							"facebook": "https://facebook.com",
+							"twitter": "https://twitter.com",
+							"instagram": "https://instagram.com",
+							"googlePlus": "https://plus.google.com"
+						}
+					},
+					{
+						"avatar": "structure/post-human-world.jpeg",
+						"name": "Employee One",
+						"position": "Web Dev",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"socialMedia": {
+							"facebook": "https://facebook.com",
+							"twitter": "https://twitter.com",
+							"instagram": "https://instagram.com",
+							"googlePlus": "https://plus.google.com"
+						}
+					},
+					{
+						"avatar": "structure/post-human-world.jpeg",
+						"name": "Employee One",
+						"position": "Web Dev",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"socialMedia": {
+							"facebook": "https://facebook.com",
+							"twitter": "https://twitter.com",
+							"instagram": "https://instagram.com",
+							"googlePlus": "https://plus.google.com"
+						}
+					},
+					{
+						"avatar": "structure/post-human-world.jpeg",
+						"name": "Employee One",
+						"position": "Web Dev",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"socialMedia": {
+							"feceboo": "/",
+							"facebook": "https://facebook.com",
+							"twitter": "https://twitter.com"
+						}
+					},
+					{
+						"avatar": "structure/post-human-world.jpeg",
+						"name": "Employee One",
+						"position": "Web Dev",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"socialMedia": {
+							"facebook": "https://facebook.com",
+							"twitter": "https://twitter.com"
+						}
+					},
+					{
+						"avatar": "structure/post-human-world.jpeg",
+						"name": "Employee One",
+						"position": "Web Dev",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
+						"socialMedia": {
+							"twitter": "https://twitter.com",
+							"instagram": "https://instagram.com",
+							"googlePlus": "https://plus.google.com"
+						}
+					}
+				]
+			},
+			"teamWS2": {
+				"heading": "Section Title",
+				"items": [
+					{
+						"type": "member",
+						"avatar": "structure/post-human-world.jpeg",
+						"name": "Employee One",
+						"position": "Web Dev"
+					},
+					{
+						"type": "member",
+						"avatar": "structure/post-human-world.jpeg",
+						"name": "Employee One",
+						"position": "Web Dev"
+					},
+					{
+						"type": "member",
+						"avatar": "structure/post-human-world.jpeg",
+						"name": "Employee One",
+						"position": "Web Dev"
+					},
+					{
+						"type": "member",
+						"avatar": "structure/post-human-world.jpeg",
+						"name": "Employee One",
+						"position": "Web Dev"
+					},
+					{
+						"type": "member",
+						"avatar": "structure/post-human-world.jpeg",
+						"name": "Employee One",
+						"position": "Web Dev"
+					},
+					{
+						"type": "register",
+						"heading": "Join the team"
+					}
+				]
+			}
+		},
+		"ecommerce": {
+			"ecommerceWS1": {
+				"heading": "Products",
+				"categories": [
+					"Category 1",
+					"Category 2",
+					"Category 3",
+					"Category 4"
+				],
+				"items": [
+					[
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "ad",
+							"heading": "Product delivery",
+							"subheading": "Learn all about how we deliver your products.",
+							"link": "#"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						}
+					],
+					[
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "ad",
+							"heading": "Product delivery",
+							"subheading": "Learn all about how we deliver your products.",
+							"link": "#"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						}
+					],
+					[
+						{
+							"type": "ad",
+							"heading": "Product delivery",
+							"subheading": "Learn all about how we deliver your products.",
+							"link": "#"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						}
+					],
+					[
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "ad",
+							"heading": "Product delivery",
+							"subheading": "Learn all about how we deliver your products.",
+							"link": "#"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						},
+						{
+							"type": "product",
+							"name": "Jeans",
+							"image": "structure/gallery-5.jpeg",
+							"price": "40$",
+							"description": "Best jeans from GreatSimple"
+						}
+					]
+				]
+			}
+		},
+		"pricing": {
+			"pricingWS1": {
+				"heading": "Pricing table",
+				"cards": [
+					{
+						"label": "Personal",
+						"description": "Buying this plan can help you improve your company with some features we provide",
+						"price": "Free",
+						"link": "#"
+					},
+					{
+						"label": "Professional",
+						"description": "Buying this plan can help you improve your company with multiple features we provide",
+						"price": "$89",
+						"link": "#"
+					},
+					{
+						"label": "Corporate",
+						"description": "Buying this plan can help you improve your company with all the features we provide",
+						"price": "$149",
+						"link": "#"
+					}
+				]
+			}
+		},
+		"cta": {
+			"ctaWS1": {
+				"heading": "Get your plan today",
+				"description": "Try out our newest business features and learn how to manage your company with our help.",
+				"actionText": "Get plan",
+				"tagline": "We can help you."
+			},
+			"ctaWS2": {
+				"heading": "Find us on",
+				"items": {
+					"facebook": "https://facebook.com",
+					"twitter": "https://twitter.com",
+					"instagram": "https://instagram.com",
+					"googlePlus": "https://plus.google.com"
+				}
+			},
+			"ctaWS3": {
+				"items": [
+					{
+						"heading": "Basic plan",
+						"description": "Buying this plan can help you improve your company with some features we provide",
+						"tagline": "Take a tour",
+						"link": "#"
+					},
+					{
+						"heading": "Professional plan",
+						"description": "Buying this plan can help you improve your company with multiple features we provide",
+						"tagline": "View full project",
+						"link": "#"
+					},
+					{
+						"heading": "Corporate plan",
+						"description": "Buying this plan can help you improve your company with all the features we provide",
+						"tagline": "View full project",
+						"link": "#"
+					}
+				]
+			}
+		},
+		"form": {
+			"formWS1": {
+				"heading": "Contact us",
+				"tagline": "Or just send an email on",
+				"fields": [
+					{
+						"type": "text",
+						"icon": "",
+						"placeholder": "Name",
+						"ref": "name",
+						"background": "#e6f0fc"
+					},
+					{
+						"type": "email",
+						"icon": "",
+						"placeholder": "Email",
+						"ref": "email",
+						"background": "#e6f0fc"
+					},
+					{
+						"type": "textarea",
+						"icon": "",
+						"placeholder": "Message",
+						"ref": "message",
+						"background": "#e6f0fc"
+					}
+				],
+				"submitAction": { "text": "Send" },
+				"emailReceiver": "great@simple.co"
+			},
+			"formWS2": {
+				"background": "structure/gallery-1.jpeg",
+				"fields": [
+					{
+						"type": "text",
+						"icon": "",
+						"placeholder": "Username",
+						"ref": "userName",
+						"background": "#e6f0fc"
+					},
+					{
+						"type": "password",
+						"icon": "",
+						"placeholder": "Password",
+						"ref": "password",
+						"background": "#e6f0fc"
+					}
+				],
+				"tagline": "or",
+				"submitAction": { "text": "Login" },
+				"registerAction": { "text": "Sign up" },
+				"resetAction": {
+					"text": "Forgot password?",
+					"link": "#"
+				}
+			}
+		},
+		"contact": {
+			"contactWS1": {
+				"form": {
+					"heading": "Sign in",
+					"subheading": "Login to have access to files",
+					"fields": [
+						{
+							"type": "text",
+							"icon": "",
+							"placeholder": "Name",
+							"ref": "name",
+							"background": "#e6f0fc"
+						},
+						{
+							"type": "email",
+							"icon": "",
+							"placeholder": "Email",
+							"ref": "email",
+							"background": "#e6f0fc"
+						},
+						{
+							"type": "text",
+							"icon": "",
+							"placeholder": "Subject",
+							"background": "#e6f0fc"
+						},
+						{
+							"type": "textarea",
+							"icon": "",
+							"placeholder": "Message",
+							"background": "#e6f0fc"
+						}
+					],
+					"submitAction": { "text": "Send" }
+				},
+				"map": {
+					"loadingMassage": "Be happy",
+					"infoBox": "Hello, React :)",
+					"params": {
+						"v": "3.exp",
+						"key": "YOUR_API_KEY"
+					},
+					"coords": {
+						"lat": 51.5258541,
+						"lng": -0.08040660000006028
+					}
+				}
+			}
+		},
+		"footer": {
+			"footerWS1": {
+				"menu": [
+					{
+						"link": "#",
+						"name": "Item 1"
+					},
+					{
+						"link": "#",
+						"name": "Item 2"
+					},
+					{
+						"link": "#",
+						"name": "Item 3"
+					},
+					{
+						"link": "#",
+						"name": "Item 4"
+					}
+				],
+				"copyright": "© GreatSimple.co 2019. All right reserved.",
+				"columns": [
+					{
+						"type": "menu",
+						"heading": "First Column",
+						"items": [
+							{
+								"name": "Category 1",
+								"link": "#"
+							},
+							{
+								"name": "Category 2",
+								"link": "#"
+							},
+							{
+								"name": "Category 3",
+								"link": "#"
+							},
+							{
+								"name": "Category 4",
+								"link": "#"
+							},
+							{
+								"name": "Category 5",
+								"link": "#"
+							}
+						]
+					},
+					{
+						"type": "menu",
+						"heading": "Second Column",
+						"items": [
+							{
+								"name": "Category 1",
+								"link": "#"
+							},
+							{
+								"name": "Category 2",
+								"link": "#"
+							},
+							{
+								"name": "Category 3",
+								"link": "#"
+							},
+							{
+								"name": "Category 4",
+								"link": "#"
+							}
+						]
+					},
+					{
+						"type": "address",
+						"heading": "Third column",
+						"items": {
+							"email": "great@simple.co",
+							"address": "Flat 10, Great Street, Simple, 89334DF",
+							"phone": "+0987654321"
+						}
+					},
+					{
+						"type": "social",
+						"heading": "Follow us",
+						"items": {
+							"facebook": "https://facebook.com",
+							"twitter": "https://twitter.com",
+							"instagram": "https://instagram.com"
+						}
+					}
+				]
+			},
+			"footerWS2": {
+				"logo": "structure/dropbox_logo.png",
+				"copyright": "© GreatSimple.co 2019. All right reserved.",
+				"contact": {
+					"address": "Flat 10, Great Street, Simple, 89334DF",
+					"phone": "+0987654321"
+				},
+				"social": {
+					"facebook": "https://facebook.com",
+					"twitter": "https://twitter.com",
+					"instagram": "https://instagram.com"
+				}
+			},
+			"footerWS3": {
+				"menu": [
+					{
+						"link": "#",
+						"name": "Item 1"
+					},
+					{
+						"link": "#",
+						"name": "Item 2"
+					},
+					{
+						"link": "#",
+						"name": "Item 3"
+					},
+					{
+						"link": "#",
+						"name": "Item 4"
+					}
+				],
+				"copyright": "© GreatSimple.co 2019. All right reserved.",
+				"getPlatform": {
+					"text": "Download our app",
+					"link": "#"
+				}
+			}
+		}
+	},
+	{
+		"id": "universe-facts",
+
+		"categories": [
+			{
+				"label": "volcano",
+				"title": "Volcanoes",
+				"description": "Iceland is home to 32 volcanic systems encompassing around 130 volcanic mountains, 18 of which have erupted since the settlement of Iceland in around 871 CE.",
+				"image": "/universe-facts/volcanoes/volcanoes.jpg"
+			},
+			{
+				"label": "planet",
+				"title": "Planets",
+				"description": "Mercury, Venus, Earth and Mars are considered terrestrial planets (solid, rocky surfaces), meanwhile Jupiter and Saturn are gas giants and Uranus and Neptune are ice giants (both types formed of materials pulled together by gravity).",
+				"image": "/universe-facts/planets/space.jpg"
+			}
+		],
+		"articles": [
+			{
+				"title": "Eyjafjallajökull",
+				"subtitle": "Iceland's Most-Famous Volcano",
+				"category": "volcano",
+				"image": "/universe-facts/volcanoes/Eyjafjallajokull.jpg",
+				"gallery": [],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"Most people are familiar with Eyjafjallajökull volcano after its eruption in 2010 caused a massive disruption in European flights. That eruption may have been a nuisance for many air travellers but in comparison to Iceland's biggest eruptions in the past it was just (literally) the tip of the iceberg (or well, glacier).",
+							"Eyjafjallajökull is situated in south Iceland, right next to one of Iceland's most dangerous volcanoes, Katla."
+						]
+					},
+					{
+						"title": "Eruptions",
+						"paragraphs": [
+							"The 2010 eruption was the largest one in Eyjafjallajökull to date. There have been a few past eruptions, but nothing of a similar scale. A rather small, but long eruption, took place between 1821-1823, that was followed by a big eruption in its enormous neighbour Katla. There were also eruptions in Eyjafjallajökull in 1612-1613 and in the year 920, but not much is known about those eruptions.",
+							"Usually Katla erupts right after Eyjafjallajökull, and causes much more damage. Fortunately, that didn't happen in 2010."
+						]
+					}
+				]
+			},
+			{
+				"title": "Thrihnukagigur",
+				"subtitle": "The only Volcano You Can Enter",
+				"category": "volcano",
+				"image": "/universe-facts/volcanoes/Thrihnukagigur.jpg",
+				"gallery": [],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"The only volcano you can actually go INSIDE of, not only in Iceland but the entire world, is Þríhnúkagígur volcano. Þríhnúkar craters are in the vicinity of Reykjavík, and have been dormant for about 4000 years. They're actually near Reykjavík's ski area in Bláfjöll (the Blue Mountains), so you can't expect much heat when visiting this volcano!",
+							"But you can expect entering an enormous magma chamber, that's about 150 thousand cubic meters! The entrance to the magma chamber is only about 4 x 4 meters, and you'll be lowered down 120 meters in a lift, to the bottom of the cave that's about the size of a football field. From there are a number of tunnels that go down to a 200 meter depth.",
+							"This magma chamber is considered to be one of the biggest and most remarkable natural phenomenon on Earth, and it's remarkably colourful - a simply stunning place to visit! The first descent took place in 1974, but travelers have only been able to enter this cave since 2012, when facilities were made for people to be lowered into it. People go in very small and controlled groups, to make sure that the cave is not damaged - and entering this cave is the main reason for visiting Iceland for a number of people!"
+						]
+					}
+				]
+			},
+			{
+				"title": "Grimsvotn",
+				"subtitle": "Iceland's Deadliest Volcanoes",
+				"category": "volcano",
+				"image": "/universe-facts/volcanoes/Grimsvotn.jpg",
+				"gallery": [],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"Grímsvötn volcanic system (lakes of Grímur) is the most volatile volcanic system out of the 30 that exist in Iceland. These are sub-glacial lakes in the Vatnajökull glacier area in south-east Iceland and they can not be seen on the surface. The volcano is situated underneath these lakes so whenever it erupts it melts the ice extremely fast, causing extremely powerful explosions and tremendous ash clouds."
+						]
+					},
+					{
+						"title": "Eruptions",
+						"paragraphs": [
+							"The most fatal eruption ever to have happened in Iceland was in Skaftáreldar (fires of Skaftá) in 1783-1784. The eruption took place in a row of craters called Lakagígar (craters of Laki), which form a part of Grímsvötn's volcanic system. These craters run north of Vatnajökull glacier.",
+							"Around a quarter of the Icelandic population (9350 people) died due to this eruption in Lakagígar, not because of lava flow but because of indirect causes, such as changes in climate and illnesses in livestock due to poisonous gases and ash. 50% of Iceland's livestock died and famine reigned the country.",
+							"The 1783 eruption in Lakagígar is thought to have erupted the largest quantity of lava in a single eruption in historic times and is also the deadliest in historic times."
+						]
+					}
+				]
+			},
+			{
+				"title": "Hekla",
+				"subtitle": "The Gateway to Hell",
+				"category": "volcano",
+				"image": "/universe-facts/volcanoes/Hekla.jpg",
+				"gallery": [],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"Hekla volcano is one of the most famous and active volcanoes in Iceland. In the Middle Ages, it was known as 'The Gateway to Hell'. Hekla is in the southwest part of Iceland, only about a 2 hour drive from Reykjavík."
+						]
+					},
+					{
+						"title": "Eruptions",
+						"paragraphs": [
+							"Eruptions in Hekla are extremely varied and difficult to predict. They can last for a few days up to a couple of years. Generally it's considered that the longer Hekla stays dormant, the larger and more catastrophic the opening eruption will be! Basically, Hekla has erupted more than 20 times since the settlement of Iceland in 874, with intervals of 9 - 121 years.",
+							"The biggest eruption was in 1104 when the volcano erupted suddenly and without any warning, spewing out millions of tons of tephra.",
+							"An eruption in 1300-1301 caused significant damage in Skagafjörður and Fljót and caused over 500 deaths that winter. An eruption 40 years later caused a lot of cattle death. ",
+							"1693 saw one of Hekla's most destructive eruptions. Tephra caused lahars and tsunamis and damaged and destroyed farms as well as causing significant deaths in wildlife.",
+							"Hekla was dormant for more than 60 years before 1845 when it suddenly burst forth with explosive eruptions, leading to the whole island being strewn with volcanic poisonous ash and causing massive livestock deaths.",
+							"The last eruption was on the 26th of February in 2000, causing little destruction."
+						]
+					}
+				]
+			},
+			{
+				"title": "Katla",
+				"subtitle": "Iceland's most Dangerous Volcano",
+				"category": "volcano",
+				"image": "/universe-facts/volcanoes/Katla.jpg",
+				"gallery": [],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"Katla is one of the largest volcanoes in Iceland and has erupted 20 times in the period between 930 and 1918 at intervals of 13-95 years.",
+							"Katla is fairly inaccessible, you'll have to hike to it or fly by helicopter. You can drive south along the ringroad number 1 and reach Skógafoss after a 2,5 hour drive from Reykjavík."
+						]
+					},
+					{
+						"title": "Eruptions",
+						"paragraphs": [
+							"The last big eruption was in 1918 but volcanologists are expecting another one soon - and history tells us that could be catastrophic.",
+							"Most of the eruptions have resulted in glacial floods. The severe fissure eruption in 934 was one of the largest lava eruptions in the past 10 thousand years!",
+							"Before Iceland's ringroad was constructed in 1974, people feared crossing the southern plains of Iceland in front of Katla because of the frequent glacier bursts and deep river crossings. The glacier outburst after the eruption in 1918 was especially dangerous."
+						]
+					}
+				]
+			},
+			{
+				"title": "Snæfellsjökull",
+				"subtitle": "The Door to the Centre of the Earth",
+				"category": "volcano",
+				"image": "/universe-facts/volcanoes/Snaefellsjokull.jpg",
+				"gallery": [],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"Snæfellsjökull is, like so many other volcanoes in Iceland, both a volcano and a glacier. Snæfellsjökull is a stratovolcano, that is particularly picturesque. The volcano got worldwide fame in 1864, not due to an eruption but because it was chosen by Jules Verne to serve as the entrance to the centre of the Earth in the classic novel Journey to the Centre of the Earth."
+						]
+					},
+					{
+						"title": "Eruptions",
+						"paragraphs": [
+							"Snæfellsjökull's last eruption took place around 200 AD (+/- 150 years).",
+							"The volcano is surrounded by beautiful lava, and the mountain and its surroundings, all the way down to sea level, is a national park. Due to global warming the glacier has been diminishing in the last few years, and in 2012 the glacier's summit was ice-free for the first time in recorded history."
+						]
+					}
+				]
+			},
+			{
+				"title": "Askja",
+				"subtitle": "Iceland's Hot Spring Volcano",
+				"category": "volcano",
+				"image": "/universe-facts/volcanoes/Askja.jpg",
+				"gallery": [],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"It is interesting to note that most volcanoes in Iceland have female names, Hekla, Katla and Askja are all female names. Hekla, Katla and Askja also happen to be some of the biggest volcanoes in Iceland, with the most thunderous eruptions. Askja literally means 'caldera' or a 'box', perhaps fitting since it contains a lake within its caldera."
+						]
+					},
+					{
+						"title": "Eruptions",
+						"paragraphs": [
+							"Askja was virtually unknown, until in 1875 when a massive eruption started. The ashfall was heavy and dangerous, poisoning the land and killing livestock, especially in the East fjords. Ash was blown all the way to Norway and Sweden, and the eruption caused a substantial emigration from Iceland.",
+							"The lake in the caldera was formed in the 1875 eruption, and although it was originally warm it has since cooled down and freezes over in wintertime, staying frozen for most of the year. However, there's a smaller, geothermal lake in a much smaller caldera that's called Víti (or 'Hell') that is warm enough to bathe in",
+							"In 1907 a couple of German scientists went to explore the lake at Askja on a small boat, but disappeared without a trace. The fiancée of one of them led an expedition in search of them a year later, but had to accept that she wouldn't find any answers. To this day, no bodies have been found in the lake. The lake is 220 meters deep and around 12 square km. Askja's last volcanic eruption was in 1961."
+						]
+					}
+				]
+			},
+			{
+				"title": "Krafla",
+				"subtitle": "The Cold Crater Lake Volcano",
+				"category": "volcano",
+				"image": "/universe-facts/volcanoes/Krafla.jpg",
+				"gallery": [],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"Yet another famous volcano in Iceland with a female name, is Krafla. Like Askja, it also contains a lake in its crater - with the same name: Víti. The main difference is that Víti in Krafla is a cold lake as opposed to Víti in Askja. Víti in Krafla also has a gorgeous emerald blue colour.",
+							"Krafla is 818 meters high at its highest peak, and 2km deep. The caldera is 10 km in diameter."
+						]
+					},
+					{
+						"title": "Eruptions",
+						"paragraphs": [
+							"There have been 29 eruptions in Krafla in recorded history, last 9 of them taking place between 1975 and 1984. Krafla is not far from Lake Mývatn, and just south of it you can find the extensive and impressive geothermal site of Námafjall."
+						]
+					}
+				]
+			},
+			{
+				"title": "Hverfjall",
+				"subtitle": "Easy Hike-Around Volcano",
+				"category": "volcano",
+				"image": "/universe-facts/volcanoes/Hverfjall.jpg",
+				"gallery": [],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"Hverfjall/Hverfell hasn't erupted for about 4500 years, and the crater is only 1km in diameter, making this extinct volcano very suitable for an easy hike. It only takes about an hour to walk the rim of this popular tephra cone, and it's situated right next to Lake Mývatn."
+						]
+					},
+					{
+						"title": "Eruptions",
+						"paragraphs": [
+							"Hverfjall/Hverfell hasn't erupted for about 4500 years, and the crater is only 1km in diameter, making this extinct volcano very suitable for an easy hike. It only takes about an hour to walk the rim of this popular tephra cone, and it's situated right next to Lake Mývatn."
+						]
+					}
+				]
+			},
+			{
+				"title": "Mercury",
+				"subtitle": "The Swiftest Planet",
+				"category": "planet",
+				"image": "/universe-facts/planets/Mercury.jpg",
+				"gallery": [
+					{ "image": "/universe-facts/planets/Mercury.jpg" },
+					{ "image": "/universe-facts/planets/Venus.jpg" },
+					{ "image": "/universe-facts/planets/Earth.jpg" },
+					{ "image": "/universe-facts/planets/Mars.jpg" },
+					{ "image": "/universe-facts/planets/Jupiter.jpg" }
+				],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as 11 times brighter. Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system – that title belongs to nearby Venus, thanks to its dense atmosphere. But Mercury is the fastest planet, zipping around the Sun every 88 Earth days."
+						]
+					},
+					{
+						"title": "Name origin",
+						"paragraphs": [
+							"Mercury is appropriately named for the swiftest of the ancient Roman gods."
+						]
+					},
+					{
+						"title": "Surface",
+						"paragraphs": [
+							"Mercury's surface resembles that of Earth's moon, scarred by many impact craters resulting from collisions with meteoroids and comets. Craters and features on Mercury are named after famous deceased artists, musicians or authors, including children's author Dr. Seuss and dance pioneer Alvin Ailey.",
+							"Very large impact basins, including Caloris (960 miles or 1,550 kilometers in diameter) and Rachmaninoff (190 miles, or 306 kilometers in diameter), were created by asteroid impacts on the planet's surface early in the solar system's history. While there are large areas of smooth terrain, there are also cliffs, some hundreds of miles long and soaring up to a mile high. They rose as the planet's interior cooled and contracted over the billions of years since Mercury formed.",
+							"Most of Mercury's surface would appear greyish-brown to the human eye. The bright streaks are called 'crater rays'. They are formed when an asteroid or comet strikes the surface. "
+						]
+					}
+				]
+			},
+			{
+				"title": "Venus",
+				"subtitle": "Planetary Hot Spot",
+				"category": "planet",
+				"image": "/universe-facts/planets/Venus.jpg",
+				"gallery": [
+					{ "image": "/universe-facts/planets/Saturn.jpeg" },
+					{ "image": "/universe-facts/planets/Uranus.jpg" },
+					{ "image": "/universe-facts/planets/Earth.jpg" },
+					{ "image": "/universe-facts/planets/Mars.jpg" },
+					{ "image": "/universe-facts/planets/Jupiter.jpg" }
+				],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"Second planet from the Sun and our closest planetary neighbor, Venus is similar in structure and size to Earth, but it is now a very different world. Venus spins slowly in the opposite direction most planets do. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system—with surface temperatures hot enough to melt lead. Glimpses below the clouds reveal volcanoes and deformed mountains.",
+							"One day on Venus lasts 243 Earth days because Venus spins backwards, with its sun rising in the west and setting in the east."
+						]
+					},
+					{
+						"title": "Name origin",
+						"paragraphs": [
+							"Venus is named for the ancient Roman goddess of love and beauty, who was known as Aphrodite to the Ancient Greeks.",
+							"From space, Venus is bright white because it is covered with clouds that reflect and scatter sunlight. At the surface, the rocks are different shades of grey, like rocks on Earth, but the thick atmosphere filters the sunlight so that everything would look orange if you were standing on Venus.",
+							"Venus has mountains, valleys, and tens of thousands of volcanoes. The highest mountain on Venus, Maxwell Montes, is 20,000 feet high (8.8 kilometers), similar to the highest mountain on Earth, Mount Everest. The landscape is dusty, and surface temperatures reach a scalding 880 degrees Fahrenheit (471 degrees Celsius)."
+						]
+					},
+					{
+						"title": "Surface",
+						"paragraphs": [
+							"From space, Venus is bright white because it is covered with clouds that reflect and scatter sunlight. At the surface, the rocks are different shades of grey, like rocks on Earth, but the thick atmosphere filters the sunlight so that everything would look orange if you were standing on Venus.",
+							"Venus has mountains, valleys, and tens of thousands of volcanoes. The highest mountain on Venus, Maxwell Montes, is 20,000 feet high (8.8 kilometers), similar to the highest mountain on Earth, Mount Everest. The landscape is dusty, and surface temperatures reach a scalding 880 degrees Fahrenheit (471 degrees Celsius)."
+						]
+					}
+				]
+			},
+			{
+				"title": "Earth",
+				"subtitle": "Our Home Planet",
+				"category": "planet",
+				"image": "/universe-facts/planets/Earth.jpg",
+				"gallery": [
+					{ "image": "/universe-facts/planets/Saturn.jpeg" },
+					{ "image": "/universe-facts/planets/Venus.jpg" },
+					{ "image": "/universe-facts/planets/Jupiter.jpg" },
+					{ "image": "/universe-facts/planets/Neptune.jpg" }
+				],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"Earth is the third planet from the Sun and the fifth largest in the solar system. Just slightly larger than nearby Venus, Earth is the biggest of the terrestrial planets. Our home planet is the only planet in our solar system known to harbor living things.",
+							"Terra is the only place we know of so far that’s inhabited by living things. It is the only planet in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal."
+						]
+					},
+					{
+						"title": "Name origin",
+						"paragraphs": [
+							"The name Earth is at least 1,000 years old. All of the planets, except for Earth, were named after Greek and Roman gods and goddesses. However, the name Earth is an English/German word, which simply means the ground.",
+							"Earth is a rocky planet with a solid and dynamic surface of mountains, canyons, plains and more. Most of our planet is covered in water.",
+							"Earth is composed of four main layers, starting with an inner core at the planet's center, enveloped by the outer core, mantle and crust.",
+							"Like Mars and Venus, Earth has volcanoes, mountains and valleys. Earth's lithosphere, which includes the crust (both continental and oceanic) and the upper mantle, is divided into huge plates that are constantly moving. For example, the North American plate moves west over the Pacific Ocean basin, roughly at a rate equal to the growth of our fingernails. Earthquakes result when plates grind past one another, ride up over one another, collide to make mountains, or split and separate.",
+							"Almost all of Earth's volcanoes are hidden under the global ocean. Hawaii's Mauna Kea volcano is taller from base to summit than Mount Everest, but most of it is underwater. Earth's longest mountain range is also underwater, at the bottom of the Arctic and Atlantic oceans. It is four times longer than the Andes, Rockies and Himalayas combined."
+						]
+					},
+					{
+						"title": "Surface",
+						"paragraphs": [
+							"Earth is a rocky planet with a solid and dynamic surface of mountains, canyons, plains and more. Most of our planet is covered in water.",
+							"Terra is composed of four main layers, starting with an inner core at the planet's center, enveloped by the outer core, mantle and crust.",
+							"Like Mars and Venus, Earth has volcanoes, mountains and valleys. Earth's lithosphere, which includes the crust (both continental and oceanic) and the upper mantle, is divided into huge plates that are constantly moving. For example, the North American plate moves west over the Pacific Ocean basin, roughly at a rate equal to the growth of our fingernails. Earthquakes result when plates grind past one another, ride up over one another, collide to make mountains, or split and separate.",
+							"Almost all of Earth's volcanoes are hidden under the global ocean. Hawaii's Mauna Kea volcano is taller from base to summit than Mount Everest, but most of it is underwater. Earth's longest mountain range is also underwater, at the bottom of the Arctic and Atlantic oceans. It is four times longer than the Andes, Rockies and Himalayas combined."
+						]
+					}
+				]
+			},
+			{
+				"title": "Mars",
+				"subtitle": "The Red Planet",
+				"category": "planet",
+				"image": "/universe-facts/planets/Mars.jpg",
+				"gallery": [
+					{ "image": "/universe-facts/planets/Mars.jpg" },
+					{ "image": "/universe-facts/planets/Earth.jpg" },
+					{ "image": "/universe-facts/planets/Uranus.jpg" },
+					{ "image": "/universe-facts/planets/Neptune.jpg" }
+				],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"The fourth planet from the Sun, Mars is a dusty, cold, desert world with a very thin atmosphere. This dynamic planet has seasons, polar ice caps, extinct volcanoes, canyons and weather. Mars is one of the most explored bodies in our solar system, and it's the only planet where we've sent rovers to roam the alien landscape.",
+							"One day on Mars takes a little over 24 hours. Mars makes a complete orbit around the Sun (a year in Martian time) in 687 Earth days."
+						]
+					},
+					{
+						"title": "Name origin",
+						"paragraphs": [
+							"Mars was named by the Romans for their god of war because its reddish color was reminiscent of blood. Other civilizations also named the planet for this attribute; for example, the Egyptians called it 'Her Desher,' meaning 'the red one'. Even today, it is frequently called the 'Red Planet' because iron minerals in the Martian dirt oxidize, or rust, causing the surface to look red."
+						]
+					},
+					{
+						"title": "Surface",
+						"paragraphs": [
+							"Mars is a rocky planet. Its solid surface has been altered by volcanoes, impacts, winds, crustal movement and chemical reactions.",
+							"The Red Planet is actually many colors. At the surface we see colors such as brown, gold and tan. The reason Mars looks reddish is due to oxidization—or rusting—of iron in the rocks, regolith (Martian “soil”), and dust of Mars. This dust gets kicked up into the atmosphere and from a distance makes the planet appear mostly red.",
+							"Interestingly, while Mars is about half the diameter of Earth, its surface has nearly the same area as Earth’s dry land. Its volcanoes, impact craters, crustal movement, and atmospheric conditions such as dust storms have altered the landscape of Mars over many years, creating some of the solar system's most interesting topographical features. Mars is home to the largest volcano in the solar system, Olympus Mons. It's three times taller than Earth's Mt. Everest with a base the size of the state of New Mexico."
+						]
+					}
+				]
+			},
+			{
+				"title": "Jupiter",
+				"subtitle": "Twice as massive as all the other planets combined",
+				"category": "planet",
+				"image": "/universe-facts/planets/Jupiter.jpg",
+				"gallery": [
+					{ "image": "/universe-facts/planets/Mars.jpg" },
+					{ "image": "/universe-facts/planets/Jupiter.jpg" },
+					{ "image": "/universe-facts/planets/Saturn.jpeg" },
+					{ "image": "/universe-facts/planets/Uranus.jpg" }
+				],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"The fifth planet from the Sun, and the most massive in our solar system, has a long history surprising scientists—all the way back to 1610 when Galileo Galilei found the first moons beyond Earth. That discovery changed the way we see the universe.",
+							"Jupiter has the shortest day in the solar system. It rotates once about every 10 hours (a Jovian day), but takes about 12 Earth years to complete one orbit of the Sun (a Jovian year)."
+						]
+					},
+					{
+						"title": "Name origin",
+						"paragraphs": [
+							"Jupiter is named for the king of the ancient Roman gods."
+						]
+					},
+					{
+						"title": "Surface",
+						"paragraphs": [
+							"The composition of Jupiter is similar to that of the Sun—mostly hydrogen and helium. Deep in the atmosphere, pressure and temperature increase, compressing the hydrogen gas into a liquid. This gives Jupiter the largest ocean in the solar system—an ocean made of hydrogen instead of water.",
+							"As a gas giant, Jupiter doesn’t have a true surface. The planet is mostly swirling gases and liquids. While a spacecraft would have nowhere to land on Jupiter, it wouldn’t be able to fly through unscathed either. The extreme pressures and temperatures deep inside the planet crush, melt and vaporize spacecraft trying to fly into the planet."
+						]
+					},
+					{
+						"title": "Rings",
+						"paragraphs": [
+							"Discovered in 1979 by NASA's Voyager 1 spacecraft, Jupiter's rings were a surprise, as they are composed of small, dark particles and are difficult to see except when backlit by the Sun. Data from the Galileo spacecraft indicate that Jupiter's ring system may be formed by dust kicked up as interplanetary meteoroids smash into the giant planet's small innermost moons."
+						]
+					}
+				]
+			},
+			{
+				"title": "Saturn",
+				"subtitle": "Jewel of Our Solar System",
+				"category": "planet",
+				"image": "/universe-facts/planets/Saturn.jpeg",
+				"gallery": [],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"Saturn is the sixth planet from the sun and the second largest planet in our solar system. Adorned with thousands of beautiful ringlets, Saturn is unique among the planets. It is not the only planet to have rings—made of chunks of ice and rock—but none are as spectacular or as complicated as Saturn's. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium.",
+							"Saturn takes about 10.7 hours (no one knows precisely) to rotate on its axis once [a Saturn “day”] and 29 Earth years to orbit the sun."
+						]
+					},
+					{
+						"title": "Name origin",
+						"paragraphs": [
+							"The farthest planet from Earth discovered by the unaided human eye, Saturn has been known since ancient times and is named for the Roman god of agriculture and wealth. The Greek equivalent was Cronos, the father of Zeus/Jupiter."
+						]
+					},
+					{
+						"title": "Surface",
+						"paragraphs": [
+							"It's hard to imagine, but Saturn is the only planet in our solar system whose average density is less than water. The giant gas planet could float in a bathtub if such a colossal thing existed.",
+							"Saturn is blanketed with clouds that appear as faint stripes, jet streams and storms. The planet is many different shades of yellow, brown and grey."
+						]
+					},
+					{
+						"title": "Rings",
+						"paragraphs": [
+							"Saturn has the most spectacular ring system, with seven rings and several gaps and divisions between them.",
+							"Twice every 29 and a half years the great planet Saturn appears ringless. This is an optical illusion: Earthlings cannot see Saturn's rings when the rings are edge-on as viewed from the Earth. They are barely visible through powerful telescopes.",
+							"Saturn's rings are thought to be pieces of comets, asteroids or shattered moons that broke up before they reached the planet, torn apart by Saturn's powerful gravity. They are made of billions of small chunks of ice and rock coated with another material such as dust. The ring particles mostly range from tiny, dust-sized icy grains to chunks as big as a house. A few particles are as large as mountains. The rings would look mostly white if you looked at them from the cloud tops of Saturn, and interestingly, each ring orbits at a different speed around the planet."
+						]
+					}
+				]
+			},
+			{
+				"title": "Uranus",
+				"subtitle": "The Sideways Planet",
+				"category": "planet",
+				"image": "/universe-facts/planets/Uranus.jpg",
+				"gallery": [],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"The seventh planet from the sun with the third largest diameter in our solar system, Uranus is very cold and windy. The ice giant is surrounded by 13 faint rings and 27 small moons as it rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side, orbiting the sun like a rolling ball.",
+							"The first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star. It was two years later that the object was universally accepted as a new planet, in part because of observations by astronomer Johann Elert Bode.",
+							"Uranus takes about 17 hours to rotate once (a Uranian day), and about 84 Earth years to complete an orbit of the Sun (a Uranian year).",
+							"Like Venus, Uranus rotates east to west. But Uranus is unique in that it rotates on its side."
+						]
+					},
+					{
+						"title": "Name origin",
+						"paragraphs": [
+							"William Herschel tried unsuccessfully to name his discovery Georgium Sidus after King George III. Instead the planet was named for Uranus, the Greek god of the sky, as suggested by Johann Bode."
+						]
+					},
+					{
+						"title": "Surface",
+						"paragraphs": [
+							"Uranus is one of two ice giants in the outer solar system (the other is Neptune). Most (80 percent or more) of the planet's mass is made up of a hot dense fluid of 'icy' materials—water, methane and ammonia—above a small rocky core.",
+							"Uranus is slightly larger in diameter than its neighbor Neptune, yet smaller in mass. It is the second least dense planet; Saturn is the least dense of all.",
+							"Uranus gets its blue-green color from methane gas in the atmosphere. Sunlight passes through the atmosphere and is reflected back out by Uranus' cloud tops. Methane gas absorbs the red portion of the light, resulting in a blue-green color."
+						]
+					},
+					{
+						"title": "Rings",
+						"paragraphs": [
+							"Uranus has 13 known rings. The inner rings are narrow and dark and the outer rings are brightly colored."
+						]
+					}
+				]
+			},
+			{
+				"title": "Neptune",
+				"subtitle": "The Windiest Planet",
+				"category": "planet",
+				"image": "/universe-facts/planets/Neptune.jpg",
+				"gallery": [],
+				"content": [
+					{
+						"title": "General Info",
+						"paragraphs": [
+							"Neptune is so far from the Sun that high noon on the big blue planet would seem like dim twilight to us. The warm light we see here on our home planet is roughly 900 times as bright as sunlight on Neptune.",
+							"In 2011 Neptune completed its first 165-year orbit since its discovery in 1846.",
+							"The ice giant Neptune was the first planet located through mathematical calculations. Using predictions made by Urbain Le Verrier, Johann Galle discovered the planet in 1846.",
+							"Neptune takes about 16 hours to rotate once (a Neptunian day), and about 165 Earth years to orbit the sun (a Neptunian year).",
+							"Neptune is our solar system's windiest world. Despite its great distance and low energy input from the Sun, Neptune's winds can be three times stronger than Jupiter's and nine times stronger than Earth's."
+						]
+					},
+					{
+						"title": "Name origin",
+						"paragraphs": [
+							"The planet is named after the Roman god of the sea."
+						]
+					},
+					{
+						"title": "Surface",
+						"paragraphs": [
+							"Neptune is one of two ice giants in the outer solar system (the other is Uranus). Most (80 percent or more) of the planet's mass is made up of a hot dense fluid of 'icy' materials—water, methane and ammonia—above a small, rocky core. Of the giant planets, Neptune is the densest.",
+							"Scientists think there might be an ocean of super hot water under Neptune's cold clouds. It does not boil away because incredibly high pressure keeps it locked inside."
+						]
+					},
+					{
+						"title": "Rings",
+						"paragraphs": [
+							"Neptune has five known rings. Starting near the planet and moving outward, they are named Galle, Leverrier, Lassell, Arago and Adams. The rings are thought to be relatively young and short-lived.",
+							"Neptune's rings also have peculiar clumps of dust called arcs. Four prominent arcs named Liberté (Liberty), Egalité (Equality), Fraternité (Fraternity) and Courage are in the outermost ring, Adams. The arcs are strange because the laws of motion would predict that they would spread out evenly rather than stay clumped together. Scientists now think the gravitational effects of Galatea, a moon just inward from the ring, stabilizes these arcs."
+						]
+					},
+					{
+						"title": "Moons",
+						"paragraphs": [
+							"Neptune has 13 known moons and one provisional moon that is awaiting official confirmation. Neptune's largest moon Triton was discovered on October 10, 1846, by William Lassell, just 17 days after Johann Gottfried Galle discovered the planet. Since Neptune was named for the Roman god of the sea, its moons are named for various lesser sea gods and nymphs in Greek mythology.",
+							"Triton is the only large moon in the solar system that circles its planet in a direction opposite to the planet's rotation (a retrograde orbit), which suggests that it may once have been an independent object that Neptune captured."
+						]
+					}
+				]
+			}
+		]
 	}
 ]

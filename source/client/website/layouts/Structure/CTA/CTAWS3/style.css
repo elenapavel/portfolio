@@ -1,0 +1,117 @@
+.section {
+	position: relative;
+	padding: 2em;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.content {
+	max-width: 60rem;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.item {
+	flex-basis: 100%;
+	transition-property: flex-basis;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.item:not(:first-child) {
+	margin-top: 2em;
+}
+.details {
+	flex-basis: calc(100% - 4em);
+}
+.heading {
+	composes: heading from "~client/website/layouts/Structure/style.css";
+	padding: 0;
+	width: 100%;
+	text-align: left;
+}
+.description {
+	margin-top: 1rem;
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.icon {
+	font-size: 2rem;
+	border: 2px solid var(--text_color_primary);
+	display: flex;
+	align-items: center;
+	border-radius: 50%;
+	height: 2.5rem;
+	justify-content: center;
+	flex-direction: row;
+	flex-basis: 2.5rem;
+}
+.icon:before {
+	content: "\f3ae";
+	display: inline-block;
+	font-family: "Ionicons";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-rendering: auto;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.action {
+	margin-top: 1em;
+}
+.tagline {
+	font-weight: bold;
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.action_icon {
+	margin-left: 0.5em;
+	vertical-align: middle;
+}
+.action_icon:before {
+	content: "\f3d1";
+	display: inline-block;
+	font-family: "Ionicons";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-rendering: auto;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+@media (min-width: 48rem) {
+	.section {
+		padding: 2em 4em;
+	}
+	.item {
+		flex-basis: calc(50% - 1em);
+	}
+	.item:nth-child(2) {
+		margin-top: 0;
+	}
+	.description {
+		font-size: 1.2em;
+	}
+	.tagline {
+		font-size: 1.2em;
+	}
+}
+@media (min-width: 64rem) {
+	.section {
+		padding: 3em 5em;
+	}
+}

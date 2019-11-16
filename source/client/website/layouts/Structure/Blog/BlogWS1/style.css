@@ -1,0 +1,101 @@
+.section {
+	position: relative;
+	padding: 2em 0;
+}
+.content {
+	margin: 2em auto 0;
+	max-width: 80rem;
+	padding: 0 2em;
+	transition: margin 0.3s ease-in-out;
+	column-count: 1;
+	column-gap: 2em;
+}
+.content > :not(:first-child) {
+	margin-top: 2em;
+}
+.featured {
+	position: relative;
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
+	column-span: all;
+	padding-top: 0;
+	transition-property: padding, column-span;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.block {
+	padding-top: 0;
+	transition: padding 0.3s ease-in-out;
+	position: relative;
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
+	display: inline-block;
+	width: 100%;
+}
+.article {
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.heading {
+	composes: heading from "~client/website/layouts/Structure/style.css";
+}
+@media (min-width: 32.5rem) {
+	.featured {
+		padding-top: 75%;
+	}
+	.block {
+		padding-top: 50%;
+	}
+	.article {
+		position: absolute;
+	}
+}
+@media (min-width: 40rem) {
+	.featured {
+		padding-top: 75%;
+	}
+	.block {
+		padding-top: 75%;
+	}
+	.content {
+		column-count: 2;
+		column-gap: 2em;
+	}
+}
+@media (min-width: 48rem) {
+	.section {
+		padding: 4em 0;
+	}
+	.content {
+		margin-top: 4em;
+		padding: 0 4em;
+	}
+}
+@media (min-width: 64rem) {
+	.section {
+		padding: 5em 0;
+	}
+	.content {
+		margin-top: 5em;
+		padding: 0 5em;
+	}
+}
+@media (min-width: 75rem) {
+	.featured {
+		column-span: 1;
+		display: inherit;
+		width: auto;
+		padding-top: 100%;
+		column-span: initial;
+	}
+	.block {
+		padding-top: calc(50% - 1em);
+		display: inherit;
+		width: auto;
+	}
+}

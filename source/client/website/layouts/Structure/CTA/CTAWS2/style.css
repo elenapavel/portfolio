@@ -1,0 +1,37 @@
+.section {
+	position: relative;
+	padding: 2em;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.content {
+	max-width: 60rem;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.heading {
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.social_links {
+	margin-top: 2rem;
+	font-size: 1.5em;
+}
+@media (min-width: 48rem) {
+	.section {
+		padding: 2em 4em;
+	}
+	.heading {
+		font-size: 1.2em;
+	}
+}
+@media (min-width: 64rem) {
+	.section {
+		padding: 3em 5em;
+	}
+}

@@ -38,7 +38,6 @@ export default ({ isOpen, items, selectedIndex, onSelect }) => {
 					key={index}
 					style={{
 						...rest,
-
 						transform: x.interpolate(
 							x => `translate3d(${x}vw,0,0)`
 						),

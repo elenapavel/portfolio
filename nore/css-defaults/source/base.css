@@ -15,6 +15,7 @@
 *::after,
 *::before {
 	box-sizing: inherit;
+	word-break: initial;
 	/* remove repeating backgrounds (opinionated) */
 	background-repeat: no-repeat;
 }

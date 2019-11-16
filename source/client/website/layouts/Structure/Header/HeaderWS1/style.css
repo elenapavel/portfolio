@@ -1,0 +1,54 @@
+.header {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 0 var(--container_margin);
+	background-color: var(--background_color);
+}
+
+.logo {
+	flex-basis: 4em;
+	min-width: 4em;
+	margin-left: 2em;
+}
+
+.menu {
+	order: initial;
+	flex-basis: auto;
+	transition-property: flex-basis;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	background-color: inherit;
+}
+
+.account {
+	flex-basis: 100%;
+	order: initial;
+	display: flex;
+	justify-content: flex-end;
+	transition-property: flex-basis, margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	margin: 0;
+	background-color: inherit;
+}
+
+@media (min-width: 30rem) {
+	.logo {
+		flex-basis: 7em;
+		min-width: 7em;
+	}
+}
+
+@media (min-width: 64rem) {
+	.menu {
+		order: 1;
+		flex-basis: 100%;
+	}
+
+	.account {
+		order: 2;
+		flex-basis: auto;
+		margin: 2em;
+	}
+}

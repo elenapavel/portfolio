@@ -25,7 +25,8 @@ export default ({ article, lastArticle, total, currentIndex, lastIndex }) => {
 	}
 
 	const transitionProgress = useTransition(currentIndex, null, {
-		config: { duration: 400, ...config.slow },
+		config: config.slow,
+		duration: 400,
 		from: {
 			opacity: 0,
 			left: `${currentIndex > lastIndex ? "-100%" : "100%"}`,
@@ -58,14 +59,8 @@ export default ({ article, lastArticle, total, currentIndex, lastIndex }) => {
 
 				{!isMobileView ? (
 					transitionProgress.map(({ props }, key) => {
-						console.log(props);
 						return (
-							<animated.div
-								key={key}
-								style={{
-									...props,
-								}}
-							>
+							<animated.div key={key} style={props}>
 								<Progress index={currentIndex} total={total} />
 							</animated.div>
 						);

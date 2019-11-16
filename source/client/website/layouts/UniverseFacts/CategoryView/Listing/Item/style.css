@@ -1,0 +1,73 @@
+.list_item {
+	flex-basis: 15rem;
+	height: 15rem;
+	min-width: 15rem;
+	transition-property: flex-basis, height, min-width;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	margin-right: 1.5rem;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 2rem;
+}
+
+.list_item:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	transition: opacity 0.3s ease-in-out;
+}
+
+.list_item.list_item_active:before {
+	opacity: 0;
+}
+
+.list_item_title {
+	font-size: 1.3rem;
+	transition: font-size 0.3s ease-in-out;
+	font-family: "Playfair Display", serif;
+	position: relative;
+}
+
+.list_item_title:after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 3rem;
+	margin-top: 2rem;
+	border-top: 2px solid #cfd1d3;
+}
+
+@media (min-width: 25rem) {
+	.list_item {
+		flex-basis: 18rem;
+		height: 18rem;
+		min-width: 18rem;
+	}
+
+	.list_item_title {
+		font-size: 1.5rem;
+	}
+}
+
+@media (min-width: 48rem) {
+	.list_item_title {
+		font-size: 3rem;
+	}
+
+	.list_item {
+		flex-basis: 25rem;
+		height: 25rem;
+		min-width: 25rem;
+	}
+}

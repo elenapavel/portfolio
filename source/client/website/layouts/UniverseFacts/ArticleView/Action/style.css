@@ -1,0 +1,34 @@
+.action_close {
+	position: fixed;
+	cursor: pointer;
+	right: 1rem;
+	top: 1rem;
+	z-index: 10;
+	background: #151416;
+	width: 3rem;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	font-size: 1.5rem;
+	transition-property: font-size, width, height, top, right, line-height;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+
+@media (min-width: 40rem) {
+	.action_close {
+		right: 1.5rem;
+		top: 1.5rem;
+	}
+}
+
+@media (min-width: 67rem) {
+	.action_close {
+		width: 4rem;
+		height: 4rem;
+		line-height: 4rem;
+		font-size: 3rem;
+		top: 2rem;
+		right: 2rem;
+	}
+}

@@ -1,0 +1,53 @@
+.form {
+	position: relative;
+}
+.field {
+	position: relative;
+	margin-top: 1em;
+	border-radius: 0.25em;
+	overflow: hidden;
+	/*border: 1px solid var(--background_color_accent);*/
+	background-color: var(--background_color);
+	cursor: pointer;
+}
+.field:first-child {
+	margin-top: 0;
+}
+.field input,
+.field textarea {
+	width: 100%;
+	padding: 0.5em 1em;
+	border: 0 none;
+	outline: none;
+	background-color: inherit;
+}
+.field textarea {
+	max-height: 7em;
+	min-height: 4em;
+}
+.field_icon {
+	position: absolute;
+	right: 0;
+	padding: 0 1em;
+}
+.field_has_icon {
+	composes: field;
+	display: flex;
+	align-items: center;
+}
+.field_has_icon input,
+.field_has_icon textarea {
+	padding: 0.5em 3em 0.5em 1em;
+}
+.submit_action {
+	position: relative;
+	margin-top: 1em;
+	color: var(--background_color);
+	font-family: var(--font_accent);
+	background-color: var(--text_color_accent);
+	padding: 1em 2em;
+	border-radius: 0.25em;
+	width: 100%;
+	cursor: pointer;
+	text-align: center;
+}

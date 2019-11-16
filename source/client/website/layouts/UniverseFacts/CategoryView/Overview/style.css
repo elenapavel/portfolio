@@ -1,0 +1,97 @@
+.overview_container {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	padding: 0 1.5rem 3rem;
+	transition-property: width, padding, margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+
+.overview_title {
+	font-size: 2.5rem;
+	margin-top: 1.5rem;
+	transition: font-size 0.3s ease-in-out;
+	letter-spacing: 1.5px;
+	font-family: "Playfair Display", serif;
+	font-weight: 900;
+	margin-bottom: 3rem;
+}
+
+.overview_description {
+	font-size: 1rem;
+	letter-spacing: 0.5px;
+	color: #9395a1;
+	padding-left: 0;
+	transition-property: padding-left, font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	position: relative;
+	line-height: 2;
+}
+
+.overview_description:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 0;
+	transition: width 0.3s ease-in-out;
+	top: 1rem;
+	border-top: 2px solid #9b8998;
+}
+
+@media (min-width: 25rem) {
+	.overview_container {
+		padding: 0 3rem 5rem;
+	}
+
+	.overview_title {
+		font-size: 3rem;
+	}
+
+	.overview_description {
+		font-size: 1.1rem;
+	}
+}
+
+@media (min-width: 30rem) {
+	.overview_description {
+		padding-left: 6rem;
+	}
+
+	.overview_description:before {
+		width: 4rem;
+	}
+}
+
+@media (min-width: 40rem) {
+	.overview_title {
+		margin-top: 3rem;
+	}
+}
+
+@media (min-width: 48rem) {
+	.overview_title {
+		font-size: 5rem;
+	}
+}
+
+@media (min-width: 67rem) {
+	.overview_container {
+		position: absolute;
+		margin-bottom: 7rem;
+		width: 40rem;
+		padding: 0 3rem;
+	}
+}
+
+@media (min-width: 90rem) {
+	.overview_container {
+		width: 60rem;
+	}
+
+	.overview_title {
+		font-size: 7rem;
+		margin-top: 0;
+	}
+}

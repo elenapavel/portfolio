@@ -1,0 +1,10 @@
+.application {
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: #000;
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.4;
+	font-size: 1rem;
+	color: #fcfcfc;
+}

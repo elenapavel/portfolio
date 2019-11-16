@@ -1,0 +1,131 @@
+.categories_container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	transition-property: margin, transform;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	margin: 1.5rem;
+	z-index: 1;
+}
+
+.category {
+	width: 10rem;
+	font-size: 1.1rem;
+	transition-property: font-size, transform;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	letter-spacing: 0.5px;
+	line-height: 2;
+	position: relative;
+	color: #9395a1;
+	cursor: pointer;
+}
+
+.category_active {
+	color: #fcfcfc;
+}
+
+.category:before {
+	content: "";
+	position: absolute;
+	right: 100%;
+	left: auto;
+	width: 0;
+	transition: width 0.3s ease-in-out;
+	border-top: 2px solid #fcfcfc;
+	top: 0;
+	bottom: 0;
+	margin: auto 1.5rem;
+	height: 2px;
+}
+
+.category_active:before {
+	width: 4rem;
+}
+
+.menu {
+	position: relative;
+	right: 0;
+	width: 4rem;
+	top: 0;
+	margin: 0.5rem 0.5rem 0 auto;
+	transition-property: font-size, margin, width;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	z-index: 10;
+	display: block;
+	text-align: center;
+	font-size: 3rem;
+	line-height: 1;
+	cursor: pointer;
+}
+
+.menu_container {
+	z-index: 5;
+	position: absolute;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.9);
+	padding: 1.5rem 0;
+	transition-property: transform, opacity, padding, background;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+
+@media (min-width: 25rem) {
+	.category {
+		font-size: 1.3rem;
+	}
+
+	.category_active:before {
+		width: 7rem;
+	}
+}
+
+@media (min-width: 30rem) {
+	.category_active:before {
+		width: 10rem;
+	}
+}
+
+@media (min-width: 40rem) {
+	.menu {
+		margin: 2rem 2rem 0 auto;
+	}
+
+	.menu_container {
+		padding: 3rem 0;
+	}
+
+	.categories_container {
+		margin: 3rem;
+	}
+}
+
+@media (min-width: 67rem) {
+	.menu {
+		width: 0;
+		font-size: 0;
+		margin: 0;
+	}
+
+	.menu_container {
+		opacity: 1 !important;
+		transform: translateX(0) !important;
+		background: transparent;
+		padding: 0;
+		position: relative;
+	}
+
+	.categories_container {
+		margin: 7rem 8rem 10rem;
+	}
+
+	.categories_container > div {
+		opacity: 1 !important;
+		transform: translateX(0) !important;
+	}
+}

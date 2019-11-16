@@ -1,0 +1,143 @@
+.section {
+	position: relative;
+}
+.content {
+	padding: 2em;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	max-width: 80rem;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.separator {
+	border-top: 1px solid var(--background_color_accent);
+	flex-basis: 100%;
+	margin-top: 1rem;
+}
+.to_bottom {
+	padding: 1em 0;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	max-width: 80rem;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.to_left {
+	flex-basis: 100%;
+}
+.to_right {
+	flex-basis: 100%;
+}
+.get_platform {
+	font-size: 1em;
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.get_platform_text {
+}
+.platform_preview {
+	margin-left: 0.5em;
+}
+.platform_preview:before {
+	content: "\f227";
+	display: inline-block;
+	font-family: "Ionicons";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-rendering: auto;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.menu {
+	position: relative;
+	margin: 0 -1em;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.item {
+	padding: 1rem;
+	flex-basis: 100%;
+	transition-property: font-size, flex-basis;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.copyright {
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+@media (min-width: 30rem) {
+	.item {
+		flex-basis: auto;
+	}
+	.to_bottom {
+		padding: 1em 2em;
+	}
+}
+@media (min-width: 48rem) {
+	.content {
+		padding: 2em 4em 2em;
+	}
+	.menu_items {
+		font-size: 1.2em;
+	}
+	.to_bottom {
+		padding: 1em 4em;
+	}
+	.item {
+		font-size: 1.2em;
+	}
+	.copyright {
+		font-size: 1.2em;
+	}
+	.get_platform {
+		font-size: 1.2em;
+	}
+	.to_left {
+		display: block;
+		padding-right: 2em;
+		flex-basis: auto;
+	}
+	.to_right {
+		display: block;
+		flex-basis: auto;
+	}
+}
+@media (min-width: 64rem) {
+	.content {
+		padding: 3em 5em 2em;
+	}
+	.column {
+		flex-basis: calc(25% - 1.25em);
+	}
+	.column:nth-child(3) {
+		margin-top: 0;
+	}
+	.column:nth-child(4) {
+		margin-top: 0;
+	}
+	.heading {
+		font-size: 1.8em;
+	}
+	.social_media {
+		font-size: 1em;
+	}
+	.to_bottom {
+		padding: 1em 5em 2em;
+	}
+}

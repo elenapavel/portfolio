@@ -21,7 +21,7 @@ export default ({ image, extras, lastImage, lastExtras }) => {
 	}
 
 	const transitionImage = useTransition(image, null, {
-		config: { duration: 600, ...config.woobly },
+		config: config.woobly,
 		from: { transform: "scale(1.1)", opacity: 0 },
 		enter: { transform: "scale(1)", opacity: 1 },
 		leaves: { transform: "scale(0.9)", opacity: 0 },
@@ -34,11 +34,7 @@ export default ({ image, extras, lastImage, lastExtras }) => {
 	});
 
 	const springTitle = useSpring({
-		config: {
-			delay: 250,
-			duration: 150,
-			...config.slow,
-		},
+		config: config.slow,
 		from: {
 			opacity: "0",
 			transform: "translateY(3rem)",
@@ -51,11 +47,9 @@ export default ({ image, extras, lastImage, lastExtras }) => {
 	});
 
 	const springContent = useSpring({
-		config: {
-			delay: 400,
-			duration: 150,
-			...config.slow,
-		},
+		config: config.slow,
+		delay: 400,
+		duration: 150,
 		from: {
 			opacity: "0",
 			transform: "translateY(3rem)",
