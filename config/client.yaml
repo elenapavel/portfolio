@@ -2,14 +2,15 @@ target: web
 
 template:
   path: client/index.html
-  fonts:
-    - /fonts/NotoSerif/NotoSerif.css
-    - /fonts/NotoSans/NotoSans.css
-    - /fonts/EagleLake/EagleLake.css
   meta:
-    url: "https://elenapavel.github.io/playground"
-    title: "Playground - Elena Pavel"
+    url: "https://elenapavel.github.io/portfolio"
+    title: "Portfolio - Elena Pavel"
     description: "A small playground for React learning"
 
 alias:
   $website: ~/client/website
+
+# Production #
+
+url:
+  path: /portfolio
