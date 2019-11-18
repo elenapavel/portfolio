@@ -9,3 +9,8 @@ template:
 
 alias:
   $website: ~/client/website
+
+# Production #
+
+url:
+  path: /portfolio
