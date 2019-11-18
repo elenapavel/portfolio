@@ -7,7 +7,6 @@
 
 # nore specific
 node_modules
-/.builds
 /.cache
 
 # project related

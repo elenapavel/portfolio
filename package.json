@@ -5,7 +5,8 @@
 	"scripts": {
 		"db:create:admin": "nore run scripts/create_admin_account.js --config=server",
 		"db:push": "./scripts/db.sh push",
-		"db:pull": "./scripts/db.sh pull"
+		"db:pull": "./scripts/db.sh pull",
+		"deploy": "git subtree push --prefix .builds/client origin gh-pages"
 	},
 	"workspaces": [
 		"nore/*"
