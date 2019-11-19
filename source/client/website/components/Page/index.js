@@ -4,6 +4,8 @@ import cache from "$website/cache";
 import { http } from "@nore/pwa";
 import $, { css } from "./style.css";
 
+const absolutePath = IS_DEVELOPMENT ? "" : "/portfolio";
+
 export default function Page({ path, layout }) {
 	const [data, setData] = useState(null);
 	const [isLoading, setIsLoading] = useState(true);
@@ -12,7 +14,7 @@ export default function Page({ path, layout }) {
 		path => {
 			const getPath = path == "/" ? "/home" : path;
 
-			http.get(`/data.json`, {})
+			http.get(`${absolutePath}/data.json`, {})
 				.then(reply => {
 					const data = reply.body.find(
 						element => "/" + element.id == getPath
