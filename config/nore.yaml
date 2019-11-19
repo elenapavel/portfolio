@@ -1,4 +1,4 @@
-url: http://navaru.local
+url: http://portfolio.local
 
 client:
   template:
@@ -9,6 +9,6 @@ client:
       description: "A small playground for React learning"
 
 
-# PRODUCTION #
+# Production #
 
-url: http://elenapavel.github.io/portfolio
+url: https://elenapavel.github.io/portfolio

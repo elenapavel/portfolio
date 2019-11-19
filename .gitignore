@@ -1,17 +1,35 @@
-# https://git.io/vDrWi
-*Thumbs.db
-*.DS_Store
-*.idea/*
+# OSX specific
+.DS_Store
+
+# specific app settings
+.git
+.rnpm
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs
+.logs
 *.log
-*.vscode
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+bower_components/
+node_modules/
+jspm_packages/
+
+# dotenv environment variable files
+.env*
 
 # nore specific
-node_modules
-/.cache
-
-# project related
-/backups
-/logs
-/ssl
-/db.sqlite*
-config/nginx.development.conf
+.cache
+.builds
+.logs
+db.sqlite
+config/nginx*
