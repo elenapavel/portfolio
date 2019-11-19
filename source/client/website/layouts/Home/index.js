@@ -3,6 +3,8 @@ import { Link } from "@nore/pwa";
 import data from "./data";
 import $, { css } from "./style.css";
 
+const absolutePath = IS_DEVELOPMENT ? "" : "/portfolio";
+
 export default function Home({ page }) {
 	const [hoveredItemIndex, handleHover] = useState(null);
 
@@ -35,7 +37,7 @@ export default function Home({ page }) {
 								onMouseEnter={() => handleHover(key)}
 								onMouseLeave={() => handleHover(null)}
 							>
-								<Link to={item.link}>
+								<Link to={`${absolutePath}${item.link}`}>
 									{item.title}
 									<b className={arrowClasses} />
 								</Link>
