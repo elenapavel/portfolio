@@ -3,9 +3,7 @@
 	"type": "module",
 	"private": true,
 	"scripts": {
-		"db:create:admin": "nore run scripts/create_admin_account.js --config=server",
-		"db:push": "./scripts/db.sh push",
-		"db:pull": "./scripts/db.sh pull",
+		"deploy": "./scripts/deploy.sh",
 		"deploy": "git subtree push --prefix .builds/client origin gh-pages",
 		"export": "nore build client --debug --mode=production && cp -R public/ .builds/client"
 	},

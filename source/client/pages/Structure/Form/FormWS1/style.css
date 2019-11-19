@@ -1,0 +1,57 @@
+.section {
+	position: relative;
+	padding: 2em;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.heading {
+	composes: heading from "~client/pages/Structure/style.css";
+}
+.content {
+	max-width: 40rem;
+	margin: 2em auto 0;
+}
+.tagline {
+	margin-top: 2rem;
+	font-size: 0.9em;
+	text-align: center;
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.email_action {
+	margin-top: 1em;
+	text-align: center;
+}
+.email {
+	text-align: center;
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	position: relative;
+	padding: 0 0.5em;
+}
+.email_line {
+	margin: 0.5em -0.5em 0;
+	border-top: 1px solid var(--text_color_primary);
+}
+@media (min-width: 48rem) {
+	.section {
+		padding: 2em 4em;
+	}
+	.tagline {
+		font-size: 1em;
+	}
+	.email {
+		font-size: 1.2em;
+	}
+}
+@media (min-width: 64rem) {
+	.section {
+		padding: 3em 5em;
+	}
+	.content {
+		margin: 3em auto 0;
+	}
+}

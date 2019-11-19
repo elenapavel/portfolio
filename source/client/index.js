@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import { Application, Scope, loadable } from "@nore/pwa";
+import $, { css } from "./style.css";
 
-const Website = loadable(() => import("./website"));
+const container = document.getElementById("application");
+const root = IS_DEVELOPMENT ? "/" : "/portfolio";
 
 function render() {
 	const application = (
-		<Application title="Ryota">
-			<Scope.NotMatched render={Website} />
+		<Application root={root}>
+			<b class={$.container}>{pages}</b>
 		</Application>
 	);
-
-	const container = document.getElementById("application");
 
 	ReactDOM.render(application, container, () => {
 		container.classList.replace("is_loading", "is_loaded");

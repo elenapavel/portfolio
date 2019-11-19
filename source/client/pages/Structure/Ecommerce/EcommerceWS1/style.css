@@ -1,0 +1,75 @@
+.section {
+	position: relative;
+	padding: 2em 0;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.content {
+	max-width: 80rem;
+	margin: auto;
+	padding: 2em 2em 0;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.heading {
+	composes: heading from "~client/pages/Structure/style.css";
+}
+.items {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 0;
+	transition-property: margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.product {
+	flex-basis: 100%;
+	max-width: 20rem;
+	margin: 2em auto 0;
+	transition-property: flex-basis;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.ad {
+	flex-basis: 100%;
+	transition-property: flex-basis;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	margin-top: 2em;
+}
+@media (min-width: 40rem) {
+	.product {
+		flex-basis: calc(50% - 1em);
+		max-width: none;
+		margin: 2em 0 0;
+	}
+}
+@media (min-width: 48rem) {
+	.section {
+		padding: 4em 0;
+	}
+	.content {
+		padding: 2em 4em 0;
+	}
+	.items {
+		margin-top: 1em;
+	}
+}
+@media (min-width: 64rem) {
+	.section {
+		padding: 5em 0;
+	}
+	.content {
+		padding: 3em 5em 0;
+	}
+	.product {
+		flex-basis: calc(25% - 1.25em);
+	}
+	.ad {
+		flex-basis: calc(50% - 1em);
+	}
+}

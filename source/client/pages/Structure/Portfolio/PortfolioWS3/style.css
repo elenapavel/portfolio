@@ -1,0 +1,186 @@
+.portfolio {
+	position: relative;
+	padding: 2em 0 0;
+	max-width: 80rem;
+	margin: auto;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.content {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0 2em;
+}
+.to_left {
+	flex-basis: 100%;
+	max-width: 30rem;
+	transition-property: flex-basis;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.heading {
+	composes: heading from "~client/pages/Structure/style.css";
+	width: 100%;
+	padding: 0;
+	text-align: left;
+}
+.description {
+	margin-top: 1em;
+	transition-property: margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.to_right {
+	flex-basis: 100%;
+	max-width: 30rem;
+	margin-top: 2em;
+	transition-property: flex-basis, margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.items {
+	position: relative;
+}
+.item:not(:first-child) {
+	margin-top: 1em;
+}
+.item_heading {
+	composes: subheading from "~client/pages/Structure/style.css";
+}
+.item_description {
+	margin-top: 0.5em;
+}
+.slider {
+	position: relative;
+	margin: 2em 2em 0;
+}
+.preview {
+	position: relative;
+	z-index: 10;
+	padding-top: 56.25%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.actions {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -0.5em;
+	right: -0.5em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition-property: left, right;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.action_previous {
+	font-size: 1.5em;
+	cursor: pointer;
+}
+.action_previous:before {
+	content: "\f3cf";
+	display: inline-block;
+	font-family: "Ionicons";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-rendering: auto;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.action_next {
+	font-size: 1.5em;
+	cursor: pointer;
+}
+.action_next:before {
+	content: "\f3d1";
+	display: inline-block;
+	font-family: "Ionicons";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-rendering: auto;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+@media (min-width: 48rem) {
+	.portfolio {
+		padding: 4em 0;
+		margin-top: 0;
+	}
+	.content {
+		padding: 0 4em;
+		justify-content: space-between;
+	}
+	.to_left {
+		flex-basis: calc(50% - 1em);
+		max-width: none;
+	}
+	.description {
+		margin-top: 2em;
+	}
+	.to_right {
+		flex-basis: calc(50% - 1em);
+		max-width: none;
+		margin-top: 0;
+	}
+	.item:not(:first-child) {
+		margin-top: 2em;
+	}
+	.item_description {
+		margin-top: 1em;
+	}
+	.slider {
+		margin: 2em 4em;
+	}
+	.actions {
+		left: -2.5em;
+		right: -2.5em;
+	}
+	.action_previous {
+		font-size: 2em;
+	}
+	.action_next {
+		font-size: 2em;
+	}
+}
+@media (min-width: 64rem) {
+	.portfolio {
+		padding: 5em 0;
+	}
+	.content {
+		padding: 0 5em;
+	}
+	.to_left {
+		flex-basis: calc(50% - 4em);
+	}
+	.to_right {
+		flex-basis: calc(50% - 4em);
+	}
+	.slider {
+		margin: 3em 5em;
+	}
+	.actions {
+		left: -3em;
+		right: -3em;
+	}
+	.action_previous {
+		font-size: 3em;
+	}
+	.action_next {
+		font-size: 3em;
+	}
+}

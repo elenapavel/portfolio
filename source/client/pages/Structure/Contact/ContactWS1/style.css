@@ -1,0 +1,104 @@
+.section {
+	position: relative;
+}
+.content {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.to_left {
+	position: relative;
+	flex-basis: 100%;
+	padding-top: 56.25%;
+	transition-property: flex-basis;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.to_left > :first-child {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+.to_right {
+	flex-basis: 100%;
+	max-width: 30rem;
+	padding: 2em;
+	border-radius: 0.25em;
+	background: var(--background_color);
+	transition-property: flex-basis, padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.heading {
+	composes: heading from "~client/pages/Structure/style.css";
+	padding: 0;
+	width: 100%;
+}
+.subheading {
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	margin-top: 1rem;
+	text-align: center;
+}
+.login_action {
+	margin-top: 2em;
+}
+.tagline {
+	margin-top: 2rem;
+	text-align: center;
+	font-size: 0.9em;
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.register_action {
+	margin-top: 2em;
+}
+.forgot_password_action {
+	margin-top: 2em;
+	text-align: center;
+}
+.forgot_password {
+	text-align: center;
+	padding: 0.5rem;
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.forgot_password_line {
+	margin: 0.5rem -0.5rem 0;
+	border-top: 1px solid var(--text_color_primary);
+}
+@media (min-width: 48rem) {
+	.to_right {
+		flex-basis: 30rem;
+	}
+	.subheading {
+		font-size: 1.2em;
+	}
+	.tagline {
+		font-size: 1em;
+	}
+	.forgot_password {
+		font-size: 1.2em;
+	}
+}
+@media (min-width: 64rem) {
+	.content {
+		justify-content: flex-end;
+	}
+	.to_left {
+		flex-basis: calc(100% - 30rem);
+		padding-top: 0;
+	}
+	.to_right {
+		padding: 3em 5em;
+	}
+}

@@ -1,0 +1,53 @@
+.section {
+	position: relative;
+	padding: 2em;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.content {
+	max-width: 40rem;
+	margin: auto;
+}
+.heading {
+	composes: heading from "~client/pages/Structure/style.css";
+	width: 100%;
+	text-align: center;
+	padding: 0;
+}
+.description {
+	text-align: center;
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	margin-top: 2rem;
+}
+.action {
+	margin-top: 2em;
+	display: flex;
+	justify-content: center;
+}
+.tagline {
+	font-size: 0.9em;
+	margin-top: 2rem;
+	text-align: center;
+	transition-property: font-size;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+@media (min-width: 48rem) {
+	.section {
+		padding: 2em 4em;
+	}
+	.tagline {
+		font-size: 1em;
+	}
+	.description {
+		font-size: 1.2em;
+	}
+}
+@media (min-width: 64rem) {
+	.section {
+		padding: 3em 5em;
+	}
+}

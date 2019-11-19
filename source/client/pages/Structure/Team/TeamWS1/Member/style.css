@@ -1,0 +1,49 @@
+.member_collapsed {
+	position: relative;
+	background-color: var(--background_color_accent);
+}
+.member_expanded {
+	composes: member_collapsed;
+}
+.heading {
+	composes: subheading from "~client/pages/Structure/style.css";
+}
+.avatar {
+	width: 100%;
+	padding-top: 130%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.details {
+	opacity: 0;
+	visibility: hidden;
+	transition-property: opacity, visibility;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	background: inherit;
+	padding: 2em;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.position {
+	margin-top: 1em;
+}
+.description {
+	margin-top: 1em;
+}
+.social_media {
+	margin-top: 1em;
+}
+.member_expanded .details {
+	opacity: 1;
+	visibility: visible;
+}

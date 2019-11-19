@@ -1,4 +1,0 @@
-target: web
-source_path: tests
-template:
-  path: ../source/client/index.html

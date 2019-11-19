@@ -1,0 +1,14 @@
+url: http://navaru.local
+
+client:
+  template:
+    path: client/index.html
+    meta:
+      url: "https://elenapavel.github.io/portfolio/"
+      title: "Portfolio - Elena Pavel"
+      description: "A small playground for React learning"
+
+
+# PRODUCTION #
+
+url: http://elenapavel.github.io/portfolio

@@ -1,0 +1,102 @@
+.platform_promo {
+	position: relative;
+}
+
+.header {
+	position: relative;
+	background: var(--background_color_accent);
+}
+
+.promo_section {
+	background: var(--background_color_accent);
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	transition: padding 0.3s ease-in-out;
+}
+
+.promo_section > *:not(:first-child) {
+	margin-top: 1em;
+	transition: margin 0.3s ease-in-out;
+}
+
+.promo_headline {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	transition: width 0.3s ease-in-out;
+}
+
+.social_signup {
+	background-color: var(--text_color_accent);
+	color: var(--background_color);
+	padding: 1em 2em;
+	border-radius: 0.5em;
+	font-family: var(--font_accent);
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.social_signup_icon {
+	color: inherit;
+	margin-right: 1em;
+}
+
+.option_headline {
+	position: relative;
+}
+
+.register_form {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	transition: width 0.3s ease-in-out;
+}
+
+.heading {
+	composes: heading from "~client/pages/Structure/style.css";
+}
+
+@media (min-width: 30rem) {
+	.promo_headline {
+		width: 90%;
+	}
+
+	.register_form {
+		width: 90%;
+	}
+}
+
+@media (min-width: 48rem) {
+	.promo_section {
+		padding: 3em 7em;
+	}
+
+	.promo_headline {
+		width: 80%;
+	}
+
+	.register_form {
+		width: 80%;
+	}
+}
+
+@media (min-width: 64rem) {
+	.promo_section {
+		padding: 5em 15em;
+	}
+
+	.promo_section > * {
+		margin-top: 2em;
+	}
+
+	.promo_headline {
+		width: 70%;
+	}
+
+	.register_form {
+		width: 70%;
+	}
+}

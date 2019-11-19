@@ -1,0 +1,97 @@
+.featured {
+	position: relative;
+	padding: 2em var(--container_margin);
+	transition: padding 0.3s ease-in-out;
+}
+.content {
+	display: flex;
+	margin-top: 2em;
+	flex-wrap: wrap;
+	justify-content: center;
+	transition: margin 0.3s ease-in-out;
+}
+.to_left {
+	flex-basis: 100%;
+	padding: 0 2em;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.to_center {
+	flex-basis: 100%;
+	padding: 0 2em;
+	margin-top: 2em;
+	transition-property: padding, margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.to_right {
+	flex-basis: 100%;
+	display: flex;
+	padding: 0 2em;
+	margin-top: 2em;
+	transition-property: padding, margin;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.content_preview {
+	padding-top: 56.25%;
+	flex-basis: 100%;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: padding 0.3s ease-in-out;
+}
+.heading {
+	composes: heading from "~client/pages/Structure/style.css";
+}
+@media (min-width: 48rem) {
+	.featured {
+		padding-top: 4em;
+		padding-bottom: 4em;
+	}
+	.content {
+		margin-top: 4em;
+	}
+	.to_left {
+		flex-basis: 50%;
+		padding: 0 2em 0 0;
+	}
+	.to_center {
+		flex-basis: 50%;
+		padding: 0 0 0 2em;
+		margin-top: 0;
+	}
+	.to_right {
+		flex-basis: 100%;
+		padding: 0;
+		margin-top: 4em;
+	}
+}
+@media (min-width: 64rem) {
+	.featured {
+		padding-top: 5em;
+		padding-bottom: 5em;
+	}
+	.content {
+		margin-top: 5em;
+	}
+	.to_left {
+		flex-basis: calc(100% / 3);
+		order: 1;
+		padding-right: 4em;
+	}
+	.to_center {
+		flex-basis: calc(100% / 3);
+		order: 3;
+		padding-left: 4em;
+	}
+	.to_right {
+		flex-basis: calc(100% / 3);
+		order: 2;
+		margin-top: 0;
+	}
+	.content_preview {
+		padding-top: 0;
+	}
+}

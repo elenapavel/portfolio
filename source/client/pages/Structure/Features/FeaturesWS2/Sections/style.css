@@ -1,0 +1,40 @@
+.sections {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	transition: margin 0.3s ease-in-out;
+}
+.section {
+	flex-basis: 100%;
+	transition-property: flex-basis, padding;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	margin-top: 1em;
+}
+.section_heading {
+	composes: subheading from "~client/pages/Structure/style.css";
+}
+.section_description {
+	margin-top: 1em;
+	transition: margin 0.3s ease-in-out;
+}
+@media (max-width: 47.99rem) {
+	.section {
+		order: 1 !important;
+	}
+}
+@media (min-width: 48rem) {
+	.section {
+		flex-basis: calc(50% - 2em);
+		margin-top: 2em;
+	}
+}
+@media (min-width: 64rem) {
+	.sections {
+		margin-top: 5em;
+	}
+	.section {
+		flex-basis: calc(50% - 2.5em);
+	}
+}

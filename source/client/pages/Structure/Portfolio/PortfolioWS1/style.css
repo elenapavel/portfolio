@@ -1,0 +1,29 @@
+.portfolio {
+	position: relative;
+	padding: 2em var(--container_margin);
+	transition: padding 0.3s ease-in-out;
+}
+.portfolio_cards {
+	max-width: 80rem;
+	margin: 2em auto 0;
+	padding: 0 2em;
+	transition: padding 0.3s ease-in-out;
+}
+.heading {
+	composes: heading from "~client/pages/Structure/style.css";
+}
+@media (min-width: 48rem) {
+	.portfolio {
+		padding-top: 4em;
+		padding-bottom: 4em;
+	}
+	.portfolio_cards {
+		padding: 0;
+	}
+}
+@media (min-width: 64rem) {
+	.portfolio {
+		padding-top: 5em;
+		padding-bottom: 5em;
+	}
+}
