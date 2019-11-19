@@ -3,7 +3,7 @@ target: web
 template:
   path: client/index.html
   meta:
-    url: "https://elenapavel.github.io/portfolio"
+    url: "https://elenapavel.github.io/portfolio/"
     title: "Portfolio - Elena Pavel"
     description: "A small playground for React learning"
 
@@ -13,4 +13,4 @@ alias:
 # Production #
 
 url:
-  path: /portfolio
+  path: /portfolio/
