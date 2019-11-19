@@ -5,6 +5,7 @@ import { http } from "@nore/pwa";
 import $, { css } from "./style.css";
 
 const absolutePath = IS_DEVELOPMENT ? "" : "/portfolio";
+const publicPath = IS_DEVELOPMENT ? "" : "/public";
 
 export default function Page({ path, layout }) {
 	const [data, setData] = useState(null);
@@ -14,7 +15,7 @@ export default function Page({ path, layout }) {
 		path => {
 			const getPath = path == "/" ? "/home" : path;
 
-			http.get(`${absolutePath}/data.json`, {})
+			http.get(`${absolutePath}${publicPath}/data.json`, {})
 				.then(reply => {
 					const data = reply.body.find(
 						element => "/" + element.id == getPath
