@@ -19,8 +19,8 @@ export default function({ htmlWebpackPlugin, webpackConfig }) {
 	const { bundle } = htmlWebpackPlugin.options;
 	const getFileURL = file => join(bundle.config.url.path, file);
 
-	const scripts = files.js.map(file => toScriptTag(getFileURL(file)));
-	const stylesheets = files.css.map(file => toStyleSheetLink(getFileURL(file)));
+	const scripts = files.js.map(file => toScriptTag(file));
+	const stylesheets = files.css.map(file => toStyleSheetLink(file));
 	const fonts = (bundle.config.template.fonts || []).map(toFontLink);
 
 	const data = {
