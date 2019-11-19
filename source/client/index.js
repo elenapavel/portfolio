@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import { Application, Scope, loadable } from "@nore/pwa";
+import pages from "./pages";
 import $, { css } from "./style.css";
 
 const container = document.getElementById("application");

@@ -2,13 +2,13 @@ import React, { useReducer } from "react";
 import reducer from "./reducer.js";
 import TopBar from "./TopBar";
 import Content from "./Content";
-
+import data from "./data.json";
 import $, { css } from "./style.css";
 
 export const ArchitectureState = React.createContext(null);
 export const ArchitectureDispatch = React.createContext(null);
 
-export default ({ data }) => {
+export default () => {
 	const initialState = {
 		logo: data.logo,
 		quote: data.quote,
@@ -52,9 +52,7 @@ export default ({ data }) => {
 							article={articles[selectedArticleIndex]}
 							lastArticle={lastArticle}
 							lastIndex={
-								lastSelectedArticleIndex
-									? lastSelectedArticleIndex
-									: 0
+								lastSelectedArticleIndex ? lastSelectedArticleIndex : 0
 							}
 							currentIndex={selectedArticleIndex}
 							total={articles.length}

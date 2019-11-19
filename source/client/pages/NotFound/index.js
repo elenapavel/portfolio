@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Title } from "@nore/pwa";
 import $, { css } from "./style.css";
 
-import __404Robot from "assets/images/404_robot.png";
+import __404Robot from "$assets/images/404_robot.png";
 
 export default function NotFound() {
 	return (
