@@ -7,7 +7,7 @@
 		"db:push": "./scripts/db.sh push",
 		"db:pull": "./scripts/db.sh pull",
 		"deploy": "git subtree push --prefix .builds/client origin gh-pages",
-		"export": "git subtree push --prefix public origin gh-pages"
+		"export": "nore build client --debug --mode=production && cp -R public/ .builds/client"
 	},
 	"workspaces": [
 		"nore/*"
