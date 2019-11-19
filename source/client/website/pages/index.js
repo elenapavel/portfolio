@@ -5,6 +5,7 @@ import layouts from "$website/layouts";
 import Page from "$website/components/Page";
 
 const NotFound = loadable(() => import("$website/pages/NotFound"));
+const absolutePath = IS_DEVELOPMENT ? "" : "/portfolio";
 
 export default (
 	<>
@@ -12,7 +13,7 @@ export default (
 		{keys(layouts).map(path => (
 			<Scope
 				exact
-				match={path}
+				match={`${absolutePath}${path}`}
 				render={() => <Page layout={layouts[path]} path={path} />}
 				key={path}
 			/>
