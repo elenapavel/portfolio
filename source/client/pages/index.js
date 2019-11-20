@@ -51,6 +51,7 @@ export default (
 		<Scope exact match="404" render={NotFound} />
 		{keys(pages).map(path => (
 			<Scope
+				exact
 				match={path}
 				render={() => <Page layout={pages[path]} path={path} />}
 				key={path}
