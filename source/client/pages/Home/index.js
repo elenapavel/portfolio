@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "@nore/pwa";
-import data from "./data";
 import $, { css } from "./style.css";
 
 const absolutePath = IS_DEVELOPMENT ? "" : "/portfolio";
 
-export default function Home({ page }) {
+export default function Home({ data }) {
 	const [hoveredItemIndex, handleHover] = useState(null);
 
 	const arrowClasses = `${$.arrow} ion-ios-arrow-thin-right`;

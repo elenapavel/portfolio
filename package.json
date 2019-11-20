@@ -2,8 +2,8 @@
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
-		"build": "rm -rf dist && nore build client --debug && mv .builds/client dist && cp -R public/* dist",
-		"deploy": "git subtree push --prefix dist origin gh-pages"
+		"build": "rm -rf docs && nore build client --debug && mv .builds/client docs && cp -R public/* docs",
+		"deploy": "git subtree push --prefix docs origin gh-pages"
 	},
 	"workspaces": [
 		"nore/packages/*",
