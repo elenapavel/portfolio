@@ -5,42 +5,42 @@
 			{
 				"image": "home/simple.png",
 				"title": "Gradient",
-				"link": "gradient"
+				"link": "/gradient"
 			},
 			{
 				"image": "home/plants.png",
 				"title": "Plants",
-				"link": "plants"
+				"link": "/plants"
 			},
 			{
 				"image": "home/architecture.png",
 				"title": "Architecture",
-				"link": "architecture"
+				"link": "/architecture"
 			},
 			{
 				"image": "home/calendar.png",
 				"title": "Calendar",
-				"link": "calendar"
+				"link": "/calendar"
 			},
 			{
 				"image": "home/books.png",
 				"title": "Books",
-				"link": "books"
+				"link": "/books"
 			},
 			{
 				"image": "home/structure.png",
 				"title": "Structure components examples",
-				"link": "structure"
+				"link": "/structure"
 			},
 			{
 				"image": "home/universe-facts.png",
 				"title": "Universe Facts",
-				"link": "universe-facts"
+				"link": "/universe-facts"
 			},
 			{
 				"image": "home/react-wireframe.png",
 				"title": "React Wireframe",
-				"link": "react-wireframe"
+				"link": "/react-wireframe"
 			}
 		]
 	},
@@ -134,37 +134,37 @@
 				{
 					"image": "gradient/demos/plants.png",
 					"heading": "Plants",
-					"link": "plants"
+					"link": "/plants"
 				},
 				{
 					"image": "gradient/demos/architecture.png",
 					"heading": "Architecture",
-					"link": "architecture"
+					"link": "/architecture"
 				},
 				{
 					"image": "gradient/demos/calendar.png",
 					"heading": "Calendar",
-					"link": "calendar"
+					"link": "/calendar"
 				},
 				{
 					"image": "gradient/demos/books.png",
 					"heading": "Books",
-					"link": "books"
+					"link": "/books"
 				},
 				{
 					"image": "gradient/demos/structure.png",
 					"heading": "Structure components examples",
-					"link": "structure"
+					"link": "/structure"
 				},
 				{
 					"image": "gradient/demos/universe-facts.png",
 					"heading": "Universe facts",
-					"link": "universe-facts"
+					"link": "/universe-facts"
 				},
 				{
 					"image": "gradient/demos/react-wiidame.png",
 					"heading": "React Wiidame",
-					"link": "react-wiidame"
+					"link": "/react-wiidame"
 				}
 			]
 		},
@@ -646,7 +646,7 @@
 			"heading": "Gallery",
 			"items": [
 				{
-					"link": "structure/gallery-1.jpeg",
+					"link": "/structure/gallery-1.jpeg",
 					"type": "default"
 				},
 				{
@@ -811,37 +811,37 @@
 						"image": "structure/gallery-6.jpeg",
 						"heading": "Simple is underrated.",
 						"description": "Early adopters. Thinkers. Doers. Problem solvers. We have simple plans.",
-						"link": ""
+						"link": "/"
 					},
 					{
 						"image": "structure/gallery-2.jpg",
 						"heading": "Let's start at the beginning.",
 						"description": "Every project is unique, but they all start with one thing in common. We want to know everything: where you started. Where you want to go next. What you value.",
-						"link": ""
+						"link": "/"
 					},
 					{
 						"image": "structure/gallery-4.jpeg",
 						"heading": "We create things",
 						"description": "We've come to understand that websites are not just about pretty pictures, more traffic, better keywords and higher rankings on Google.",
-						"link": ""
+						"link": "/"
 					},
 					{
 						"image": "structure/gallery-5.jpeg",
 						"heading": "Web Development",
 						"description": "Utilising the latest technologies and trends we create websites better than your competitors.",
-						"link": ""
+						"link": "/"
 					},
 					{
 						"image": "structure/gallery-1.jpeg",
 						"heading": "Clients",
 						"description": "No challenge too big. No detail too small. Big picture vision meets serious detail-sweating at every point of a project.",
-						"link": ""
+						"link": "/"
 					},
 					{
 						"image": "structure/gallery-7.jpeg",
 						"heading": "Frontend development",
 						"description": "Basically, starting from an image, you have to develop specific source code, the language that web browsers use and frontend developers understand.",
-						"link": ""
+						"link": "/"
 					}
 				]
 			},
@@ -853,37 +853,37 @@
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item one",
 							"description": "Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item two",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item three",
 							"description": "Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item four",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item five",
 							"description": "Lorem ipsum dolor sit",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item six",
 							"description": "Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						}
 					],
 					"Tab two": [
@@ -891,25 +891,25 @@
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item one",
 							"description": "Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item two",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item three",
 							"description": "Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item four",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						}
 					],
 					"Tab 3": [
@@ -917,31 +917,31 @@
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item one",
 							"description": "Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item two",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item three",
 							"description": "Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item four",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item five",
 							"description": "Lorem ipsum dolor sit",
-							"link": ""
+							"link": "/"
 						}
 					],
 					"Tab 4": [
@@ -949,43 +949,43 @@
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item one",
 							"description": "Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item two",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item three",
 							"description": "Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item one",
 							"description": "Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item two",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item three",
 							"description": "Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						},
 						{
 							"image": "structure/gallery-1.jpeg",
 							"heading": "Item three",
 							"description": "Lorem ipsum dolor sit amet consectetur",
-							"link": ""
+							"link": "/"
 						}
 					]
 				}
