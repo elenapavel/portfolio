@@ -46,7 +46,7 @@
 	},
 	{
 		"id": "gradient",
-		"logo": "/gradient/logo/logo.png",
+		"logo": "gradient/logo/logo.png",
 		"menu": [
 			{
 				"name": "Intro",
@@ -106,17 +106,17 @@
 				{
 					"heading": "Web Development",
 					"subheading": "Utilising the latest technologies and trends we create websites better than your competitors.",
-					"icon": "/gradient/icons/web-development-service.svg"
+					"icon": "gradient/icons/web-development-service.svg"
 				},
 				{
 					"heading": "Craft CMS",
 					"subheading": "Craft CMS is our main choice of content management system (CMS), that puts you in control of your content & layout, being a better alternative to WordPress.",
-					"icon": "/gradient/icons/craft-service.png"
+					"icon": "gradient/icons/craft-service.png"
 				},
 				{
 					"heading": "WordPress CMS",
 					"subheading": "Currently, WordPress is one of the most popular Content Management Systems because it’s easy to set up and it has a user-friendly approach.",
-					"icon": "/gradient/icons/wordpress-service.svg"
+					"icon": "gradient/icons/wordpress-service.svg"
 				}
 			]
 		},
@@ -187,7 +187,7 @@
 	},
 	{
 		"id": "plants",
-		"logo": "/plants/logo.png",
+		"logo": "plants/logo.png",
 		"sections": [
 			{
 				"label": "Nature's edition",
@@ -257,7 +257,7 @@
 	},
 	{
 		"id": "architecture",
-		"logo": "/architecture/architecture_logo.png",
+		"logo": "architecture/architecture_logo.png",
 		"quote": "Your daily dose of art, design and architecture curation.",
 		"categories": [
 			{
@@ -354,7 +354,7 @@
 	},
 	{
 		"id": "books",
-		"logo": "/books/dropbox_logo.png",
+		"logo": "books/dropbox_logo.png",
 		"books": [
 			{
 				"title": "Measuring the user experience",
@@ -508,7 +508,7 @@
 		"id": "structure",
 		"header": {
 			"headerWS1": {
-				"logo": "/structure/dropbox_logo.png",
+				"logo": "structure/dropbox_logo.png",
 				"items": [
 					{
 						"link": "/",
@@ -542,7 +542,7 @@
 					}
 				],
 				"user": {
-					"avatar": "/structure/user.svg",
+					"avatar": "structure/user.svg",
 					"name": "John"
 				}
 			},
@@ -573,7 +573,7 @@
 				],
 				"submitActionText": "Sign up",
 				"header": {
-					"logo": "/structure/dropbox_logo.png",
+					"logo": "structure/dropbox_logo.png",
 					"items": [
 						{
 							"link": "#",
@@ -597,9 +597,9 @@
 			"platformPromoWS2": {
 				"heading": "The Art of Computer Programming",
 				"description": "Bill Gates once said, “If you think you’re a really good programmer… read Art of Computer Programming… You should definitely send me a résumé if you can read the whole thing.”",
-				"preview": "/structure/art-of-computer-programming.png",
+				"preview": "structure/art-of-computer-programming.png",
 				"header": {
-					"logo": "/structure/dropbox_logo.png",
+					"logo": "structure/dropbox_logo.png",
 					"items": [
 						{
 							"link": "#",
@@ -623,12 +623,12 @@
 		},
 		"content": {
 			"contentWS1": {
-				"previewImage": "/structure/hearing-thoughts.jpeg",
+				"previewImage": "structure/hearing-thoughts.jpeg",
 				"heading": "A New Device Can Hear Your Thoughts",
 				"description": "“We wanted to capture interactions that are as close to thinking in your head as possible.”"
 			},
 			"contentWS2": {
-				"previewImage": "/structure/facebook-early-days.jpeg",
+				"previewImage": "structure/facebook-early-days.jpeg",
 				"heading": "Sex, Beer and Coding",
 				"description": "Inside Facebook’s Wild Early Days in Palo Alto.",
 				"readMore": {
@@ -646,7 +646,7 @@
 			"heading": "Gallery",
 			"items": [
 				{
-					"link": "/structure/gallery-1.jpeg",
+					"link": "structure/gallery-1.jpeg",
 					"type": "default"
 				},
 				{
@@ -768,7 +768,7 @@
 			},
 			"featuresWS3": {
 				"heading": "Misused mobile UX patterns",
-				"previewImageSrc": "/structure/smartphone.svg",
+				"previewImageSrc": "structure/smartphone.svg",
 				"items": [
 					{
 						"icon": "ion-ios-checkmark-outline",

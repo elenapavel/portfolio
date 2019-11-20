@@ -7,7 +7,7 @@ export default ({ items }) => (
 			{items.map((item, key) => {
 				const item_key = Object.keys(item)[0];
 				const item_value = Object.values(item)[0];
-				const icon_path = "/plants/social_icons/" + item_key + ".svg";
+				const icon_path = "plants/social_icons/" + item_key + ".svg";
 				const itemClasses = $.item + " " + $[item_key];
 
 				return (
