@@ -29,7 +29,7 @@ const Page = ({ layout, path }) => {
 	useEffect(() => {
 		const getPath = path == "/" ? "/home" : path;
 
-		http.get(`/data.json`, {})
+		http.get(`data.json`, {})
 			.then(reply => {
 				const data = reply.body.find(
 					element => "/" + element.id == getPath
@@ -51,7 +51,6 @@ export default (
 		<Scope exact match="404" render={NotFound} />
 		{keys(pages).map(path => (
 			<Scope
-				exact
 				match={path}
 				render={() => <Page layout={pages[path]} path={path} />}
 				key={path}
