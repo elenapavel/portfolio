@@ -23,6 +23,7 @@ pids
 bower_components/
 node_modules
 jspm_packages/
+yarn.lock
 
 # dotenv environment variable files
 .env*
