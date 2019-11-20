@@ -3,42 +3,42 @@
 		"id": "home",
 		"nav": [
 			{
-				"image": "/home/simple.png",
+				"image": "home/simple.png",
 				"title": "Gradient",
 				"link": "/gradient"
 			},
 			{
-				"image": "/home/plants.png",
+				"image": "home/plants.png",
 				"title": "Plants",
 				"link": "/plants"
 			},
 			{
-				"image": "/home/architecture.png",
+				"image": "home/architecture.png",
 				"title": "Architecture",
 				"link": "/architecture"
 			},
 			{
-				"image": "/home/calendar.png",
+				"image": "home/calendar.png",
 				"title": "Calendar",
 				"link": "/calendar"
 			},
 			{
-				"image": "/home/books.png",
+				"image": "home/books.png",
 				"title": "Books",
 				"link": "/books"
 			},
 			{
-				"image": "/home/structure.png",
+				"image": "home/structure.png",
 				"title": "Structure components examples",
 				"link": "/structure"
 			},
 			{
-				"image": "/home/universe-facts.png",
+				"image": "home/universe-facts.png",
 				"title": "Universe Facts",
 				"link": "/universe-facts"
 			},
 			{
-				"image": "/home/react-wireframe.png",
+				"image": "home/react-wireframe.png",
 				"title": "React Wireframe",
 				"link": "/react-wireframe"
 			}
@@ -84,12 +84,12 @@
 		"introSection": {
 			"id": "intro",
 			"heading": "Simple is underrated.",
-			"image": "/gradient/intro-section.jpeg"
+			"image": "gradient/intro-section.jpeg"
 		},
 		"beginningSection": {
 			"id": "beginning",
 			"heading": "Let's start at the beginning.",
-			"image": "/gradient/beginning-section.jpeg",
+			"image": "gradient/beginning-section.jpeg",
 			"description": "Every project is unique, but they all start with one thing in common. We want to know everything: where you started. Where you want to go next. What you value. Who your customers are and why they care about you. The only way to solve a problem is to understand it from every angle. Luckily, we’ve got a proven process to quench our insatiable curiosity."
 		},
 		"aboutSection": {
@@ -97,7 +97,7 @@
 			"heading": "We create things",
 			"subheading": "About us",
 			"description": "We've come to understand that websites are not just about pretty pictures, more traffic, better keywords and higher rankings on Google. Those things are important, sure, but more than anything else, websites need to produce when it comes to the bottom line.",
-			"image": "/gradient/about-section.jpg"
+			"image": "gradient/about-section.jpg"
 		},
 		"servicesSection": {
 			"id": "services",
@@ -123,7 +123,7 @@
 		"clientsSection": {
 			"id": "clients",
 			"heading": "Clients",
-			"image": "/gradient/clients-section.jpeg",
+			"image": "gradient/clients-section.jpeg",
 			"description": "No challenge too big. No detail too small. Big picture vision meets serious detail-sweating at every point of a project."
 		},
 		"portfolioSection": {
@@ -132,37 +132,37 @@
 			"image": "",
 			"items": [
 				{
-					"image": "/gradient/demos/plants.png",
+					"image": "gradient/demos/plants.png",
 					"heading": "Plants",
 					"link": "/plants"
 				},
 				{
-					"image": "/gradient/demos/architecture.png",
+					"image": "gradient/demos/architecture.png",
 					"heading": "Architecture",
 					"link": "/architecture"
 				},
 				{
-					"image": "/gradient/demos/calendar.png",
+					"image": "gradient/demos/calendar.png",
 					"heading": "Calendar",
 					"link": "/calendar"
 				},
 				{
-					"image": "/gradient/demos/books.png",
+					"image": "gradient/demos/books.png",
 					"heading": "Books",
 					"link": "/books"
 				},
 				{
-					"image": "/gradient/demos/structure.png",
+					"image": "gradient/demos/structure.png",
 					"heading": "Structure components examples",
 					"link": "/structure"
 				},
 				{
-					"image": "/gradient/demos/universe-facts.png",
+					"image": "gradient/demos/universe-facts.png",
 					"heading": "Universe facts",
 					"link": "/universe-facts"
 				},
 				{
-					"image": "/gradient/demos/react-wiidame.png",
+					"image": "gradient/demos/react-wiidame.png",
 					"heading": "React Wiidame",
 					"link": "/react-wiidame"
 				}
@@ -171,13 +171,13 @@
 		"webSection": {
 			"id": "web",
 			"heading": "Web development",
-			"image": "/gradient/web-section.jpeg",
+			"image": "gradient/web-section.jpeg",
 			"description": "The endless possibilities of the web is something we adopt continuously. Through a rock-solid stack of technology we provide our clients with fast, scalable products, built for the digital future."
 		},
 		"frontendSection": {
 			"id": "frontend",
 			"heading": "Frontend development",
-			"image": "/gradient/frontend-section.jpeg",
+			"image": "gradient/frontend-section.jpeg",
 			"description": "Before launching a page you need to translate its design into web technologies. Basically, starting from an image, you have to develop specific source code, the language that web browsers use and frontend developers understand. No matter how good the design is, a poorly implemented code will cancel the initial advantages. We have the know-how needed to properly develop web projects."
 		},
 		"contactSection": {
@@ -198,7 +198,7 @@
 						"content": "While often marketed as a \"plant\" in a pot, in its natural state, it grows to 98 feet tall. Despite its fragility as a species in the wild, it has become a very popular houseplant due to its beautiful leaves and slow-growing nature.",
 						"category": "Palms",
 						"species": "20 species",
-						"image": "/plants/ravenea-rivularis.jpg"
+						"image": "plants/ravenea-rivularis.jpg"
 					},
 					{
 						"scientificName": "Chamaedorea elegans",
@@ -206,7 +206,7 @@
 						"content": "It is one of several species with leaves that are harvested as xate. It is a versatile and almost no-maintenance plant that is able to grow in every indoor and outdoor condition possible with little help and care.",
 						"category": "Palms",
 						"species": "107 species",
-						"image": "/plants/chamaedorea-elegans.jpg"
+						"image": "plants/chamaedorea-elegans.jpg"
 					},
 					{
 						"scientificName": "Howea forsteriana",
@@ -214,7 +214,7 @@
 						"content": "The palm is an elegant plant, and is popular for growing indoors, requiring little light. The palm received the name \"forsteriana\" after the naturalist father and son duo who first encountered it during Captain Cook's second voyage to the Pacific, Johann Reinhold Forster and Georg Forster.",
 						"category": "Palms",
 						"species": "2 species",
-						"image": "/plants/howea-forsteriana.jpg"
+						"image": "plants/howea-forsteriana.jpg"
 					},
 					{
 						"scientificName": "Ficus Elastica",
@@ -222,7 +222,7 @@
 						"content": "Ficus elastica is grown around the world as an ornamental plant, outside in frost-free climates from the tropical to the Mediterranean and inside in colder climates as a houseplant.",
 						"category": "Ficus",
 						"species": "850 species",
-						"image": "/plants/ficus-elastica.jpg"
+						"image": "plants/ficus-elastica.jpg"
 					},
 					{
 						"scientificName": "Myriophyllum simulans",
@@ -230,7 +230,7 @@
 						"content": "In its submerged form it has light green, densely leaved stems with very finely pinnate leaves. This fast-growing stem plant needs good lighting and thrives well at temperatures between 20 and 28 °C.",
 						"category": "Aquatic Plants",
 						"species": "69 species",
-						"image": "/plants/myriophyllum-simulans.jpg"
+						"image": "plants/myriophyllum-simulans.jpg"
 					},
 					{
 						"scientificName": "Tillandsia Caput Medusae",
@@ -238,7 +238,7 @@
 						"content": "The thick, channeled, tapering and twisting leaves are up to 25 cm (9.8 in) long and are covered in fine gray hairs. The rosette of leaves arise from an inflated pseudobulb. In a greenhouse, the plants can bloom from spring to early summer. The red inflorescences are usually unbranched or digitate.",
 						"category": "Tillandsia",
 						"species": "650 species",
-						"image": "/plants/tillandsiacaputmedusae.jpg"
+						"image": "plants/tillandsiacaputmedusae.jpg"
 					}
 				]
 			}
@@ -275,7 +275,7 @@
 				"title": "Equestrian House",
 				"date": "29.04.2018",
 				"category": "Argentina",
-				"image": "/architecture/equestrian_house.jpg",
+				"image": "architecture/equestrian_house.jpg",
 				"content": [
 					"Equestrian House is a holiday residence located in Costa Esmeralda, a picturesque stretch of coastline 250 miles (400 kilometres) south of Buenos Aires.",
 					"The concrete – which is textured by the imprints of wooden boards and is a popular aesthetic in Argentina – forms the roof, floor and interior walls of the single-storey house. Meanwhile, the exterior walls are made of wood, glass and a metal structure.",
@@ -291,7 +291,7 @@
 				"title": "Garden chapel",
 				"date": "09.10.2014",
 				"category": "China",
-				"image": "/architecture/garden_chapel.jpg",
+				"image": "architecture/garden_chapel.jpg",
 				"content": [
 					"Dark shingles cover this roof, which folds back on itself to give the square-planned building two corners that pitch sharply upwards and two that dip down.",
 					"A cross tops the 12-metre peak on the west facade, while a second low-level pitched roof nestled in the dip gives height to the church hall beneath.",
@@ -308,7 +308,7 @@
 				"title": "Open-air chapel",
 				"date": "29.04.2018",
 				"category": "Slovenia",
-				"image": "/architecture/open_air_chapel.jpg",
+				"image": "architecture/open_air_chapel.jpg",
 				"content": [
 					"Over recent years the village has gradually transformed from a small rural settlement into a suburb for commuters working in the nearby town.",
 					"Skorba's organic expansion altered the historic clustered street plan, and left the village without a defined centre or space for public meeting and events.",
@@ -832,7 +832,7 @@
 						"link": "/"
 					},
 					{
-						"image": "/structure/gallery-1.jpeg",
+						"image": "structure/gallery-1.jpeg",
 						"heading": "Clients",
 						"description": "No challenge too big. No detail too small. Big picture vision meets serious detail-sweating at every point of a project.",
 						"link": "/"
@@ -850,37 +850,37 @@
 				"items": {
 					"Tab one": [
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item one",
 							"description": "Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item two",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item three",
 							"description": "Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item four",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item five",
 							"description": "Lorem ipsum dolor sit",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item six",
 							"description": "Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
@@ -888,25 +888,25 @@
 					],
 					"Tab two": [
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item one",
 							"description": "Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item two",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item three",
 							"description": "Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item four",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
@@ -914,31 +914,31 @@
 					],
 					"Tab 3": [
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item one",
 							"description": "Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item two",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item three",
 							"description": "Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item four",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item five",
 							"description": "Lorem ipsum dolor sit",
 							"link": "/"
@@ -946,43 +946,43 @@
 					],
 					"Tab 4": [
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item one",
 							"description": "Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item two",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item three",
 							"description": "Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item one",
 							"description": "Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item two",
 							"description": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item three",
 							"description": "Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
 						},
 						{
-							"image": "/structure/gallery-1.jpeg",
+							"image": "structure/gallery-1.jpeg",
 							"heading": "Item three",
 							"description": "Lorem ipsum dolor sit amet consectetur",
 							"link": "/"
@@ -1016,7 +1016,7 @@
 						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "block",
@@ -1024,7 +1024,7 @@
 						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "block",
@@ -1032,7 +1032,7 @@
 						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "block",
@@ -1040,7 +1040,7 @@
 						"description": "Lorem ipsum dolor sit amet consectetur",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "block",
@@ -1048,7 +1048,7 @@
 						"description": "Lorem ipsum dolor sit amet consectetur",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					}
 				]
 			},
@@ -1061,7 +1061,7 @@
 						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "block",
@@ -1069,7 +1069,7 @@
 						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "featured",
@@ -1077,7 +1077,7 @@
 						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "block",
@@ -1085,7 +1085,7 @@
 						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "block",
@@ -1093,7 +1093,7 @@
 						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "block",
@@ -1101,7 +1101,7 @@
 						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "block",
@@ -1109,7 +1109,7 @@
 						"description": "Lorem ipsum dolor sit amet consectetur",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "block",
@@ -1117,7 +1117,7 @@
 						"description": "Lorem ipsum dolor sit amet consectetur",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "block",
@@ -1125,7 +1125,7 @@
 						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "block",
@@ -1133,7 +1133,7 @@
 						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet ante sed orci efficitur interdum quis eu neque.",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "block",
@@ -1141,7 +1141,7 @@
 						"description": "Lorem ipsum dolor sit amet consectetur",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					},
 					{
 						"type": "block",
@@ -1149,7 +1149,7 @@
 						"description": "Lorem ipsum dolor sit amet consectetur",
 						"date": "11 Apr 2018",
 						"link": "/",
-						"image": "/structure/gallery-1.jpeg"
+						"image": "structure/gallery-1.jpeg"
 					}
 				]
 			},
@@ -1923,13 +1923,13 @@
 				"label": "volcano",
 				"title": "Volcanoes",
 				"description": "Iceland is home to 32 volcanic systems encompassing around 130 volcanic mountains, 18 of which have erupted since the settlement of Iceland in around 871 CE.",
-				"image": "/universe-facts/volcanoes/volcanoes.jpg"
+				"image": "universe-facts/volcanoes/volcanoes.jpg"
 			},
 			{
 				"label": "planet",
 				"title": "Planets",
 				"description": "Mercury, Venus, Earth and Mars are considered terrestrial planets (solid, rocky surfaces), meanwhile Jupiter and Saturn are gas giants and Uranus and Neptune are ice giants (both types formed of materials pulled together by gravity).",
-				"image": "/universe-facts/planets/space.jpg"
+				"image": "universe-facts/planets/space.jpg"
 			}
 		],
 		"articles": [
@@ -1937,7 +1937,7 @@
 				"title": "Eyjafjallajökull",
 				"subtitle": "Iceland's Most-Famous Volcano",
 				"category": "volcano",
-				"image": "/universe-facts/volcanoes/Eyjafjallajokull.jpg",
+				"image": "universe-facts/volcanoes/Eyjafjallajokull.jpg",
 				"gallery": [],
 				"content": [
 					{
@@ -1960,7 +1960,7 @@
 				"title": "Thrihnukagigur",
 				"subtitle": "The only Volcano You Can Enter",
 				"category": "volcano",
-				"image": "/universe-facts/volcanoes/Thrihnukagigur.jpg",
+				"image": "universe-facts/volcanoes/Thrihnukagigur.jpg",
 				"gallery": [],
 				"content": [
 					{
@@ -1977,7 +1977,7 @@
 				"title": "Grimsvotn",
 				"subtitle": "Iceland's Deadliest Volcanoes",
 				"category": "volcano",
-				"image": "/universe-facts/volcanoes/Grimsvotn.jpg",
+				"image": "universe-facts/volcanoes/Grimsvotn.jpg",
 				"gallery": [],
 				"content": [
 					{
@@ -2000,7 +2000,7 @@
 				"title": "Hekla",
 				"subtitle": "The Gateway to Hell",
 				"category": "volcano",
-				"image": "/universe-facts/volcanoes/Hekla.jpg",
+				"image": "universe-facts/volcanoes/Hekla.jpg",
 				"gallery": [],
 				"content": [
 					{
@@ -2026,7 +2026,7 @@
 				"title": "Katla",
 				"subtitle": "Iceland's most Dangerous Volcano",
 				"category": "volcano",
-				"image": "/universe-facts/volcanoes/Katla.jpg",
+				"image": "universe-facts/volcanoes/Katla.jpg",
 				"gallery": [],
 				"content": [
 					{
@@ -2050,7 +2050,7 @@
 				"title": "Snæfellsjökull",
 				"subtitle": "The Door to the Centre of the Earth",
 				"category": "volcano",
-				"image": "/universe-facts/volcanoes/Snaefellsjokull.jpg",
+				"image": "universe-facts/volcanoes/Snaefellsjokull.jpg",
 				"gallery": [],
 				"content": [
 					{
@@ -2072,7 +2072,7 @@
 				"title": "Askja",
 				"subtitle": "Iceland's Hot Spring Volcano",
 				"category": "volcano",
-				"image": "/universe-facts/volcanoes/Askja.jpg",
+				"image": "universe-facts/volcanoes/Askja.jpg",
 				"gallery": [],
 				"content": [
 					{
@@ -2095,7 +2095,7 @@
 				"title": "Krafla",
 				"subtitle": "The Cold Crater Lake Volcano",
 				"category": "volcano",
-				"image": "/universe-facts/volcanoes/Krafla.jpg",
+				"image": "universe-facts/volcanoes/Krafla.jpg",
 				"gallery": [],
 				"content": [
 					{
@@ -2117,7 +2117,7 @@
 				"title": "Hverfjall",
 				"subtitle": "Easy Hike-Around Volcano",
 				"category": "volcano",
-				"image": "/universe-facts/volcanoes/Hverfjall.jpg",
+				"image": "universe-facts/volcanoes/Hverfjall.jpg",
 				"gallery": [],
 				"content": [
 					{
@@ -2138,13 +2138,13 @@
 				"title": "Mercury",
 				"subtitle": "The Swiftest Planet",
 				"category": "planet",
-				"image": "/universe-facts/planets/Mercury.jpg",
+				"image": "universe-facts/planets/Mercury.jpg",
 				"gallery": [
-					{ "image": "/universe-facts/planets/Mercury.jpg" },
-					{ "image": "/universe-facts/planets/Venus.jpg" },
-					{ "image": "/universe-facts/planets/Earth.jpg" },
-					{ "image": "/universe-facts/planets/Mars.jpg" },
-					{ "image": "/universe-facts/planets/Jupiter.jpg" }
+					{ "image": "universe-facts/planets/Mercury.jpg" },
+					{ "image": "universe-facts/planets/Venus.jpg" },
+					{ "image": "universe-facts/planets/Earth.jpg" },
+					{ "image": "universe-facts/planets/Mars.jpg" },
+					{ "image": "universe-facts/planets/Jupiter.jpg" }
 				],
 				"content": [
 					{
@@ -2173,13 +2173,13 @@
 				"title": "Venus",
 				"subtitle": "Planetary Hot Spot",
 				"category": "planet",
-				"image": "/universe-facts/planets/Venus.jpg",
+				"image": "universe-facts/planets/Venus.jpg",
 				"gallery": [
-					{ "image": "/universe-facts/planets/Saturn.jpeg" },
-					{ "image": "/universe-facts/planets/Uranus.jpg" },
-					{ "image": "/universe-facts/planets/Earth.jpg" },
-					{ "image": "/universe-facts/planets/Mars.jpg" },
-					{ "image": "/universe-facts/planets/Jupiter.jpg" }
+					{ "image": "universe-facts/planets/Saturn.jpeg" },
+					{ "image": "universe-facts/planets/Uranus.jpg" },
+					{ "image": "universe-facts/planets/Earth.jpg" },
+					{ "image": "universe-facts/planets/Mars.jpg" },
+					{ "image": "universe-facts/planets/Jupiter.jpg" }
 				],
 				"content": [
 					{
@@ -2210,12 +2210,12 @@
 				"title": "Earth",
 				"subtitle": "Our Home Planet",
 				"category": "planet",
-				"image": "/universe-facts/planets/Earth.jpg",
+				"image": "universe-facts/planets/Earth.jpg",
 				"gallery": [
-					{ "image": "/universe-facts/planets/Saturn.jpeg" },
-					{ "image": "/universe-facts/planets/Venus.jpg" },
-					{ "image": "/universe-facts/planets/Jupiter.jpg" },
-					{ "image": "/universe-facts/planets/Neptune.jpg" }
+					{ "image": "universe-facts/planets/Saturn.jpeg" },
+					{ "image": "universe-facts/planets/Venus.jpg" },
+					{ "image": "universe-facts/planets/Jupiter.jpg" },
+					{ "image": "universe-facts/planets/Neptune.jpg" }
 				],
 				"content": [
 					{
@@ -2250,12 +2250,12 @@
 				"title": "Mars",
 				"subtitle": "The Red Planet",
 				"category": "planet",
-				"image": "/universe-facts/planets/Mars.jpg",
+				"image": "universe-facts/planets/Mars.jpg",
 				"gallery": [
-					{ "image": "/universe-facts/planets/Mars.jpg" },
-					{ "image": "/universe-facts/planets/Earth.jpg" },
-					{ "image": "/universe-facts/planets/Uranus.jpg" },
-					{ "image": "/universe-facts/planets/Neptune.jpg" }
+					{ "image": "universe-facts/planets/Mars.jpg" },
+					{ "image": "universe-facts/planets/Earth.jpg" },
+					{ "image": "universe-facts/planets/Uranus.jpg" },
+					{ "image": "universe-facts/planets/Neptune.jpg" }
 				],
 				"content": [
 					{
@@ -2285,12 +2285,12 @@
 				"title": "Jupiter",
 				"subtitle": "Twice as massive as all the other planets combined",
 				"category": "planet",
-				"image": "/universe-facts/planets/Jupiter.jpg",
+				"image": "universe-facts/planets/Jupiter.jpg",
 				"gallery": [
-					{ "image": "/universe-facts/planets/Mars.jpg" },
-					{ "image": "/universe-facts/planets/Jupiter.jpg" },
-					{ "image": "/universe-facts/planets/Saturn.jpeg" },
-					{ "image": "/universe-facts/planets/Uranus.jpg" }
+					{ "image": "universe-facts/planets/Mars.jpg" },
+					{ "image": "universe-facts/planets/Jupiter.jpg" },
+					{ "image": "universe-facts/planets/Saturn.jpeg" },
+					{ "image": "universe-facts/planets/Uranus.jpg" }
 				],
 				"content": [
 					{
@@ -2325,7 +2325,7 @@
 				"title": "Saturn",
 				"subtitle": "Jewel of Our Solar System",
 				"category": "planet",
-				"image": "/universe-facts/planets/Saturn.jpeg",
+				"image": "universe-facts/planets/Saturn.jpeg",
 				"gallery": [],
 				"content": [
 					{
@@ -2362,7 +2362,7 @@
 				"title": "Uranus",
 				"subtitle": "The Sideways Planet",
 				"category": "planet",
-				"image": "/universe-facts/planets/Uranus.jpg",
+				"image": "universe-facts/planets/Uranus.jpg",
 				"gallery": [],
 				"content": [
 					{
@@ -2400,7 +2400,7 @@
 				"title": "Neptune",
 				"subtitle": "The Windiest Planet",
 				"category": "planet",
-				"image": "/universe-facts/planets/Neptune.jpg",
+				"image": "universe-facts/planets/Neptune.jpg",
 				"gallery": [],
 				"content": [
 					{
