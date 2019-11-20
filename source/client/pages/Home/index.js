@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { Link } from "@nore/pwa";
 import $, { css } from "./style.css";
 
-const absolutePath = IS_DEVELOPMENT ? "" : "/portfolio";
-
 export default function Home({ data }) {
 	const [hoveredItemIndex, handleHover] = useState(null);
 
@@ -19,9 +17,7 @@ export default function Home({ data }) {
 			<b className={$.items}>
 				{data.nav.map((item, key) => {
 					const itemClasses =
-						hoveredItemIndex == key
-							? $.item_link_hovered
-							: $.item_link;
+						hoveredItemIndex == key ? $.item_link_hovered : $.item_link;
 
 					return (
 						<b key={key} className={$.item}>
@@ -36,7 +32,7 @@ export default function Home({ data }) {
 								onMouseEnter={() => handleHover(key)}
 								onMouseLeave={() => handleHover(null)}
 							>
-								<Link to={`${absolutePath}${item.link}`}>
+								<Link to={item.link}>
 									{item.title}
 									<b className={arrowClasses} />
 								</Link>
